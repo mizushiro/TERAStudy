@@ -4,7 +4,8 @@
 .teacher-group {height:1580px}
 
 .article-box {max-width:1500px;margin:0 auto}
-.article-box .section-a {margin:0 24px;border-radius:30px;background-color:#2e3036;box-shadow:0 -5px 10px rgba(0,0,0,.3);padding:55px 0 78px}
+.article-box .section-a {margin:0 24px;border-radius:30px;background-color:#2e3036;box-shadow:0 -5px 10px rgba(0,0,0,.3);padding:55px 0 78px;position:relative}
+.article-box .section-a:before {content:'';position:absolute;top:-1px;right:-1px;bottom:-1px;left:-1px;border:1px solid #fff;border-radius:30px}
 .section-a .section-a-title {text-align:center;font-size:40px;color:#fff;font-weight:100}
 .section-a .section-a-title .txt-line {display:inline-block;position:relative}
 .section-a .section-a-title .txt-line:after {content:'';position:absolute;left:0;right:0;height:3px;background-color:#534b3b;bottom:-20px}

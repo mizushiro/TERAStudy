@@ -49,12 +49,33 @@ text-rendering:optimizeLegibility;
 font-feature-settings:'liga';
 }
 
+/* ETC */
+.for-a11y {position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;clip:rect(0 0 0 0);overflow:hidden;text-indent:-99em}
+
 /* base layout */
 .base-skip {position:fixed;z-index:100}
 .base-layer {position:relative;z-index:20}
 .base-wrap {position:relative;width:100%;height:100%;z-index:0;-webkit-overflow-scrolling:touch}
 .base-main {width:100%}
 .base-body-a {width:100%;background:url('../../resources/images/common/top_bg.png') no-repeat 50% 0}
+.base-footer {width:100%;background:url('../../resources/images/common/footer_bg.png') no-repeat 50% 0;height:460px}
+
+/* footer */
+.footer-area {max-width:1304px;margin:0 auto;padding-top:290px}
+.footer-content {position:relative;padding-left:246px}
+.footer-content .footer-logo {position:absolute;top:0;left:0;width:162px;height:32px;background:url("../../resources/images/common/footer-logo.png") no-repeat 0 0;background-size:100%}
+.footer-content .footer-nav {margin-bottom:24px}
+.footer-content .footer-nav:after {content:'';display:block;clear:both}
+.footer-content .footer-nav .footer-nav-item {float:left}
+.footer-content .footer-nav .footer-nav-item .link-footer {font-size:18px;font-weight:500;color:#fff;padding-right:26px;position:relative}
+.footer-content .footer-nav .footer-nav-item ~ .footer-nav-item .link-footer {padding-left:26px}
+.footer-content .footer-nav .footer-nav-item ~ .footer-nav-item .link-footer:before {content:'';position:absolute;left:0;top:50%;margin-top:-7px;height:14px;width:1px;background-color:#5f5f62}
+.footer-content .footer-copy {font-size:16px;color:#d5d5d5;font-weight:200}
+.footer-content .footer-copy .copy-item {padding-right:8px;position:relative;margin-right:8px;display:inline-block}
+.footer-content .footer-copy .copy-item:after {content:'';position:absolute;right:0;top:50%;margin-top:-7px;height:14px;width:1px;background-color:#5f5f62}
+.footer-content .footer-copy .copy-item:last-child:after {display:none}
+.footer-content .footer-copy .txt-center {font-size:24px;font-weight:100;color:#fff;padding-right:10px}
+.footer-content .footer-copy .txt-center .txt-center-number {font-weight:700}
 
 /* blt */
 .blt-arrow-a {display:inline-block;width:46px;height:46px;background:url("../../resources/images/blt/blt-arrow-a.png") no-repeat 0 0;background-size:100%}
