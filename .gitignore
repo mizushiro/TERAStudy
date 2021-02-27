@@ -18,7 +18,7 @@
 *.jar
 *.rar
 *.tar
-
+*.xlsx
 *.mp4
  
 # Logs and databases #

@@ -15,17 +15,167 @@
     <title>c</title>
 
 	<link rel="stylesheet" href="../../resources/css/ui.base.css">
-	<style>
+	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="../../resources/js/ui.global.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
 
-  </style>
+	<link rel="stylesheet" href="../../resources/js/lib/swiper-bundle.css" />
+	<script src="../../resources/js/lib/swiper-bundle.js"></script>
 </head>
 
 <body>	
 	<div class="base-wrap">
+		<header class="base-header">
+		</header>
 		<main class="base-body-a">
-			<div class="teacher-group">
+			<section class="teacher-group">
+				<h2>
+					차별화된 <strong>1:1 맞춤형 수업,</strong><br>
+					<span class="logo-text">TERA <b>Study</b></span>에서 경험하실 수 있습니다.
+				</h2>
+				<div class="teacher-menu">
+					<ul class="dep-1">
+						<li>
+							<button type="button" class="btn-dep-1"><span>영어</span></button>
+							<div>
+								<ul class="dep-2">
+									<li>
+										<button type="button" class="btn">
+											<span>수능/내신</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>리딩/작문</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>문법</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>고급회화</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>회화</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>비지니스회화</span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="btn-dep-1"><span>중국어</span></button>
+							<div>
+								<ul class="dep-2">
+									<li>
+										<button type="button" class="btn">
+											<span>수능/내신</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>리딩/작문</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>문법</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>고급회화</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>회화</span>
+										</button>
+									</li>
+									<li>
+										<button type="button" class="btn">
+											<span>비지니스회화</span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="btn-dep-1"><span>리더</span></button>
+						</li>
+					</ul>
+				</div>
 
-			</div>
+				<div class="swiper-container teacher-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="teacher-item">
+								<img class="photo" src="../../resources/images/teacher/sample01.png" alt="">
+								<dl class="info">
+									<dt>김연수</dt>
+									<dd>#기초회화 #TSC #발음/성조 #중문법 #리딩 #발음교정 #고급회화 #HSK3~5급</dd>
+								</dl>
+								<div class="btn-area">
+									<a href="#" class="btn">수업신청하기</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="teacher-item">
+								<img class="photo" src="../../resources/images/teacher/sample01.png" alt="">
+								<dl class="info">
+									<dt>김연수</dt>
+									<dd>#기초회화 #TSC #발음/성조 #중문법 #리딩 #발음교정 #고급회화 #HSK3~5급</dd>
+								</dl>
+								<div class="btn-area">
+									<a href="#" class="btn">수업신청하기</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="teacher-item">
+								<img class="photo" src="../../resources/images/teacher/sample01.png" alt="">
+								<dl class="info">
+									<dt>김연수</dt>
+									<dd>#기초회화 #TSC #발음/성조 #중문법 #리딩 #발음교정 #고급회화 #HSK3~5급</dd>
+								</dl>
+								<div class="btn-area">
+									<a href="#" class="btn">수업신청하기</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="teacher-item">
+								<img class="photo" src="../../resources/images/teacher/sample01.png" alt="">
+								<dl class="info">
+									<dt>김연수</dt>
+									<dd>#기초회화 #TSC #발음/성조 #중문법 #리딩 #발음교정 #고급회화 #HSK3~5급</dd>
+								</dl>
+								<div class="btn-area">
+									<a href="#" class="btn">수업신청하기</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				
+					<div class="swiper-scrollbar"></div>
+				</div>
+				
+
+			</section>
 
 			<article class="article-box">
 				<section class="section-a">
@@ -60,5 +210,24 @@
             </div>
         </footer>
 	</div>
+
+	<script>
+		;(function($, win, doc, undefined) {
+			$(doc).ready(function() {
+				$plugins.common.init();
+
+				var swiper = new Swiper('.teacher-swiper', {
+					slidesPerView: 4,
+					spaceBetween: 40,
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+				});
+			});
+		
+		})(jQuery, window, document);
+
+	</script>
 </body>
 </html>
