@@ -35,10 +35,10 @@
 				</h2>
 				<div class="teacher-menu">
 					<ul class="dep-1">
-						<li>
+						<li class="n1 on">
 							<button type="button" class="btn-dep-1"><span>영어</span></button>
 							<div class="dep-2">
-								<button type="button" class="btn">
+								<button type="button" class="btn selected">
 									<span>수능/내신</span>
 								</button>
 								<button type="button" class="btn">
@@ -58,11 +58,10 @@
 								</button>
 							</div>
 						</li>
-						<li>
+						<li class="n2">
 							<button type="button" class="btn-dep-1"><span>중국어</span></button>
-							
 						</li>
-						<li>
+						<li class="n3">
 							<button type="button" class="btn-dep-1"><span>리더</span></button>
 						</li>
 					</ul>
@@ -118,13 +117,9 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="swiper-pagination"></div>
-				
+					</div>				
 					<div class="swiper-button-prev"></div>
 					<div class="swiper-button-next"></div>
-				
-					<div class="swiper-scrollbar"></div>
 				</div>
 				
 
@@ -172,7 +167,9 @@
 					},
 				});
 
-				
+				$('.teacher-menu .btn-dep-1').off('click.tc').on('click.tc', function(){
+					$(this).closest('li').addClass('on').siblings('li').removeClass('on');
+				})
 			});
 		
 		})(jQuery, window, document);
