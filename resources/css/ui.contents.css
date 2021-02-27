@@ -34,3 +34,11 @@
 .section-a .section-a-title .txt-line * {vertical-align:middle}
 .section-a .section-a-title .t-bold {font-weight:700}
 .section-a .section-a-title .blt-arrow-a {margin-left:16px}
+.section-a .service-info {padding:90px 80px 0;display:flex;justify-content:space-between}
+.section-a .service-info .service-item {flex:1;background:url("../../resources/images/main/box-light.png") no-repeat 100% 0 #22252c;border:1px solid #161616;border-radius:20px;padding:30px;box-shadow:5px 0 18px rgba(26,29,36,.6)}
+.section-a .service-info .service-item ~ .service-item {margin-left:60px}
+.section-a .service-item .txt-number {color:#fff;font-size:42px;font-weight:700;font-style:italic}
+.section-a .service-item .txt-number span {display:inline-block;width:100px;position:relative}
+.section-a .service-item .txt-number span:before {content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background-color:#fff}
+.section-a .service-item .service-title {font-size:24px;color:#ffbd3e;line-height:30px;font-weight:600;margin-top:18px}
+.section-a .service-item .service-txt {font-size:16px;color:#fff;line-height:26px;font-weight:100;margin-top:12px}
