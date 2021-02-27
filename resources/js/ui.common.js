@@ -20,17 +20,10 @@
 			//scrolltop 
 			$(win).off('scroll.win').on('scroll.win', function(){
 				$plugins.common.sTop = $(this).scrollTop();
-				$plugins.common.headerChange($plugins.common.sTop);
-			});
-
-			var timer;
-			$(win).on('resize', function(){
-				clearTimeout(timer);
-				timer = setTimeout(function(){
-					$plugins.common.header ();
-				},100);
 				
 			});
+
+			
 
 		},
 		
