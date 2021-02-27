@@ -18,17 +18,86 @@
 	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
 	<script src="../../resources/js/ui.global.js"></script>
 	<script src="../../resources/js/ui.common.js"></script>
+
+	<link rel="stylesheet" href="../../resources/js/lib/swiper-bundle.css" />
+	<script src="../../resources/js/lib/swiper-bundle.js"></script>
 </head>
 
 <body>	
 	<div class="base-wrap">
 		<header class="base-header">
-
 		</header>
 		<main class="base-body-a">
-			<div class="teacher-group">
+			<section class="teacher-group">
+				<h2>
+					차별화된 <strong>1:1 맞춤형 수업,</strong><br>
+					<span class="logo-text">TERA <b>Study</b></span>에서 경험하실 수 있습니다.
+				</h2>
+				<div class="teacher-menu">
+					<ul class="dep-1">
+						<li>
+							<button type="button"><span>영어</span></button>
+							<div>
+								<ul class="dep-2">
+									<li>
+										<button type="button">
+											<span>수능/내신</span>
+										</button>
+									</li>
+									<li>
+										<button type="button">
+											<span>리딩/작문</span>
+										</button>
+									</li>
+									<li>
+										<button type="button">
+											<span>문법</span>
+										</button>
+									</li>
+									<li>
+										<button type="button">
+											<span>고급회화</span>
+										</button>
+									</li>
+									<li>
+										<button type="button">
+											<span>회화</span>
+										</button>
+									</li>
+									<li>
+										<button type="button">
+											<span>비지니스회화</span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
 
-			</div>
+				<!-- Slider main container -->
+				<div class="swiper-container teacher-swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">Slide 1</div>
+					<div class="swiper-slide">Slide 2</div>
+					<div class="swiper-slide">Slide 3</div>
+					...
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+				
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				
+					<!-- If we need scrollbar -->
+					<div class="swiper-scrollbar"></div>
+				</div>
+				
+
+			</section>
 
 			<article class="article-box">
 				<section class="section-a">
@@ -43,6 +112,26 @@
 			$(doc).ready(function() {
 				$plugins.common.init();
 
+				var swiper = new Swiper('.teacher-swiper', {
+					// Optional parameters
+					loop: true,
+
+					// If we need pagination
+					pagination: {
+						el: '.swiper-pagination',
+					},
+
+					// Navigation arrows
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+
+					// And if we need scrollbar
+					scrollbar: {
+						el: '.swiper-scrollbar',
+					},
+				});
 			});
 		
 		})(jQuery, window, document);
