@@ -15,13 +15,16 @@
     <title>테라스터디</title>
 
 	<link rel="stylesheet" href="../../resources/css/ui.base.css">
-	<style>
-
-  </style>
+	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="../../resources/js/ui.global.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
 </head>
 
 <body>	
 	<div class="base-wrap">
+		<header class="base-header">
+
+		</header>
 		<main class="base-body-a">
 			<div class="teacher-group">
 
@@ -34,5 +37,16 @@
 			</article>
 		</main>
 	</div>
+
+	<script>
+		;(function($, win, doc, undefined) {
+			$(doc).ready(function() {
+				$plugins.common.init();
+
+			});
+		
+		})(jQuery, window, document);
+
+	</script>
 </body>
 </html>
