@@ -67,8 +67,5 @@ body {background:url('../../resources/images/common/top_bg.png') no-repeat 50% 0
 .util-menu .util-n2 {background-position:-57px -2px;}
 .util-menu > a + a {margin-left:10px;}
 
-
-
-
-
-
+/* blt */
+.blt-arrow-a {display:inline-block;width:46px;height:46px;background:url("../../resources/images/blt/blt-arrow-a.png") no-repeat 0 0;background-size:100%}
