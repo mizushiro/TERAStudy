@@ -1,12 +1,17 @@
 @charset "utf-8";
 
 @font-face {
-    font-family:'S-CoreDream-4Regular';
+    font-family:'SCD';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
-    font-weight:normal;
+    font-weight:400;
     font-style:normal;
 }
-
+@font-face {
+    font-family: 'SCD';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
 @font-face{
     font-family:'Noto Sans KR';
     src:url('../../resources/fonts/notokr-thin.eot');/* IE 호환성 보기 */

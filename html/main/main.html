@@ -37,77 +37,30 @@
 					<ul class="dep-1">
 						<li>
 							<button type="button" class="btn-dep-1"><span>영어</span></button>
-							<div>
-								<ul class="dep-2">
-									<li>
-										<button type="button" class="btn">
-											<span>수능/내신</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>리딩/작문</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>문법</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>고급회화</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>회화</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>비지니스회화</span>
-										</button>
-									</li>
-								</ul>
+							<div class="dep-2">
+								<button type="button" class="btn">
+									<span>수능/내신</span>
+								</button>
+								<button type="button" class="btn">
+									<span>리딩/작문</span>
+								</button>
+								<button type="button" class="btn">
+									<span>문법</span>
+								</button>
+								<button type="button" class="btn">
+									<span>고급회화</span>
+								</button>
+								<button type="button" class="btn">
+									<span>회화</span>
+								</button>
+								<button type="button" class="btn">
+									<span>비지니스회화</span>
+								</button>
 							</div>
 						</li>
 						<li>
 							<button type="button" class="btn-dep-1"><span>중국어</span></button>
-							<div>
-								<ul class="dep-2">
-									<li>
-										<button type="button" class="btn">
-											<span>수능/내신</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>리딩/작문</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>문법</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>고급회화</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>회화</span>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="btn">
-											<span>비지니스회화</span>
-										</button>
-									</li>
-								</ul>
-							</div>
+							
 						</li>
 						<li>
 							<button type="button" class="btn-dep-1"><span>리더</span></button>
@@ -183,31 +136,8 @@
 				</section>
 			</article>
 		</main>
-        <footer class="base-footer" id="">
-            <div class="footer-area">
-				<div class="footer-content">
-					<p class="footer-logo"><span class="for-a11y">TeraStudy</span></p>
-					<ul class="footer-nav">
-						<li class="footer-nav-item"><a href="" class="link-footer">서비스 소개</a></li>
-						<li class="footer-nav-item"><a href="" class="link-footer">이용약관</a></li>
-						<li class="footer-nav-item"><a href="" class="link-footer">개인정보취급방침</a></li>
-						<li class="footer-nav-item"><a href="" class="link-footer">고객센터</a></li>
-					</ul>
-					<p class="footer-copy">
-						<span class="copy-item">㈜지로드코리아</span>
-						<span class="copy-item">서울시 동작구 노량진로 100 B1F</span>
-						<span class="copy-item">대표 : 감경철</span>
-						<span class="copy-item">개인정보보호책임 : 강명준</span>
-						<span class="copy-item">사업자등록번호 : 108-81-81174</span>
-					</p>
-					<p class="footer-copy">통신판매 신고번호  제 2013-서울동작-0620호</p>
-					<p class="footer-copy">
-						<span class="txt-center">고객센터 <strong class="txt-center-number">: 02-6333-0042</strong></span>
-						<span class="copy-item">운영시간 09:00~18:00, 토/일 및 공휴일 휴무</span>
-						<span class="copy-item">E-mail : jihun6693@cts.tv</span>
-					</p>
-				</div>
-            </div>
+        <footer class="base-footer">
+            
         </footer>
 	</div>
 
@@ -216,9 +146,9 @@
 			$(doc).ready(function() {
 				$plugins.common.init();
 
-				var swiper = new Swiper('.teacher-swiper', {
+				var teacherSwiper = new Swiper('.teacher-swiper', {
 					slidesPerView: 4,
-					spaceBetween: 40,
+					spaceBetween: 0,
 					pagination: {
 						el: '.swiper-pagination',
 						clickable: true,
