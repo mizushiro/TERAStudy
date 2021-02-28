@@ -176,7 +176,7 @@
 .leader-section-c .review-area.active .review-detail {height:auto;margin-top:20px;padding:30px 70px 30px 30px;opacity:1}
 .leader-section-c .btn-review-close {position:absolute;top:26px;right:30px;width:26px;height:26px}
 .leader-section-c .btn-review-close:before,
-.leader-section-c .btn-review-close:after {content:'';display:block;position:absolute;background-color:#999a9b;left:50%;top:50%;width:3px;height:22px;}
+.leader-section-c .btn-review-close:after {content:'';display:block;position:absolute;background-color:#999a9b;left:50%;top:50%;width:3px;height:22px;margin-top:-11px}
 .leader-section-c .btn-review-close:before {transform:rotate(45deg);-webkit-transform:rotate(45deg)}
 .leader-section-c .btn-review-close:after {transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}
 .leader-section-c .more-area {position:relative;height:48px;max-width:1567px;background:url("../../resources/images/teacher/more_line.png") no-repeat 50% 0;margin:80px auto 0}
