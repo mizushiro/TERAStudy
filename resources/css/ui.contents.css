@@ -227,7 +227,7 @@
 .leader-section-c .review-area .writer-data .box-star .star-data {background-image:url("../../resources/images/common/star-data-b.png")}
 .leader-section-c .review-area .review-item .txt-review {margin-top:10px;display:-webkit-box;-webkit-line-clamp:3;overflow:hidden;-webkit-box-orient:vertical;height:72px}
 .leader-section-c .review-area .txt-review {font-size:18px;line-height:24px;word-break:keep-all}
-.leader-section-c .review-detail {height:0;overflow:hidden;background-color:#fff;border-radius:20px;position:relative;width:calc(300% + 60px);-webkit-transition:all .2s ease-out;transition:all .2s ease-out;opacity:0}
+.leader-section-c .review-detail {height:0;overflow:hidden;background-color:#fff;border-radius:20px;position:relative;width:calc(300% + 60px);-webkit-transition:all .2s ease-out;transition:all .2s ease-out;opacity:0;padding:0 70px 0 30px;}
 .leader-section-c .review-area:nth-of-type(3n+2) .review-detail {margin-left:calc(-100% - 30px)}
 .leader-section-c .review-area:nth-of-type(3n) .review-detail {margin-left:calc(-200% - 60px)}
 .leader-section-c .review-area.active .review-item {border-color:#946b3e;background-color:rgba(255,255,255,.8)}
