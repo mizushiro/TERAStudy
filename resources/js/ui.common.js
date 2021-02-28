@@ -18,8 +18,20 @@
 			});
 			
 			//scrolltop 
+			var timer;
 			$(win).off('scroll.win').on('scroll.win', function(){
 				$plugins.common.sTop = $(this).scrollTop();
+				var $key = $('.goldkey');
+
+				$key.removeClass('active');
+				clearTimeout(timer);
+				timer = setTimeout(function(){
+					$key.addClass('active');
+				},100);
+
+				
+				
+		
 				
 			});
 

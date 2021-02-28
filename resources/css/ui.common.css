@@ -74,16 +74,24 @@ body {background:#eee url('../../resources/images/common/top_bg.png') no-repeat 
 .util-menu .util-n2 {background-position:-57px -2px;}
 .util-menu > a + a {margin-left:10px;}
 
-.goldkey{position: absolute; top:40px; left:-15px; z-index: 100;}
+.goldkey{position: absolute; top:40px; left:-15px; z-index: 100; width:45px; }
 .goldkey .key-line{display:block; position: absolute; top:0; left:27px;}
-.goldkey .key{display:block; position: absolute; top:110px; left:10px; width:45px; height:67px; transform-origin:50%; transform:rotateY(0deg); transition: transform .3s ease-out; background: url(../../resources/images/common/key2.png) no-repeat 0 0;}
+.goldkey .key{display:block; position: absolute; top:110px; left:10px; width:45px; height:67px; transform-origin:50%; transform:rotateY(0deg); transition: transform .5s ease-out; background: url(../../resources/images/common/key2.png) no-repeat 0 0;}
 .goldkey .key:hover{transform:rotateY(360deg);}
 
-/* .goldkey{animation-name:fadeInTop; animation-duration:.8s; animation-iteration-count:10; animation-timing-function:ease-out; animation-fill-mode: forwards;}
+.goldkey.active{animation-name:keyani; animation-duration:.9s; animation-iteration-count:1; animation-timing-function:ease-out; animation-fill-mode: forwards; transform-origin:top center;}
+
 @keyframes keyani {
-    0% {transform:rorateY(0deg);}
-    100% {transform:rorateY(45deg);}
-} */
+    0% {transform:rotate(0deg);}
+    12% {transform:rotate(4deg);}
+    25% {transform:rotate(0deg);}
+    37% {transform:rotate(-4deg);}
+    50% {transform:rotate(0deg);}
+    62% {transform:rotate(3deg);}
+    75% {transform:rotate(0deg);}
+    87% {transform:rotate(-2deg);}
+    100% {transform:rotate(0deg);}
+}
 /* footer */
 .footer-area {max-width:1304px;margin:0 auto;padding-top:290px}
 .footer-content {position:relative;padding-left:246px}

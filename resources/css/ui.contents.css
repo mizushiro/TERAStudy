@@ -76,8 +76,8 @@
 .leader-info .tag {position:relative; margin-top:40px; width:680px;}
 .leader-info .tag span{display:inline-block;height:60px;border-radius:30px;border:2px solid #848484;font-size:24px;font-weight:600;color:#848484;line-height:58px;padding:0 28px;margin:0 10px 20px 0;}
 
-.leader-info .chara{position:relative; margin:80px auto 80px; width:100%; max-width:1500px; overflow:hidden; display:flex; justify-content:space-between}
-.leader-info .chara .line{display:block; flex:1; width:100%; height:6px; background: url(../../resources/images/common/line-dot.png) repeat-x 0 0;margin:75px 30px 0;}
+.leader-info .chara{position:relative; margin:80px auto 80px; width:100%; max-width:1500px; overflow:hidden; display:flex; justify-content:center}
+.leader-info .chara .line{display:block; flex:1; max-width:115px; width:100%; height:6px; background: url(../../resources/images/common/line-dot.png) repeat-x 0 0;margin:75px 30px 0;}
 .leader-info .chara-item{flex:0; text-align: center; width:170px; position: relative; z-index: 1;}
 .leader-info .chara-item .ico{display:inline-block; width:150px; height:150px; background:url(../../resources/images/common/ico-char.png) no-repeat 0 0;}
 .leader-info .chara-item .txt{display:block; width:100%; font-size:21px; color:#fff; word-break: keep-all;}
