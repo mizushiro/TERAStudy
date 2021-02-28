@@ -6,13 +6,13 @@
 		init: function(){
 			$plugins.uiAjax({ 
 				id: $('.base-header'), 
-				url:'/html/inc/header.html', 
+				url:'../../html/inc/header.html',
 				page:true, 
 				callback:$plugins.common.header 
 			});
 			$plugins.uiAjax({ 
 				id:$('.base-footer'), 
-				url:'/html/inc/footer.html', 
+				url:'../../html/inc/footer.html',
 				page:true,
 				callback:$plugins.common.footer 
 			});
