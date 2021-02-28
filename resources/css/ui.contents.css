@@ -44,7 +44,7 @@
 .teacher-item .info dt{font-weight:600; font-size:30px; color:#000; text-align: right; padding:0 0 20px;}
 .teacher-item .btn{display:inline-block; background-color:#292a2e; color:#fff; height:43px; border-radius:22px; padding:10px 28px; font-size:16px;}
 .teacher-item .btn-area{width:100%; position:absolute; bottom:0; left:0; padding:15px 0 30px; text-align:center; }
-
+.ico-matching{display:block; width:66px; height:65px; background: url(../../resources/images/common/ico-matching.png) no-repeat 0 0; position:absolute; top:0; right:30px;}
 
 
 .article-box {max-width:1500px;margin:0 auto}
