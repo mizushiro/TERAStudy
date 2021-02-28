@@ -175,8 +175,6 @@
 						</button>
 					</div>
 				</div>
-				
-
 			</section>
 
 			<article class="article-box">
@@ -320,9 +318,23 @@
 			</article>
 		</main>
         <footer class="base-footer">
-            
         </footer>
 	</div>
+
+	<section class="ui-modal type-premium" id="premiumLeaderModal" role="dialog" aria-hidden="true">
+		<div class="ui-modal-wrap">
+			<header class="ui-modal-header">
+				<img src="../../resources/images/common/logo.png" alt="TERA Study" class="logo">
+				<button type="button" class="ui-modal-close btn-close"><span class="blind">닫기</span></button>
+			</header>
+			<div class="ui-modal-cont">
+				....
+			</div>
+			<div class="ui-modal-footer">
+				....
+			</div>
+		</div>
+	</section>
 
 	<script>
 		;(function($, win, doc, undefined) {
@@ -339,12 +351,37 @@
 				$('.teacher-menu .btn-dep-1').off('click.tc').on('click.tc', function(){
 					$(this).closest('li').addClass('on').siblings('li').removeClass('on');
 				});
+
+				$('.btn-gold.type-more').off('click.md').on('click.md', function(){
+					console.log(22);
+					$plugins.uiModalOpen({ 
+						id:'premiumLeaderModal', 
+						type: 'normal',
+						wrap: $('body'),
+						moblieFull: false,
+						ps: 'center',
+						src: false,
+						remove: false,
+						modalWidth: false,
+						modalHeight: false,
+						innerScroll: false,
+						mg: 10,
+						callback:function() { console.log('open callback'); },
+						closeCallback:function() { console.log('close callback'); },
+						endfocus:false 
+					});
+				});
+
+
+				
+				//후기
 				$('.review-item .btn-more').off('click.rv').on('click.rv', function(){
 					$(this).closest('.review-area').addClass('active').siblings('.review-area').removeClass('active');
 				});
 				$('.review-area .btn-review-close').off('click.rv').on('click.rv', function(){
 					$(this).closest('.review-area').removeClass('active');
 				});
+			
 			});
 		
 		})(jQuery, window, document);
