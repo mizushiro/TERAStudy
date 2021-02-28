@@ -62,8 +62,29 @@
 .ui-modal .btn-close:before {width:20px;height:2px;margin:-1px 0 0 -10px}
 .ui-modal .btn-close:after {width:2px;height:20px;margin:-10px 0 0 -1px}
 
-.leader-list{position:relative; width:100%; max-width:1378px; font-size:0; text-align: center; margin:0 auto;}
+.leader-list{position:relative; width:100%; max-width:1500px; padding-top:50px; font-size:0; text-align: center; margin:20px auto; background:url(../../resources/images/main/swiper-bg.png) no-repeat 50% 0 / 100%}
 .leader-list li{display:inline-block; margin:0 22px;}
+
+.ui-modal.type-goldkey .ui-modal-wrap{width:100%; height:100%; background: transparent; box-shadow: none;}
+.ui-modal.type-goldkey .ui-modal-header{width:100%; max-width:1600px; position:relative; z-index:2; margin:0 auto;}
+.ui-modal.type-goldkey .ui-modal-cont{width:100%; position:relative; z-index:1; margin:0 auto; padding:110px 0 100px;}
+.ui-modal.type-goldkey .ui-modal-header .logo{position:absolute; left:45px; top:45px; z-index: 10;}
+.ui-modal.type-goldkey .tit h2{width:100%;  max-width:1600px; margin:0 auto 20px; text-align: center; font-size:40px; font-weight:100; color:#dfdfdf;}
+.ui-modal.type-goldkey .tit h2 em{display:block; font-size:30px; font-weight:400;}
+.ui-modal.type-goldkey .tit h2 strong{background:#f8d057; color:#2b2e34; padding:0 10px;}
+.ui-modal.type-goldkey .logo-text {color:#f8d057;}
+.ui-modal.type-goldkey .logo-text b {font-weight:500;}
+.ui-modal.type-goldkey .teacher-menu .dep-2{width:1600px; padding:20px 0 0 240px; text-align: left;}
+.ui-modal.type-goldkey .teacher-menu .btn-dep-1{font-size:32px}
+.ui-modal.type-goldkey .teacher-menu .n2 .btn-dep-1{top:100px}
+.ui-modal.type-goldkey .teacher-menu .dep-2 button{height:56px; border-radius:28px; padding:6px 20px; font-size:20px; margin:0 6px 10px}
+.ui-modal.type-goldkey .teacher-menu .n1 .btn-dep-1 {top:10px}
+.ui-modal.type-goldkey .teacher-menu .n2 .btn-dep-1 {top:90px}
+.ui-modal.type-goldkey .teacher-menu .n3 .btn-dep-1 {top:170px}
+.ui-modal.type-goldkey .teacher-menu .dep-1 .n1::before{top:55px}
+.ui-modal.type-goldkey .teacher-menu .dep-1 .n2::before{top:135px}
+.ui-modal.type-goldkey .teacher-menu .dep-1 .n3::before{top:215px}
+
 
 
 .leader-info{position:relative; width:100%; max-width:1600px; margin:0 auto 370px;}
