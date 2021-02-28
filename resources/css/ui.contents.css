@@ -139,7 +139,36 @@
 .section-c .banner-item .link-banner {display:block}
 .section-c .banner-item img {width:100%}
 
-    /* 리더소개 */
+/* 리더소개 */
+.leader-section-a {max-width:1500px;position:relative;margin:0 auto}
+.leader-section-a .leader-box {max-width:1140px;border-radius:0 30px 30px;background-color:#fff;box-shadow:10px 0 10px rgba(0,0,0,.07);margin-bottom:20px}
+.leader-section-a .leader-box:last-of-type {margin-bottom:40px}
+.leader-section-a .leader-title {background:url("../../resources/images/teacher/title-bg.png") no-repeat 0 0;width:305px;height:72px}
+.leader-section-a .leader-title .title-b {line-height:72px;color:#fff;padding-left:32px}
+.leader-section-a .leader-content,
+.leader-section-a .lesson-content {padding:30px 120px 60px 60px}
+.leader-section-a .txt-remark {font-size:20px;line-height:40px;color:#292a2e;padding-left:12px;position:relative;word-break:keep-all}
+.leader-section-a .txt-remark:before {content:'';position:absolute;left:0;top:18px;width:4px;height:4px;background-color:#292a2e;border-radius:50%}
+.leader-section-a .lesson-content {display:flex;justify-content:space-between}
+.leader-section-a .lesson-content .lesson-col {flex:1;max-width:50%;padding-right:20px}
+.leader-section-a .lesson-content .lesson-col ~ .lesson-col {padding-right:0;padding-left:20px}
+.leader-section-a .lesson-content .lesson-col-img {width:200px;text-align:center}
+.leader-section-a .lesson-content .lesson-col-img img {max-width:100%;vertical-align:top}
+.leader-section-a .lesson-content .lesson-item {padding-left:10px;font-size:18px;line-height:28px;color:#292a2e;position:relative;word-break:keep-all}
+.leader-section-a .lesson-content .lesson-item:before {content:'';position:absolute;left:0;top:12px;width:4px;height:4px;background-color:#292a2e;border-radius:50%}
+.leader-section-a .review-area {position:absolute;top:-50px;right:10px}
+.leader-section-a .review-area .review-item {position:relative;width:360px;background-color:#36393f;border-radius:20px;border:1px solid #2b2b2b;box-shadow:5px 0 18px rgba(26,29,36,.47);padding:30px 26px;margin-bottom:20px}
+.leader-section-a .review-area .review-item:nth-of-type(even) {margin-left:78px}
+.leader-section-a .box-star .star-data {background-image:url("../../resources/images/common/star-data-b.png")}
+.leader-section-a .review-area .txt-review {font-size:14px;line-height:20px;color:#dfdfdf;margin:20px 0;font-weight:200;display:-webkit-box;-webkit-line-clamp:4;overflow:hidden;-webkit-box-orient:vertical;max-height:80px;word-break:keep-all}
+.leader-section-a .review-area .writer-data {border-top:1px solid #5e6165;padding-top:16px;font-size:14px;color:#dfdfdf;font-weight:200}
+.leader-section-a .review-area .writer-data .writer-id {padding-right:4px}
+.leader-section-a .review-area .link-more {position:absolute;right:26px;bottom:24px;width:29px;height:29px}
+.leader-section-a .review-area .link-more:before,
+.leader-section-a .review-area .link-more:after {content:'';position:absolute;background-color:#fff}
+.leader-section-a .review-area .link-more:before {width:29px;height:1px;left:0;top:50%}
+.leader-section-a .review-area .link-more:after {width:1px;height:29px;left:50%;top:0}
+
 .leader-section-b {background:url("../../resources/images/teacher/wave_bg_a.png") no-repeat 50% 100%;position:relative;height:600px}
 .leader-section-b:after {content:'';position:absolute;left:0;right:0;bottom:0;background:url("../../resources/images/teacher/wave_bg_b.png") no-repeat 50% 0;height:336px}
 .extension-active {max-width:1500px;margin:0 auto;position:relative;padding-left:540px}
