@@ -66,7 +66,7 @@
 .leader-list li{display:inline-block; margin:0 22px;}
 
 
-.leader-info{position:relative; width:100%; max-width:1600px; margin:0 auto;}
+.leader-info{position:relative; width:100%; max-width:1600px; margin:0 auto 370px;}
 .leader-info .photo{position:absolute; right:50px; top:60px;}
 .leader-info .group{position: relative;  padding:110px 70px 0;}
 .leader-info .group h2{font-size:90px;font-weight:100;color:#fff; line-height:1.1;overflow: hidden;}
