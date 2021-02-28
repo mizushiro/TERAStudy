@@ -83,7 +83,7 @@
 .section-b .star-area .box-star .star-data {display:inline-block;height:21px;vertical-align:top;background:url("../../resources/images/common/star-data.png") no-repeat 0 0;}
 .section-b .txt-review {font-size:14px;line-height:20px;color:#2c2d30;font-weight:400;word-break:keep-all}
 .section-b .writer-data {margin-top:16px;border-top:1px solid #bebebe;padding-top:16px;font-size:14px;line-height:20px;color:#2c2d30;font-weight:400}
-.section-b .review-detail {display:none;margin-top:30px;padding:36px 80px 36px 40px;background-color:#e2e2e2;border-radius:20px;position:relative;width:calc(200% + 46px)}
+.section-b .review-detail {height:0;overflow:hidden;background-color:#e2e2e2;border-radius:20px;position:relative;width:calc(200% + 46px);-webkit-transition:all .2s ease-out;transition:all .2s ease-out}
 .section-b .review-area:nth-child(even) .review-detail {margin-left:calc(-100% - 46px)}
 .section-b .btn-more {position:absolute;left:50%;bottom:-23px;width:46px;margin-left:-23px;height:46px;border-radius:50%;background-color:#494032}
 .section-b .btn-more:before,
@@ -97,4 +97,4 @@
 .section-b .btn-review-close:after {transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}
 .section-b .review-area.active .review-item {border-color:#494032}
 .section-b .review-area.active .btn-more {display:none}
-.section-b .review-area.active .review-detail {display:block}
+.section-b .review-area.active .review-detail {height:auto;margin-top:30px;padding:36px 80px 36px 40px}
