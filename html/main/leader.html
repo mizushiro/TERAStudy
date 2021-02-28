@@ -73,7 +73,7 @@
 			<section class="leader-section-c">
                 <h3 class="title-a">수강후기</h3>
                 <div class="box-review">
-					<div class="review-area active">
+					<div class="review-area">
 						<div class="review-item">
 							<p class="writer-data">
 								<span class="writer-id">zhe***</span>
@@ -210,6 +210,14 @@
 				$('.teacher-menu .btn-dep-1').off('click.tc').on('click.tc', function(){
 					$(this).closest('li').addClass('on').siblings('li').removeClass('on');
 				})
+
+                //후기
+                $('.review-item .btn-more').off('click.rv').on('click.rv', function(){
+                    $(this).closest('.review-area').addClass('active').siblings('.review-area').removeClass('active');
+                });
+                $('.review-area .btn-review-close').off('click.rv').on('click.rv', function(){
+                    $(this).closest('.review-area').removeClass('active');
+                });
 			});
 		
 		})(jQuery, window, document);
