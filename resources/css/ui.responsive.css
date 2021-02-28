@@ -2,6 +2,14 @@
 
 @media (max-width:1400px) {
 }
+@media (max-width:1340px) {
+    /* 리더소개 */
+    .extension-active {padding-left:520px}
+    .extension-detail .extension-title {width:160px}
+    .extension-detail .extension-list {width:calc(100% - 180px)}
+
+    .leader-section-c {padding:0 24px}
+}
 @media (max-width:1280px) {
     /* 메인 */
     .section-a .service-info .service-item ~ .service-item {margin-left:30px}
@@ -9,6 +17,19 @@
     .section-a .service-item .service-txt br {display:none;word-break:keep-all}
     .section-c,
     .section-b {margin:80px 24px 0}
+
+    /* 리더소개 */
+    .extension-active .active-detail .active-title {font-size:36px}
+    .extension-active .active-detail .active-title .leader-name {font-size:24px;display:inline-block}
+    .extension-detail .extension-list .extension-item {float:none;width:100%}
+    .extension-detail .extension-list .extension-item br {display:none}
+
+    .leader-section-c .review-area .writer-data .writer-id,
+    .leader-section-c .review-area .writer-data .write-day {font-size:16px}
+    .leader-section-c .review-area .txt-review {font-size:16px}
+    .leader-section-c .review-area .box-star {display:block;margin-top:8px}
+    .leader-section-c .review-area .review-item {height:186px}
+
 }
 @media (max-width:1100px) {
     /* 메인 */
@@ -22,6 +43,12 @@
     .section-a .service-info {padding:60px 50px 0}
 
     .section-b .hash-tag .tag-item {padding:0 12px;height:28px;border-radius:14px;font-size:14px;line-height:26px;margin-right:4px}
+
+    /* 리더소개 */
+    .leader-section-b {padding:0 24px;height:500px}
+    .extension-active .leader-img {width:360px}
+    .extension-active .leader-img img {width:100%}
+    .extension-active {padding-left:400px}
 }
 @media (max-width:1000px) {
     /* 메인 */
@@ -41,6 +68,31 @@
     .section-b .review-detail {width:100%}
     .section-b .review-area.active .review-detail {margin-top:10px}
     .section-b .review-area:nth-child(even) .review-detail {margin-left:0}
+
+    /* 리더소개 */
+    .leader-section-a {margin:0 24px}
+    .leader-section-a .review-area {display:none}
+    .leader-section-a .leader-box {max-width:100%}
+    .leader-section-a .leader-content,
+    .leader-section-a .lesson-content {padding-right:60px}
+
+    .leader-section-b {height:auto;min-height:400px}
+    .extension-active .active-detail {padding-top:30px}
+    .extension-active {padding-left:340px}
+    .extension-active .leader-img {width:300px}
+    .extension-active .active-detail .extension-detail {flex-direction:column;border-bottom:0}
+    .extension-detail .extension-title {font-size:20px;height:40px;margin-bottom:10px}
+    .extension-active .active-detail .active-title {line-height:32px;font-size:32px}
+    .extension-active .active-detail .active-title .leader-name {font-size:20px}
+    .extension-detail .extension-list {width:100%}
+    .leader-section-c .title-a {font-size:40px;top:-40px;margin-bottom:-20px}
+}
+@media (max-width:910px) {
+    /* 리더소개 */
+    .extension-active .leader-img {display:none}
+    .extension-active {padding-left:0}
+    .extension-active .active-detail {padding-bottom:120px}
+    .extension-detail .extension-list .extension-item {font-size:16px}
 }
 @media (max-width:767px) {
     /* 메인 */
@@ -64,4 +116,30 @@
     .section-b .more-area .btn-more {width:48px;height:48px;background-size:100%;top:-24px;margin-left:-24px}
     .section-c {flex-direction:column}
     .section-c .banner-item ~ .banner-item {margin:20px 0 0 0}
+
+    /* 리더소개 */
+    .leader-section-a .leader-content, .leader-section-a .lesson-content {padding:30px}
+    .leader-section-a .txt-remark {font-size:16px;line-height:24px}
+    .leader-section-a .txt-remark:before {top:10px}
+    .leader-section-a .leader-title {height:50px;width:220px;background-position:100% 0}
+    .leader-section-a .leader-title .title-b {font-size:24px;line-height:50px}
+    .leader-section-a .lesson-content {flex-direction:column}
+    .leader-section-a .lesson-content .lesson-col {max-width:100%;padding-right:0;padding-bottom:10px}
+    .leader-section-a .lesson-content .lesson-item {font-size:16px;line-height:24px}
+    .leader-section-a .lesson-content .lesson-item:before {top:10px}
+    .leader-section-a .lesson-content .lesson-col ~ .lesson-col {padding-left:0;padding-top:10px}
+    .leader-section-a .lesson-content .lesson-col-img {width:100%}
+
+    .extension-active .active-detail .active-title {font-size:24px}
+    .extension-active .active-detail .active-title .leader-name {font-size:16px}
+    .extension-detail .extension-title {font-size:16px;height:32px}
+    .extension-detail .extension-list .extension-item {font-size:14px}
+
+    .leader-section-c .title-a {font-size:28px;top:0;margin-bottom:12px}
+    .leader-section-c .review-area {float:none !important;width:100%;margin-left:0}
+    .leader-section-c .review-area:nth-of-type(n+2) {margin-top:12px}
+    .leader-section-c .review-detail {width:100%}
+    .leader-section-c .review-area .review-detail {margin-left:0 !important;margin-top:8px}
+    .leader-section-c .review-area.active .review-detail {padding-right:44px;}
+    .leader-section-c .btn-review-close {right:24px}
 }
