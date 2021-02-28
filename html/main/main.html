@@ -477,7 +477,19 @@
 				$('.teacher-swiper').slick({
 					infinite: true,
 					slidesToShow: 4,
-					slidesToScroll: 1
+					slidesToScroll: 1,
+					responsive: [{ 
+						breakpoint: 1270, 
+						settings: { slidesToShow: 3 } 
+					}, 
+					{ 
+						breakpoint: 940, 
+						settings: { slidesToShow: 2 } 
+					}, 
+					{ 
+						breakpoint: 620, 
+						settings: { slidesToShow: 1 } 
+					} ]
 				});
 
 				

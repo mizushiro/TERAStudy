@@ -88,18 +88,18 @@
 
 
 .leader-info{position:relative; width:100%; max-width:1600px; margin:0 auto 370px;}
-.leader-info .photo{position:absolute; right:50px; top:60px;}
+.leader-info .photo{position: absolute; right:45px; top:45px}
 .leader-info .group{position: relative;  padding:110px 70px 0;}
 .leader-info .group h2{font-size:90px;font-weight:100;color:#fff; line-height:1.1;overflow: hidden;}
 .leader-info .group h2 span{opacity:0.3;display:block; width:100%;}
 .leader-info .group em{display:block; margin-top:-5px; float:left; font-size:60px; color:#ffe36f; font-weight:100;border-bottom:4px solid #fff28c; font-family: 'Noto Sans TC', sans-serif; padding-bottom:10px}
 .leader-info .group p{font-size:36px; font-weight:500; color:#fff; line-height: 1.2; margin-top:20px;}
-.leader-info .tag {position:relative; margin-top:40px; width:680px;}
+.leader-info .tag {position:relative; margin-top:40px; max-width:680px; width:100%;}
 .leader-info .tag span{display:inline-block;height:60px;border-radius:30px;border:2px solid #848484;font-size:24px;font-weight:600;color:#848484;line-height:58px;padding:0 28px;margin:0 10px 20px 0;}
 
 .leader-info .chara{position:relative; margin:80px auto 80px; width:100%; max-width:1500px; overflow:hidden; display:flex; justify-content:center}
-.leader-info .chara .line{display:block; flex:1; max-width:115px; width:100%; height:6px; background: url(../../resources/images/common/line-dot.png) repeat-x 0 0;margin:75px 30px 0;}
-.leader-info .chara-item{flex:0; text-align: center; width:170px; position: relative; z-index: 1;}
+.leader-info .chara .line{display:block; flex:1; max-width:115px; min-width:115px;  width:100%; height:6px; background: url(../../resources/images/common/line-dot.png) repeat-x 0 0;margin:75px 15px 0;}
+.leader-info .chara-item{flex:0; text-align: center; width:170px; min-width:170px; position: relative; z-index: 1;}
 .leader-info .chara-item .ico{display:inline-block; width:150px; height:150px; background:url(../../resources/images/common/ico-char.png) no-repeat 0 0;}
 .leader-info .chara-item .txt{display:block; width:100%; font-size:21px; color:#fff; word-break: keep-all;}
 
