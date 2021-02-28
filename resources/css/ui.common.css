@@ -74,6 +74,8 @@ body {background:#eee url('../../resources/images/common/top_bg.png') no-repeat 
 .util-menu .util-n2 {background-position:-57px -2px;}
 .util-menu > a + a {margin-left:10px;}
 
+.page-main .goldkey{display:none;}
+
 .goldkey{position: absolute; top:40px; left:-15px; z-index: 100; width:45px; }
 .goldkey .key-line{display:block; position: absolute; top:0; left:27px;}
 .goldkey .key{display:block; position: absolute; top:110px; left:10px; width:45px; height:67px; transform-origin:50%; transform:rotateY(0deg); transition: transform .5s ease-out; background: url(../../resources/images/common/key2.png) no-repeat 0 0;}
