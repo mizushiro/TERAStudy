@@ -78,10 +78,11 @@ body {background:#eee url('../../resources/images/common/top_bg.png') no-repeat 
 .goldkey .key-line{display:block; position: absolute; top:0; left:27px;}
 .goldkey .key{display:block; position: absolute; top:110px; left:10px; width:45px; height:67px; transform-origin:50%; transform:rotateY(0deg); transition: transform .3s ease-out; background: url(../../resources/images/common/key2.png) no-repeat 0 0;}
 .goldkey .key:hover{transform:rotateY(360deg);}
-/* .goldkey .key:hover{animation-name:fadeInTop; animation-duration:.8s; animation-iteration-count:1; animation-timing-function:ease-out; animation-fill-mode: forwards;}
+
+/* .goldkey{animation-name:fadeInTop; animation-duration:.8s; animation-iteration-count:10; animation-timing-function:ease-out; animation-fill-mode: forwards;}
 @keyframes keyani {
-    0% {transform:perspective(10px) rorateY(0deg);}
-    100% {transform:perspective(10px) rorateY(45deg);}
+    0% {transform:rorateY(0deg);}
+    100% {transform:rorateY(45deg);}
 } */
 /* footer */
 .footer-area {max-width:1304px;margin:0 auto;padding-top:290px}
