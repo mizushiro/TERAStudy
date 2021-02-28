@@ -75,7 +75,7 @@
 .section-b .review-item {height:260px;padding:16px 94px 0 30px;background-color:#e2e2e2;position:relative;border-radius:20px;border:1px solid transparent}
 .section-b .review-item .t-img {float:left;width:132px}
 .section-b .review-item .review-summery {float:left;width:calc(100% - 132px)}
-.section-b .review-item .txt-review {margin-top:10px}
+.section-b .review-item .txt-review {margin-top:10px;display:-webkit-box;-webkit-line-clamp:3;overflow:hidden;-webkit-box-orient:vertical;height:60px}
 .section-b .hash-tag {padding-top:15px}
 .section-b .hash-tag .tag-item {display:inline-block;height:34px;border-radius:17px;border:1px solid #946b3e;font-size:16px;color:#946b3e;line-height:32px;font-weight:400;padding:0 24px;margin-right:10px}
 .section-b .star-area {margin-top:14px}
