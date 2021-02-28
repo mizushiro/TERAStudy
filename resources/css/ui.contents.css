@@ -83,12 +83,12 @@
 .section-b .hash-tag {padding-top:15px}
 .section-b .hash-tag .tag-item {display:inline-block;height:34px;border-radius:17px;border:1px solid #946b3e;font-size:16px;color:#946b3e;line-height:32px;font-weight:400;padding:0 24px;margin-right:10px}
 .section-b .star-area {margin-top:14px}
-.section-b .star-area .box-star {background:url("../../resources/images/common/star-bg.png") no-repeat 0 0;width:146px;height:21px;display:inline-block;vertical-align:top}
-.section-b .star-area .box-star .star-data {display:inline-block;height:21px;vertical-align:top;background:url("../../resources/images/common/star-data.png") no-repeat 0 0;}
+.box-star {background:url("../../resources/images/common/star-bg.png") no-repeat 0 0;width:146px;height:21px;display:inline-block;vertical-align:top}
+.box-star .star-data {display:inline-block;height:21px;vertical-align:top;background:url("../../resources/images/common/star-data.png") no-repeat 0 0;}
 .section-b .txt-review {font-size:14px;line-height:20px;color:#2c2d30;font-weight:400;word-break:keep-all}
 .section-b .writer-data {margin-top:16px;border-top:1px solid #bebebe;padding-top:16px;font-size:14px;line-height:20px;color:#2c2d30;font-weight:400}
 .section-b .review-detail {height:0;overflow:hidden;background-color:#e2e2e2;border-radius:20px;position:relative;width:calc(200% + 46px);-webkit-transition:all .2s ease-out;transition:all .2s ease-out}
-.section-b .review-area:nth-child(even) .review-detail {margin-left:calc(-100% - 46px)}
+.section-b .review-area:nth-of-type(even) .review-detail {margin-left:calc(-100% - 46px)}
 .section-b .btn-more {position:absolute;left:50%;bottom:-23px;width:46px;margin-left:-23px;height:46px;border-radius:50%;background-color:#494032}
 .section-b .btn-more:before,
 .section-b .btn-more:after {content:'';display:block;position:absolute;background-color:#fff;left:50%;top:50%}
@@ -102,3 +102,50 @@
 .section-b .review-area.active .review-item {border-color:#494032}
 .section-b .review-area.active .btn-more {display:none}
 .section-b .review-area.active .review-detail {height:auto;margin-top:30px;padding:36px 80px 36px 40px}
+
+/* 리더소개 */
+.leader-section-b {background:url("../../resources/images/teacher/wave_bg_a.png") no-repeat 50% 100%;position:relative;height:600px}
+.leader-section-b:after {content:'';position:absolute;left:0;right:0;bottom:0;background:url("../../resources/images/teacher/wave_bg_b.png") no-repeat 50% 0;height:336px}
+.extension-active {max-width:1500px;margin:0 auto;position:relative;padding-left:540px}
+.extension-active .leader-img {position:absolute;top:0;left:0}
+.extension-active .active-detail {padding-top:100px}
+.extension-active .active-detail .active-title {border-bottom:1px solid #d8d8d8;font-size:42px;color:#000;font-weight:500;padding-bottom:10px}
+.extension-active .active-detail .active-title .leader-name {font-size:28px;padding-left:4px}
+.extension-active .active-detail .extension-detail {border-bottom:1px solid #d8d8d8;padding:26px 0;display:flex;justify-content:space-between}
+.extension-detail .extension-title {width:194px;font-size:26px;color:#fff;letter-spacing:-.5px;display:flex;align-items:center;justify-content:center;background-color:#36383f;border-radius:20px}
+.extension-detail .extension-list {width:calc(100% - 242px)}
+.extension-detail .extension-list:after {clear:both;display:block;content:''}
+.extension-detail .extension-list .extension-item {float:left;width:50%;padding:0 8px;word-break:keep-all;font-size:18px;line-height:28px;color:#292a2e;position:relative}
+.extension-detail .extension-list .extension-item:before {content:'';display:block;position:absolute;left:0;top:12px;width:4px;height:4px;border-radius:50%;background-color:#292a2e}
+
+.leader-section-c {background-image:-moz-linear-gradient(90deg, #e3ae47 0%, #d89d36 100%);background-image:-webkit-linear-gradient(90deg, #e3ae47 0%, #d89d36 100%);background-image:-ms-linear-gradient(90deg, #e3ae47 0%, #d89d36 100%);}
+.leader-section-c .title-a {color:#fff;position:relative;top:-85px;max-width:1500px;margin:0 auto -40px}
+.leader-section-c .box-review {max-width:1500px;margin:0 auto}
+.leader-section-c .box-review:after {content:'';display:block;clear:both}
+.leader-section-c .review-area {float:left;width:calc((100% - 60px) / 3);margin-left:30px}
+.leader-section-c .review-area:nth-of-type(3n+1) {margin-left:0;clear:both}
+.leader-section-c .review-area:nth-of-type(n+4) {margin-top:20px}
+.leader-section-c .review-area .review-item {background-color:#fff;height:164px;border-radius:20px;border:1px solid transparent;box-shadow:5px 0 18px rgba(0,0,0,.15);padding:24px 24px 0;position:relative}
+.leader-section-c .review-area .review-item .btn-more {position:absolute;top:0;height:100%;width:100%}
+.leader-section-c .review-area .writer-data .writer-id {font-size:18px;color:#292a2e;font-weight:500;padding-right:20px}
+.leader-section-c .review-area .writer-data .write-day {font-size:18px;color:#292a2e;font-weight:300;padding-right:14px}
+.leader-section-c .review-area .writer-data .box-star .star-data {background-image:url("../../resources/images/common/star-data-b.png")}
+.leader-section-c .review-area .review-item .txt-review {margin-top:10px;display:-webkit-box;-webkit-line-clamp:3;overflow:hidden;-webkit-box-orient:vertical;height:72px}
+.leader-section-c .review-area .txt-review {font-size:18px;line-height:24px;word-break:keep-all}
+.leader-section-c .review-detail {height:0;overflow:hidden;background-color:#fff;border-radius:20px;position:relative;width:calc(300% + 60px);-webkit-transition:all .2s ease-out;transition:all .2s ease-out}
+.leader-section-c .review-area:nth-of-type(3n+2) .review-detail {margin-left:calc(-100% - 30px)}
+.leader-section-c .review-area:nth-of-type(3n) .review-detail {margin-left:calc(-200% - 60px)}
+.leader-section-c .review-area.active .review-item {border-color:#946b3e;background-color:rgba(255,255,255,.8)}
+.leader-section-c .review-area.active .btn-more {display:none}
+.leader-section-c .review-area.active .review-detail {height:auto;margin-top:20px;padding:30px 70px 30px 30px}
+.leader-section-c .btn-review-close {position:absolute;top:26px;right:30px;width:26px;height:26px}
+.leader-section-c .btn-review-close:before,
+.leader-section-c .btn-review-close:after {content:'';display:block;position:absolute;background-color:#999a9b;left:50%;top:50%;width:3px;height:22px;}
+.leader-section-c .btn-review-close:before {transform:rotate(45deg);-webkit-transform:rotate(45deg)}
+.leader-section-c .btn-review-close:after {transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}
+.leader-section-c .more-area {position:relative;height:48px;max-width:1567px;background:url("../../resources/images/teacher/more_line.png") no-repeat 50% 0;margin:80px auto 0}
+.leader-section-c .more-area .btn-more {position:absolute;left:50%;top:-23px;width:46px;margin-left:-23px;height:46px;border-radius:50%;background-color:#494032}
+.leader-section-c .more-area .btn-more:before,
+.leader-section-c .more-area .btn-more:after {content:'';display:block;position:absolute;background-color:#fff;left:50%;top:50%}
+.leader-section-c .more-area .btn-more:before {width:20px;height:2px;margin:-1px 0 0 -10px}
+.leader-section-c .more-area .btn-more:after {width:2px;height:20px;margin:-10px 0 0 -1px}
