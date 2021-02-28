@@ -146,7 +146,7 @@
 .section-c .banner-item {flex:1}
 .section-c .banner-item ~ .banner-item {margin-left:40px}
 .section-c .banner-item .link-banner {display:block}
-.section-c .banner-item img {width:100%}
+.section-c .banner-item img {width:100%;vertical-align:top}
 
 /* 리더소개 */
 .leader-section-a {max-width:1500px;position:relative;margin:0 auto}

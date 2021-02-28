@@ -2,9 +2,64 @@
 
 @media (max-width:1400px) {
 }
-@media (max-width:1300px) {
+@media (max-width:1280px) {
+    /* 메인 */
+    .section-a .service-info .service-item ~ .service-item {margin-left:30px}
+    .section-a .service-item .service-txt {word-break:keep-all}
+    .section-a .service-item .service-txt br {display:none;word-break:keep-all}
+    .section-c,
+    .section-b {margin:80px 24px 0}
 }
-@media (max-width:1240px) {
+@media (max-width:1100px) {
+    /* 메인 */
+    .article-box .section-a {padding:40px 0 50px}
+    .section-a .section-a-title {font-size:32px}
+    .section-a .service-item .txt-number {font-size:32px}
+    .section-a .service-item .txt-number span {width:80px}
+    .section-a .service-item .service-title {font-size:18px;line-height:26px}
+    .section-a .service-item .service-txt {font-size:14px;word-break:keep-all}
+    .section-a .service-item .service-txt br {display:none}
+    .section-a .service-info {padding:60px 50px 0}
+
+    .section-b .hash-tag .tag-item {padding:0 12px;height:28px;border-radius:14px;font-size:14px;line-height:26px;margin-right:4px}
 }
-@media (max-width:768px) {
+@media (max-width:1000px) {
+    .section-a .service-info {flex-direction:column}
+    .section-a .service-info .service-item ~ .service-item {margin:30px 0 0 0}
+    .section-a .section-a-title {font-size:28px;padding:0 20px}
+    .section-a .section-a-title .t-bold {display:inline-block}
+    .section-a .section-a-title .blt-arrow-a {display:none}
+    .section-a .service-item .service-title {word-break:keep-all}
+    .section-a .service-item .service-title br {display:none}
+    .section-a .service-item .txt-number {font-size:24px}
+    .section-a .service-item .txt-number span {width:60px}
+    .section-b, .section-c {margin-top:40px}
+    .section-c .banner-item ~ .banner-item {margin-left:20px}
+    .section-b .review-area {width:100%;float:none !important;}
+    .section-b .review-area:nth-child(n+2) {margin-top:30px}
+    .section-b .review-detail {width:100%}
+    .section-b .review-area.active .review-detail {margin-top:10px}
+    .section-b .review-area:nth-child(even) .review-detail {margin-left:0}
+}
+@media (max-width:767px) {
+    .article-box .section-a {padding:40px 0 24px}
+    .section-a .section-a-title {font-size:22px;word-break:keep-all}
+    .section-a .service-info {padding:50px 24px 0}
+    .section-a .service-info .service-item {padding:24px}
+    .section-a .service-item .service-title {font-size:16px}
+    .section-a .service-info .service-item ~ .service-item {margin-top:16px}
+    .section-b .review-item .t-img {width:60px}
+    .section-b .review-item .t-img img {width:52px}
+    .section-b .review-item .review-summery {width:calc(100% - 60px)}
+    .section-b .review-item {padding-right:30px}
+    .section-b .hash-tag .tag-item {font-size:13px;padding:0 10px}
+    .section-b .review-area.active .review-detail {padding:30px 50px 30px 30px}
+    .section-b .btn-review-close {right:16px;top:26px}
+    .section-b .more-area {margin-top:60px}
+    .section-b .box-review .btn-more {width:36px;height:36px;margin-left:-18px;bottom:-18px}
+    .section-b .box-review .btn-more:after {height:16px;margin-top:-8px}
+    .section-b .box-review .btn-more:before {width:16px;margin-left:-8px}
+    .section-b .more-area .btn-more {width:48px;height:48px;background-size:100%;top:-24px;margin-left:-24px}
+    .section-c {flex-direction:column}
+    .section-c .banner-item ~ .banner-item {margin:20px 0 0 0}
 }
