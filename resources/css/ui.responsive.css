@@ -52,7 +52,7 @@
 }
 @media (max-width:1000px) {
     /* 메인 */
-    .section-a .service-info {flex-direction:column}
+    .section-a .service-info {display:block}
     .section-a .service-info .service-item ~ .service-item {margin:30px 0 0 0}
     .section-a .section-a-title {font-size:28px;padding:0 20px}
     .section-a .section-a-title .t-bold {display:inline-block}
@@ -114,7 +114,7 @@
     .section-b .box-review .btn-more:after {height:16px;margin-top:-8px}
     .section-b .box-review .btn-more:before {width:16px;margin-left:-8px}
     .section-b .more-area .btn-more {width:48px;height:48px;background-size:100%;top:-24px;margin-left:-24px}
-    .section-c {flex-direction:column}
+    .section-c {display:block}
     .section-c .banner-item ~ .banner-item {margin:20px 0 0 0}
 
     /* 리더소개 */
@@ -123,7 +123,7 @@
     .leader-section-a .txt-remark:before {top:10px}
     .leader-section-a .leader-title {height:50px;width:220px;background-position:100% 0}
     .leader-section-a .leader-title .title-b {font-size:24px;line-height:50px}
-    .leader-section-a .lesson-content {flex-direction:column}
+    .leader-section-a .lesson-content {display:block}
     .leader-section-a .lesson-content .lesson-col {max-width:100%;padding-right:0;padding-bottom:10px}
     .leader-section-a .lesson-content .lesson-item {font-size:16px;line-height:24px}
     .leader-section-a .lesson-content .lesson-item:before {top:10px}
