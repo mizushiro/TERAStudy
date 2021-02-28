@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 /* common */
-@import url(/resources/css/ui.fonts.css);
-@import url(/resources/css/ui.common.css);
-@import url(/resources/css/ui.plugins.css);
-@import url(/resources/css/ui.contents.css);
-@import url(/resources/css/ui.responsive.css);
+@import url(ui.fonts.css);
+@import url(ui.common.css);
+@import url(ui.plugins.css);
+@import url(ui.contents.css);
+@import url(ui.responsive.css);
