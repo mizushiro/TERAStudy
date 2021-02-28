@@ -116,11 +116,11 @@
 .section-b .writer-data {margin-top:16px;border-top:1px solid #bebebe;padding-top:16px;font-size:14px;line-height:20px;color:#2c2d30;font-weight:400}
 .section-b .review-detail {height:0;opacity:0;overflow:hidden;padding:0 80px 0 40px;background-color:#e2e2e2;border-radius:20px;position:relative;width:calc(200% + 46px);-webkit-transition:all .2s ease-out;transition:all .2s ease-out}
 .section-b .review-area:nth-child(even) .review-detail {margin-left:calc(-100% - 46px)}
-.box-review .btn-more {position:absolute;left:50%;bottom:-23px;width:46px;margin-left:-23px;height:46px;border-radius:50%;background-color:#494032}
-.box-review .btn-more:before,
-.box-review .btn-more:after {content:'';display:block;position:absolute;background-color:#fff;left:50%;top:50%}
-.box-review .btn-more:before {width:20px;height:2px;margin:-1px 0 0 -10px}
-.box-review .btn-more:after {width:2px;height:20px;margin:-10px 0 0 -1px}
+.section-b .box-review .btn-more {position:absolute;left:50%;bottom:-23px;width:46px;margin-left:-23px;height:46px;border-radius:50%;background-color:#494032}
+.section-b .box-review .btn-more:before,
+.section-b .box-review .btn-more:after {content:'';display:block;position:absolute;background-color:#fff;left:50%;top:50%}
+.section-b .box-review .btn-more:before {width:20px;height:2px;margin:-1px 0 0 -10px}
+.section-b .box-review .btn-more:after {width:2px;height:20px;margin:-10px 0 0 -1px}
 .section-b .btn-review-close {position:absolute;top:30px;right:40px;width:36px;height:36px}
 .section-b .btn-review-close:before,
 .section-b .btn-review-close:after {content:'';display:block;position:absolute;background-color:#999a9b;left:50%;top:50%;width:3px;height:22px; margin-top:-12px;}
