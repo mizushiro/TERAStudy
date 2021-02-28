@@ -160,7 +160,7 @@
 .section-b .review-area.active .btn-more {display:none}
 .section-b .review-area.active .review-detail {height:auto;margin-top:30px;padding:36px 80px 36px 40px;opacity:1;}
 .section-b .review-area.active .review-detail {height:auto;margin-top:30px;padding:36px 80px 36px 40px}
-.section-b .more-area {position:relative;height:48px;max-width:1567px;background:url("../../resources/images/main/more_line.png") no-repeat 50% 0;margin:90px auto 0}
+.section-b .more-area {position:relative;height:48px;max-width:1567px;background:url("../../resources/images/main/more_line.png") no-repeat 50% 0;margin:90px auto 0;background-size:100%}
 .section-b .more-area .btn-more {position:absolute;left:50%;top:-33px;width:66px;margin-left:-33px;height:66px;background:url("../../resources/images/main/btn-more.png") no-repeat 0 0}
 
 .section-c {max-width:1500px;margin:80px auto 0;display:flex}
@@ -238,7 +238,7 @@
 .leader-section-c .btn-review-close:after {content:'';display:block;position:absolute;background-color:#999a9b;left:50%;top:50%;width:3px;height:22px;margin-top:-11px}
 .leader-section-c .btn-review-close:before {transform:rotate(45deg);-webkit-transform:rotate(45deg)}
 .leader-section-c .btn-review-close:after {transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}
-.leader-section-c .more-area {position:relative;height:48px;max-width:1567px;background:url("../../resources/images/teacher/more_line.png") no-repeat 50% 0;margin:80px auto 0}
+.leader-section-c .more-area {position:relative;height:48px;max-width:1567px;background:url("../../resources/images/teacher/more_line.png") no-repeat 50% 0;margin:80px auto 0;background-size:100%}
 .leader-section-c .more-area .btn-more {position:absolute;left:50%;top:-23px;width:46px;margin-left:-23px;height:46px;border-radius:50%;background-color:#494032}
 .leader-section-c .more-area .btn-more:before,
 .leader-section-c .more-area .btn-more:after {content:'';display:block;position:absolute;background-color:#fff;left:50%;top:50%}
