@@ -13,24 +13,19 @@
 .teacher-menu .btn-dep-1{position:absolute; left:50%; font-size:24px; font-family: SCD; font-weight: 600; color:#fff; opacity: .3; overflow:hidden; height:85px; margin-left:-750px; transition:all .2s ease-out}
 .teacher-menu .on .btn-dep-1{font-size:48px; opacity:1; padding-left:75px;}
 .teacher-menu .on .btn-dep-1::after{left:0;}
-
 .teacher-menu .dep-1 li.on::before{border-top:2px solid #f3b805; opacity:1;}
-
 .teacher-menu .btn-dep-1::after{content:""; display:block; width:68px; height:53px; background:url(../../resources/images/common/key.png) no-repeat 0 0 / cover; position:absolute; top:15px; left:-68px; transition:all .2s ease-out}
-
-.teacher-menu .n1 .btn-dep-1{top:0;}
-.teacher-menu .n2 .btn-dep-1{top:85px;}
+.teacher-menu .n1 .btn-dep-1{top:30px;}
+.teacher-menu .n2 .btn-dep-1{top:125px;}
 .teacher-menu .n3 .btn-dep-1{top:170px;}
-
-.teacher-menu .dep-1 .n1::before{top:42px;}
-.teacher-menu .dep-1 .n2::before{top:127px;}
+.teacher-menu .dep-1 .n1::before{top:72px;}
+.teacher-menu .dep-1 .n2::before{top:167px;}
 .teacher-menu .dep-1 .n3::before{top:212px;}
-
 .teacher-menu .on .dep-2{display:block;}
 .teacher-menu .dep-2{display:none; width:1070px; margin:0 auto; text-align:center; padding:30px 0 0;}
 .teacher-menu .dep-2 button{height:80px; border-radius:40px; padding:10px 40px; font-size:30px; margin:0 12px 30px}
 
-.btn-gold.type-more{width:250px; font-size:16px; color:#000; border-radius:20px; background: linear-gradient(-69deg,#e2a936, #a27623,, #ffee92 50%, #f5c75f 80%, #e6b352);}
+.btn-gold.type-more{width:250px; font-size:16px; color:#000; border-radius:20px; background: linear-gradient(-69deg,#e2a936, #a27623, #ffee92 50%, #f5c75f 80%, #e6b352);}
 .btn-gold.type-more:focus,
 .btn-gold.type-more:hover{color:#fff;}
 
@@ -40,17 +35,15 @@
 
 .teacher-list{width:100%;max-width:1480px;margin:30px auto 0;background:url(../../resources/images/main/swiper-bg.png) no-repeat 50% 0 / 100%; padding:40px 0 0; position: relative;}
 .teacher-swiper{width:100%;max-width:1380px;margin:0 auto;}
+.teacher-list .slick-prev{width:68px; height:68px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0; left:-20px; position: absolute; top:50%; z-index: 2;}
+.teacher-list .slick-next{width:68px; height:68px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0; transform: rotate(180deg); right:-20px; position: absolute; top:50%; z-index: 2;}
+
 .teacher-item {position:relative; width:285px;height:307px;border-radius:30px;border-bottom-left-radius:0;box-shadow:10px 10px 30px rgba(0,0,0,.3);background: linear-gradient(#fff, #ddd7d0); margin:100px auto 50px}
 .teacher-item .photo{position:absolute; bottom:110px; left:0;}
 .teacher-item .info{position:relative; padding:100px 25px 0; z-index: 1; font-size:16px; color:#000; line-height:1.3;}
 .teacher-item .info dt{font-weight:600; font-size:30px; color:#000; text-align: right; padding:0 0 20px;}
 .teacher-item .btn{display:inline-block; background-color:#292a2e; color:#fff; height:43px; border-radius:22px; padding:10px 28px; font-size:16px;}
 .teacher-item .btn-area{width:100%; position:absolute; bottom:0; left:0; padding:15px 0 30px; text-align:center; }
-
-.teacher-list .swiper-button-prev{width:68px; height:68px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0; left:30px;}
-.teacher-list .swiper-button-next{width:68px; height:68px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0; transform: rotate(180deg); right:30px;}
-.teacher-list .swiper-button-next::after{display: none;}
-.teacher-list .swiper-button-prev::after{display: none;}
 
 
 
