@@ -62,6 +62,7 @@ body {background:#eee url('../../resources/images/common/top_bg.png') no-repeat 
 .base-main {width:100%;}
 .base-body-a {width:100%;}
 .base-footer {width:100%;background:url('../../resources/images/common/footer_bg.png') no-repeat 50% 0;height:460px}
+.base-footer.type-b {background-image:url("../../resources/images/common/footer_bg_b.png")}
 
 /* base header */
 .base-header {width:100%;max-width:1640px;margin:0 auto;padding:55px 20px 20px;}
