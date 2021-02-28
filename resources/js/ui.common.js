@@ -18,24 +18,26 @@
 			});
 			
 			//scrolltop 
-			var timer;
+			var stopAni = false;
 			$(win).off('scroll.win').on('scroll.win', function(){
 				$plugins.common.sTop = $(this).scrollTop();
-				var $key = $('.goldkey');
-
-				$key.removeClass('active');
-				clearTimeout(timer);
-				timer = setTimeout(function(){
-					$key.addClass('active');
-				},100);
-
-				
-				
-		
-				
+						
+				if (!stopAni) {
+					goldkeyAct();
+				}
 			});
 
-			
+			function goldkeyAct(){
+				var $key = $('.goldkey');		
+
+				$key.addClass('active');
+				stopAni = true;
+				setTimeout(function(){
+					$key.removeClass('active');
+					stopAni = false;
+					console.log(stopAni);
+				},900);
+			}
 
 		},
 		
