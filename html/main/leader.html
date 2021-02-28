@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+	<meta name="keywords" content="테라스터디, 차별화된 1:1 맞춤형 수업"/>
+	<meta name="description" content=""/>
+    
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+    <title>테라스터디</title>
+
+	<link rel="stylesheet" href="../../resources/css/ui.base.css">
+	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="../../resources/js/ui.global.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
+
+	<link rel="stylesheet" href="../../resources/js/lib/slick.css" />
+	<script src="../../resources/js/lib/slick.js"></script>
+</head>
+
+<body>	
+	<div class="base-wrap">
+		<header class="base-header">
+		</header>
+		<main class="base-body-a">
+			<section class="leader-info">
+				<img class="photo" src="../../resources/images/teacher/sample01-detail.png" alt="맞춤형 프리미엄 학습 코디 TERA Study">
+				<div class="group">
+					<h2>
+						중국어<br>
+						<em>祝你梦想成真</em>
+					</h2>
+					<p>완벽한 발음으로 기초부터 탄탄하게 <br>중국어 완전 정복</p>
+				</div>
+				<div class="tag">
+					<span>#기초회화</span>
+					<span>#TSC</span>
+					<span>#발음/성조</span>
+					<span>#중문법</span>
+					<span>#리딩</span>
+					<span>#발음교정</span>
+					<span>#고급회화</span>
+					<span>#HSK3~5급</span>
+				</div>
+
+			</section>
+			
+
+			
+		</main>
+        <footer class="base-footer">
+            
+        </footer>
+	</div>
+
+	<script>
+		;(function($, win, doc, undefined) {
+			$(doc).ready(function() {
+				$plugins.common.init();
+
+				$('.teacher-swiper').slick({
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1
+				});
+
+				
+				$('.teacher-menu .btn-dep-1').off('click.tc').on('click.tc', function(){
+					$(this).closest('li').addClass('on').siblings('li').removeClass('on');
+				})
+			});
+		
+		})(jQuery, window, document);
+
+	</script>
+</body>
+</html>
