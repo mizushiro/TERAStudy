@@ -104,7 +104,8 @@ body {background:#eee url('../../resources/images/common/top_bg.png') no-repeat 
 .blt-arrow-a {display:inline-block;width:46px;height:46px;background:url("../../resources/images/blt/blt-arrow-a.png") no-repeat 0 0;background-size:100%}
 
 /* title */
-.title-a {font-size:50px;font-weight:600}
+.title-a {font-size:50px;font-weight:600;letter-spacing:-.5px}
+.title-b {font-size:32px;font-weight:600;letter-spacing:-.5px}
 
 /* button */
 .btn-area{position: relative; width:100%; text-align:center;}
