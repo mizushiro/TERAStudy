@@ -28,6 +28,8 @@
 			$(win).off('scroll.win').on('scroll.win', function(){
 				$plugins.common.sTop = $(this).scrollTop();
 				headerSticky();
+				leaderGo();
+
 				if (!stopAni) {
 					goldkeyAct();
 				}
@@ -40,7 +42,24 @@
 				}
 			}
 		
+			function leaderGo() {
+				var $btn = $('.leader-info .btn-area');
 
+				if (!$btn.length) {
+					return false;
+				}
+
+				var add = $('.base-header').outerHeight();
+				var btnTop = $btn.offset().top;
+
+				if ($plugins.common.sTop > btnTop - add) {
+					$('body').addClass('leader-btn-fix');
+					$btn.find('.btn-gold').css('top', add + 'px');
+				} else {
+					$('body').removeClass('leader-btn-fix');
+					$btn.find('.btn-gold').css('top', 0);
+				}
+			}
 			function goldkeyAct(){
 				var $key = $('.goldkey');		
 
