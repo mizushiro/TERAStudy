@@ -35,7 +35,7 @@
 				</h2>
 				<nav class="teacher-menu">
 					<ul class="dep-1">
-						<li class="n1 on">
+						<li class="n1">
 							<button type="button" class="btn-dep-1"><span>영어</span></button>
 							<div class="dep-2">
 								<button type="button" class="btn-gold selected">
@@ -521,8 +521,13 @@
 					});
 				});
 
+				function randomMenu(){
+					var n = Math.floor(Math.random() * 2) + 1;
 
-				
+					console.log(n);
+					$('.teacher-menu .dep-1 > .n' + n).addClass('on');
+				}
+				randomMenu();
 				//후기
 				$('.review-item .btn-more').off('click.rv').on('click.rv', function(){
 					$(this).closest('.review-area').addClass('active').siblings('.review-area').removeClass('active');
