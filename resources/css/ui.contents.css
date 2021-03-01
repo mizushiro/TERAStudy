@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* 메인 */
-.teacher-group {height:1580px; position:relative;margin-top:-20px}
+.teacher-group {height:1280px; position:relative;margin-top:-20px}
 .teacher-group h2 {display:block;margin:0 auto;max-width:1640px;padding:0 20px;text-align:center;color:#dfdfdf;font-size:50px;font-weight:100;}
 .teacher-group h2 strong {color:#2b2e34;font-weight:100;background-color:#ffcd6c;}
 .teacher-group .logo-text {color:#f8d057;}
