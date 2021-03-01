@@ -73,7 +73,7 @@ body {background:#eee url('../../resources/images/common/top_bg.png') no-repeat 
 .sticky .util-menu .util-n2 {background-position:-38.5px -5px;}
 .sticky .util-menu > a + a {margin-left:5px;}
 
-.base-header {width:100%;max-width:1640px;margin:0 auto;padding:40px 20px 20px; position:fixed; top:0; left:50%; transform: translate(-50%, 0); z-index:10; background:transparent; transition:all .2s ease-out;}
+.base-header {width:100%;max-width:1640px;margin:0 auto;padding:30px 20px 20px; position:fixed; top:0; left:50%; transform: translate(-50%, 0); z-index:10; background:transparent; transition:all .2s ease-out;}
 .base-header::after{content:""; display:block; clear:both;}
 .header-area{position:relative}
 .logo-tera {display:block;float:left;}
