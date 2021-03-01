@@ -98,7 +98,7 @@
 		},
 		
 		footer: function(){
-			$('.btn-top').click(function(){
+			$('.btn-top').on('touchstart, click', function(){
 				$('html').animate({scrollTop : 0},300);
 			});
 		},

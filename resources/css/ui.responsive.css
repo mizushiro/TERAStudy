@@ -207,7 +207,7 @@
     .footer-area {padding-bottom:40px}
 
     /* 리더소개 */
-    .leader-section-a {margin:0 24px}
+    .leader-section-a {margin:0 24px;}
     .leader-section-a .review-area {display:none}
     .leader-section-a .leader-box {max-width:100%}
     .leader-section-a .leader-content,
