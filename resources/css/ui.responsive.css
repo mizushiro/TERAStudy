@@ -11,7 +11,9 @@
     .logo-tera img{width:100%; display: block;}
 
     .ui-modal.type-premium .ui-modal-header img{width:81px;}
-    .ui-modal.type-premium .ui-modal-header .logo{top:25px;}
+    .ui-modal.type-premium .ui-modal-header .logo{top:25px; left:20px;}
+    .ui-modal .btn-close{left:auto; right:10px; margin-left:0; top:10px; transform: scale(0.6) rotate(45deg);}
+
     .ui-modal.type-premium .ui-modal-cont{padding:60px 0 50px;}
     .ui-modal.type-premium .tit h2{font-size:30px}
 
