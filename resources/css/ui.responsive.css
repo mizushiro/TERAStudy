@@ -85,6 +85,7 @@
     .leader-info .chara-item .ico-img img{width:100%;}
     .leader-info .chara-item .txt{font-size:14px;}
 
+    .leader-info .btn-gold{position:relative; height:50px; border-radius:25px; padding:10px 40px; font-size:16px; margin:0; font-weight:500; font-family:'Noto Sans KR'; background: linear-gradient(-69deg,#e2a936, #a27623, #dda93e 70%, #ebbc4c 80%, #fdeaa6);}
     .leader-info .btn-gold::before{background-size:cover; width:100px; height:100px; top:-30px; left:-42px;}
 }
 @media (max-width:1340px) {
