@@ -26,7 +26,7 @@
     .util-menu .util-n2 {background-position:-38.5px -5px;}
     .util-menu > a + a {margin-left:5px;}
 
-    .teacher-group {height:auto; margin-bottom:200px; }
+    .teacher-group {height:auto; margin-bottom:200px;margin-top:0}
     .teacher-group h2 {padding:0 20px;font-size:40px;}
 
     .teacher-menu{min-height:140px;}
