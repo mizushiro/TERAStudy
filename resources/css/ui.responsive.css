@@ -59,7 +59,9 @@
     .extension-active .leader-img img {width:100%}
     .extension-active {padding-left:400px}
 
-
+    /* side nav */
+    .btn-top,
+    .btn-kakao {width:44px;height:45px}
 
 }
 @media (max-width:1000px) {
@@ -170,4 +172,8 @@
     .leader-section-c .review-area .review-detail {margin-left:0 !important;margin-top:8px}
     .leader-section-c .review-area.active .review-detail {padding-right:44px;}
     .leader-section-c .btn-review-close {right:16px}
+
+    /* side nav */
+    .side-nav {right:12px;bottom:20px}
+    .side-nav .btn-kakao {margin-top:8px}
 }
