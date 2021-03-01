@@ -3,6 +3,9 @@
 @media (max-width:1400px) {
 }
 @media (max-width:1340px) {
+    /* 메인 */
+    .footer-area {padding:290px 24px 0}
+
     /* 리더소개 */
     .extension-active {padding-left:520px}
     .extension-detail .extension-title {width:160px}
@@ -17,6 +20,8 @@
     .section-a .service-item .service-txt br {display:none;word-break:keep-all}
     .section-c,
     .section-b {margin:80px 24px 0}
+
+    .footer-content {padding-left:210px}
 
     /* 리더소개 */
     .extension-active .active-detail .active-title {font-size:36px}
@@ -83,6 +88,10 @@
 
     .section-b .hash-tag .tag-item {padding:0 12px;height:28px;border-radius:14px;font-size:14px;line-height:26px;margin-right:4px}
 
+    .footer-content {padding-left:0}
+    .footer-content .footer-logo {top:-60px}
+
+
     /* 리더소개 */
     .leader-section-b {padding:0 24px;height:500px}
     .extension-active .leader-img {width:360px}
@@ -111,6 +120,9 @@
     .section-b .review-area.active .review-detail {margin-top:10px}
     .section-b .review-area:nth-child(even) .review-detail {margin-left:0}
 
+    .base-footer {height:auto}
+    .footer-area {padding-bottom:40px}
+
     /* 리더소개 */
     .leader-section-a {margin:0 24px}
     .leader-section-a .review-area {display:none}
@@ -130,6 +142,12 @@
     .leader-section-c .title-a {font-size:40px;top:-40px;margin-bottom:-20px}
 }
 @media (max-width:910px) {
+    /* 메인 */
+    .base-footer {background:none;}
+    .base-footer:before {content:'';height:120px;width:100%;display:block;background:url("../../resources/images/common/footer_bg_c.png") no-repeat 50% 100%}
+    .footer-area {background-color:#292a2e;padding:50px 24px 40px}
+    .footer-content .footer-logo {position:static;margin-bottom:20px}
+
     /* 리더소개 */
     .extension-active .leader-img {display:none}
     .extension-active {padding-left:0}
@@ -158,6 +176,13 @@
     .section-b .more-area .btn-more {width:48px;height:48px;background-size:100%;top:-24px;margin-left:-24px}
     .section-c {display:block}
     .section-c .banner-item ~ .banner-item {margin:20px 0 0 0}
+
+    .footer-content .footer-logo {width:122px;height:24px;background-size:100%}
+    .footer-content .footer-nav .footer-nav-item .link-footer {font-size:13px;padding-right:10px}
+    .footer-content .footer-nav .footer-nav-item ~ .footer-nav-item .link-footer {padding-left:10px}
+    .footer-content .footer-copy {font-size:12px;line-height:20px}
+    .footer-content .footer-copy .txt-center {font-size:14px}
+    .footer-content .footer-copy .copy-item:after {display:none}
 
     /* 리더소개 */
     .leader-section-a .leader-content, .leader-section-a .lesson-content {padding:30px}
