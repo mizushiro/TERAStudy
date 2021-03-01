@@ -30,6 +30,45 @@
     .leader-section-c .review-area .box-star {display:block;margin-top:8px}
     .leader-section-c .review-area .review-item {height:186px}
 
+    .base-wrap{padding-top:55px;}
+    .base-header {padding:20px 20px 15px;}
+    .logo-tera {display:block;float:left; width:81px; }
+    .logo-tera img{width:100%; display: block;}
+    .util-menu{margin-top:-10px; }
+    .util-menu > a {width:30px;height:30px;border:1px solid #fff;border-radius:50%;background:url(../../resources/images/common/ico-header.png) no-repeat -3.5px -5px / 70px;}
+    .util-menu .util-n2 {background-position:-38.5px -5px;}
+    .util-menu > a + a {margin-left:5px;}
+
+    .teacher-group {height:auto; }
+    .teacher-group h2 {padding:20px 20px 10px;font-size:20px;}
+    
+    .teacher-menu{min-height:160px;}
+    .teacher-menu .dep-1 li::before{ left:0; width:30px; }
+    .teacher-menu .btn-dep-1{position:absolute; left:0; font-size:18px;  height:40px; margin-left:0;padding-left:35px;}
+    .teacher-menu .on .btn-dep-1{font-size:20px; opacity:1; padding-left:75px;}
+    .teacher-menu .on .btn-dep-1::after{left:30px;}
+    .teacher-menu .btn-dep-1::after{ width:34px; height:27px; top:5px; left:-34px;}
+    .teacher-menu .n1 .btn-dep-1{top:30px;}
+    .teacher-menu .n2 .btn-dep-1{top:80px;}
+    .teacher-menu .n3 .btn-dep-1{top:130px;}
+    .teacher-menu .dep-1 .n1::before{top:50px;}
+    .teacher-menu .dep-1 .n2::before{top:100px;}
+    .teacher-menu .dep-1 .n3::before{top:150px;}
+
+    .teacher-menu .dep-2{width:100%; padding-left:150px; padding-right:50px;}
+    .teacher-menu .dep-2 button{height:40px; border-radius:20px; padding:5px 20px 6px; font-size:16px; margin:0 6px 10px}
+
+    .teacher-list{margin:10px auto 0;padding:20px 40px 0; background-size:94%;}
+    .teacher-item {position:relative; width:200px;height:250px;border-radius:20px;border-bottom-left-radius:0;box-shadow:6px 6px 20px rgba(0,0,0,.3);background: linear-gradient(#fff, #ddd7d0); margin:50px auto 20px}
+    .teacher-item .photo{bottom:110px; height:180px;}
+    .teacher-item .photo img{width:100%;}
+    .teacher-item .info{ padding:80px 25px 0; z-index: 1; font-size:14px;}
+    .teacher-item .info dt{font-size:18px; padding:0 0 10px;}
+    .teacher-item .info dd{text-align: left; font-size:14px;}
+    .teacher-item .btn{display:inline-block; background-color:#292a2e; color:#fff; height:43px; border-radius:22px; padding:10px 28px; font-size:16px;}
+    .teacher-item .btn-area{width:100%; position:absolute; bottom:0; left:0; padding:10px 0 20px; text-align:center; }
+    .ico-matching{display:block; width:33px; height:33px; background: url(../../resources/images/common/ico-matching.png) no-repeat 0 0 / cover; position:absolute; top:0; right:20px;}
+
 }
 @media (max-width:1100px) {
     /* 메인 */
@@ -145,4 +184,25 @@
     .leader-section-c .review-area .review-detail {margin-left:0 !important;margin-top:8px}
     .leader-section-c .review-area.active .review-detail {padding-right:44px;}
     .leader-section-c .btn-review-close {right:16px}
+
+    .teacher-menu{min-height:160px;}
+    .teacher-menu .dep-1 li::before{ left:0; width:30px; }
+    .teacher-menu .btn-dep-1{position:absolute; left:0; font-size:18px;  height:40px; margin-left:0;padding-left:35px;}
+    .teacher-menu .on .btn-dep-1{font-size:20px; opacity:1; padding-left:75px;}
+    .teacher-menu .n2.on .btn-dep-1{font-size:20px; opacity:1; padding-right:75px;}
+
+
+    .teacher-menu .on .btn-dep-1::after{left:30px;}
+    .teacher-menu .btn-dep-1::after{ width:34px; height:27px; top:5px; left:-34px;}
+    .teacher-menu .n2 .btn-dep-1::after{left:auto; right:-34px; transform: scaleX(-1);}
+    .teacher-menu .n2.on .btn-dep-1::after{right:30px;}
+    .teacher-menu .n1 .btn-dep-1{top:10px;}
+    .teacher-menu .n2 .btn-dep-1{top:10px; left:auto; right:0; padding-left:0; padding-right:35px;}
+    .teacher-menu .n3 .btn-dep-1{top:130px;}
+    .teacher-menu .dep-1 .n1::before{top:30px;}
+    .teacher-menu .dep-1 .n2::before{top:30px; left:auto; right:0}
+    .teacher-menu .dep-1 .n3::before{top:150px;}
+
+    .teacher-menu .dep-2{width:100%; padding:70px 20px 10px;}
+    .teacher-menu .dep-2 button{height:34px; border-radius:17px; padding:5px 10px 6px; font-size:14px; margin:0 6px 10px}
 }
