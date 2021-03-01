@@ -27,11 +27,19 @@
 			var stopAni = false;
 			$(win).off('scroll.win').on('scroll.win', function(){
 				$plugins.common.sTop = $(this).scrollTop();
-						
+				headerSticky();
 				if (!stopAni) {
 					goldkeyAct();
 				}
 			});
+			function headerSticky() {
+				if ($plugins.common.sTop > 0) {
+					$('body').addClass('sticky');
+				} else {
+					$('body').removeClass('sticky');
+				}
+			}
+		
 
 			function goldkeyAct(){
 				var $key = $('.goldkey');		
