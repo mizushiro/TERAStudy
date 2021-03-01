@@ -4,6 +4,7 @@
 
 }
 @media (max-width:1400px) {
+   
     body {background-size:cover;}
     .base-wrap{padding-top:55px;}
     .base-header {padding:20px 20px 15px;}
@@ -63,24 +64,16 @@
 
     .leader-info{margin-bottom:100px}
     .leader-info .photo{position: static;float:right; max-width: 100%; width:auto; height:280px; margin:-40px 0 40px;}
-
-
-
     .leader-info .group{position: relative;  padding:60px 10px 0 70px;}
     .leader-info .group h2{font-size:60px;font-weight:100;color:#fff; line-height:1.1;overflow: hidden;}
     .leader-info .group h2 span{opacity:0.3;display:block; width:100%;}
     .leader-info .group em{margin-top:5px; float:left; font-size:30px; border-bottom:1px solid #fff28c;  padding-bottom:10px}
     .leader-info .group p{font-size:18px; font-weight:500; color:#fff; line-height: 1.2; margin-top:20px;}
-
-
     .leader-info .tag {margin-top:30px; max-width:100%; }
     .leader-info .tag span{display:inline-block;height:30px;border-radius:15px;border:1px solid #848484;font-size:16px;font-weight:600;color:#848484;line-height:28px;padding:0 14px;margin:0 5px 10px 0;}
-
     .leader-info .chara{position:relative; margin:30px auto 30px; width:100%; max-width:1500px; overflow:hidden; display:flex; justify-content:center}
     .leader-info .chara .line{display:block; flex:1; max-width:40px; min-width:40px;  width:100%; height:6px; background: url(../../resources/images/common/line-dot.png) repeat-x 0 0;margin:35px 15px 0;}
-
     .leader-info .chara-item{flex:0; text-align: center; width:80px; min-width:80px; position: relative; z-index: 1;}
-
     .leader-info .chara-item .ico-img{display:inline-block; width:75px; height:75px; margin-bottom:0;}
     .leader-info .chara-item .ico-img img{width:100%;}
     .leader-info .chara-item .txt{font-size:14px;}
@@ -283,4 +276,27 @@
     /* side nav */
     .side-nav {right:12px;bottom:20px}
     .side-nav .btn-kakao {margin-top:8px}
+
+    .page-leader .leader-section-a {margin-top:-240px}
+
+    .leader-info{margin:0 auto 0; padding-bottom:350px;  background: url('../../resources/images/common/top_bg.png') no-repeat 50% 100% / cover;}
+    .leader-info::after{content:""; display:block; clear:both;}
+    .leader-info .photo{float:left; max-width: 100%; width:auto; height:auto; margin:-40px 0 40px;}
+    .leader-info .group{position: relative; padding:30px 20px 0; }
+    .leader-info .group::after{content:""; display:block; clear:both;}
+    .leader-info .group h2{float:left; width:100%; font-size:30px;font-weight:100;color:#fff; line-height:1.1;overflow: hidden;}
+    .leader-info .group h2 span{opacity:0.3;display:block; width:100%;}
+    .leader-info .group em{margin-top:5px; float:left; font-size:30px; border-bottom:1px solid #fff28c;  padding-bottom:10px}
+    .leader-info .group p{float:left; font-size:18px; font-weight:500; color:#fff; line-height: 1.2; margin-top:20px;}
+    .leader-info .tag {float:left; margin-top:20px; max-width:100%; }
+    .leader-info .tag span{display:inline-block;height:30px;border-radius:15px;border:1px solid #848484;font-size:16px;font-weight:600;color:#848484;line-height:28px;padding:0 14px;margin:0 5px 10px 0;}
+    .leader-info .chara{float:left; position:relative; margin:30px auto 30px; width:100%; max-width:1500px; overflow:hidden; display:block; padding:0 20px}
+    .leader-info .chara .line{display:none;}
+    .leader-info .chara-item{flex:0; text-align: left; width:100%; min-width:100%; position: relative; z-index: 1;}
+    .leader-info .chara-item .ico-img{display:block; width:40px; height:40px; margin-bottom:0; position:absolute; top:0; left:0}
+    .leader-info .chara-item .ico-img img{width:100%;}
+    .leader-info .chara-item .txt{font-size:14px; display:block; padding-left:50px; padding-top:9px; min-height:40px; height:auto; margin-bottom:10px;}
+    .leader-info .btn-area{float:left;}
+    .leader-info .btn-gold{position:relative; height:50px; border-radius:25px; padding:10px 40px; font-size:16px; margin:0; font-weight:500; font-family:'Noto Sans KR'; background: linear-gradient(-69deg,#e2a936, #a27623, #dda93e 70%, #ebbc4c 80%, #fdeaa6);}
+    .leader-info .btn-gold::before{background-size:cover; width:100px; height:100px; top:-30px; left:-42px;}
 }
