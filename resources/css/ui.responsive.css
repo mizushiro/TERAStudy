@@ -225,6 +225,8 @@
     .footer-content .footer-copy .txt-center {font-size:14px}
     .footer-content .footer-copy .copy-item:after {display:none}
 
+    .teacher-group {margin-bottom:100px}
+
     /* 리더소개 */
     .leader-section-a .leader-content, .leader-section-a .lesson-content {padding:30px}
     .leader-section-a .txt-remark {font-size:16px;line-height:24px}

@@ -98,7 +98,9 @@
 		},
 		
 		footer: function(){
-
+			$('.btn-top').click(function(){
+				$('html').animate({scrollTop : 0},300);
+			});
 		},
 
 		goldkey: function(){
