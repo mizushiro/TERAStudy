@@ -88,7 +88,7 @@
 
 
 .leader-info{position:relative; width:100%; max-width:1600px; margin:0 auto 370px;}
-.leader-info .photo{position: absolute; right:45px; top:45px; max-width: calc(100% - 990px); width: max-content;}
+.leader-info .photo{position: absolute; right:45px; top:45px; max-width: calc(100% - 780px); width: max-content;}
 .leader-info .group{position: relative;  padding:60px 70px 0;}
 .leader-info .group h2{font-size:90px;font-weight:100;color:#fff; line-height:1.1;overflow: hidden;}
 .leader-info .group h2 span{opacity:0.3;display:block; width:100%;}
