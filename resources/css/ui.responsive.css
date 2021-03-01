@@ -100,7 +100,7 @@
 
     .btn-area.line{margin-top:10px;}
 
-    .leader-info{margin:0 auto 370px;}
+    .leader-info{margin-bottom:100px}
     .leader-info .photo{position: static;float:right; max-width: 100%; width:auto; height:280px; margin:-40px 0 40px;}
     .leader-info .group{position: relative;  padding:60px 10px 0 70px;}
     .leader-info .group h2{font-size:60px;font-weight:100;color:#fff; line-height:1.1;overflow: hidden;}
@@ -266,6 +266,8 @@
     .footer-content .footer-copy {font-size:12px;line-height:20px}
     .footer-content .footer-copy .txt-center {font-size:14px}
     .footer-content .footer-copy .copy-item:after {display:none}
+
+    .teacher-group {margin-bottom:100px}
 
     /* 리더소개 */
     .leader-section-a .leader-content, .leader-section-a .lesson-content {padding:30px}
