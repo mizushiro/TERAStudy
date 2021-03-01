@@ -1,18 +1,33 @@
 @charset "utf-8";
 
+@media (max-width:1500px) {
+
+}
 @media (max-width:1400px) {
+    body {background-size:cover;}
     .base-wrap{padding-top:55px;}
     .base-header {padding:20px 20px 15px;}
     .logo-tera {display:block;float:left; width:81px; }
     .logo-tera img{width:100%; display: block;}
+
+    .ui-modal.type-premium .ui-modal-header img{width:81px;}
+    .ui-modal.type-premium .ui-modal-header .logo{top:25px;}
+    .ui-modal.type-premium .ui-modal-cont{padding:60px 0 50px;}
+    .ui-modal.type-premium .tit h2{font-size:30px}
+
+    .goldkey{position: absolute; top:20px; left:-15px; z-index: 100; width:45px; }
+    .goldkey .key-line{display:block; position: absolute; top:0; left:27px; height:50px;}
+    .goldkey .key-line img{height:100%;}
+    .goldkey .key{top:50px; left:18px; width:22px; height:34px; background-size: cover;}
+
     .util-menu > a {width:30px;height:30px;border:1px solid #fff;border-radius:50%;background:url(../../resources/images/common/ico-header.png) no-repeat -3.5px -5px / 70px;}
     .util-menu .util-n2 {background-position:-38.5px -5px;}
     .util-menu > a + a {margin-left:5px;}
 
-    .teacher-group {height:auto; }
-    .teacher-group h2 {padding:20px 20px 10px;font-size:40px;}
+    .teacher-group {height:auto; margin-bottom:200px; }
+    .teacher-group h2 {padding:0 20px;font-size:40px;}
     
-    .teacher-menu{min-height:160px;}
+    .teacher-menu{min-height:140px;}
     .teacher-menu .dep-1 li::before{ left:0; width:30px; }
     .teacher-menu .btn-dep-1{position:absolute; left:0; font-size:18px;  height:40px; margin-left:0;padding-left:35px;}
     .teacher-menu .on .btn-dep-1{font-size:20px; opacity:1; padding-left:75px;}
@@ -28,7 +43,7 @@
     .teacher-menu .dep-2{width:100%; padding-left:150px; padding-right:50px;}
     .teacher-menu .dep-2 button{height:40px; border-radius:20px; padding:5px 20px 6px; font-size:16px; margin:0 6px 10px}
 
-    .teacher-list{margin:10px auto 0;padding:20px 40px 0; background-size:94%;}
+    .teacher-list{margin:0 auto;padding:10px 80px 0; background-size:94%;}
     .teacher-item {position:relative; width:200px;height:250px;border-radius:20px;border-bottom-left-radius:0;box-shadow:6px 6px 20px rgba(0,0,0,.3);background: linear-gradient(#fff, #ddd7d0); margin:50px auto 20px}
     .teacher-item .photo{bottom:110px; height:180px;}
     .teacher-item .photo img{width:100%;}
@@ -41,6 +56,8 @@
 
     .teacher-list .slick-prev{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:-20px; position: absolute; top:50%; z-index: 2;}
     .teacher-list .slick-next{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:-20px; position: absolute; top:50%; z-index: 2;}
+
+    .btn-area.line{margin-top:10px;}
 }
 @media (max-width:1340px) {
     /* 메인 */
@@ -234,4 +251,6 @@
 
     .teacher-menu .dep-2{width:100%; padding:70px 20px 10px;}
     .teacher-menu .dep-2 button{height:34px; border-radius:17px; padding:5px 10px 6px; font-size:14px; margin:0 6px 10px}
+    .teacher-list{padding:10px 40px 0}
+    .btn-gold.type-more {width:40%;}
 }

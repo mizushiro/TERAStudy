@@ -105,7 +105,7 @@ body {background:#eee url('../../resources/images/common/top_bg.png') no-repeat 
 .sticky .goldkey{position: absolute; top:20px; left:-15px; z-index: 100; width:45px; }
 .sticky .goldkey .key-line{display:block; position: absolute; top:0; left:27px; height:50px;}
 .sticky .goldkey .key-line img{height:100%;}
-.sticky .goldkey .key{top:50px; left:18px; width:22px; height:34px; transform-origin:50%; transform:rotateY(0deg); transition: transform .5s ease-out; background: url(../../resources/images/common/key2.png) no-repeat 0 0/ cover;}
+.sticky .goldkey .key{top:50px; left:18px; width:22px; height:34px; background-size: cover;}
 
 /* footer */
 .footer-area {max-width:1304px;margin:0 auto;padding-top:290px}
