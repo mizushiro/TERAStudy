@@ -1,6 +1,49 @@
 @charset "utf-8";
 
 @media (max-width:1500px) {
+    .teacher-menu .btn-dep-1{
+        left:50px;
+        margin-left:0;
+    }
+    .ui-modal.type-goldkey .teacher-menu .dep-1 .n1::before,
+    .ui-modal.type-goldkey .teacher-menu .dep-1 .n2::before,
+    .ui-modal.type-goldkey .teacher-menu .dep-1 .n3::before{
+        left:0;
+        width:50px;
+    }
+
+    .ui-modal.type-premium .ui-modal-header img{width:81px;}
+    .ui-modal.type-premium .ui-modal-header .logo{top:25px; left:20px;}
+    .ui-modal .btn-close{left:auto; right:10px; margin-left:0; top:5px; transform: scale(0.6) rotate(45deg);}
+
+    .ui-modal.type-premium .ui-modal-cont{padding:60px 0 50px;}
+    .ui-modal.type-premium .tit h2{font-size:30px}
+
+    .ui-modal.type-goldkey .ui-modal-cont{padding:50px 0;}
+    .ui-modal.type-goldkey .teacher-menu .dep-1 li::before{ left:0; width:30px; display: none;}
+    .ui-modal.type-goldkey .teacher-menu .btn-dep-1{position:relative; left:0; top:0 !important; font-size:18px;  height:40px; margin-left:0;padding-left:35px; opacity:1;}
+    .ui-modal.type-goldkey .teacher-menu .on .btn-dep-1{font-size:20px; opacity:1; padding-left:75px;}
+    .ui-modal.type-goldkey .teacher-menu .on .btn-dep-1::after{left:30px;}
+    .ui-modal.type-goldkey .teacher-menu .btn-dep-1::after{ width:34px; height:27px; top:5px; left:30px;}
+    .ui-modal.type-goldkey .teacher-menu .n1 .btn-dep-1{top:30px;}
+    .ui-modal.type-goldkey .teacher-menu .n2 .btn-dep-1{top:80px;}
+    .ui-modal.type-goldkey .teacher-menu .n3 .btn-dep-1{top:130px;}
+    .ui-modal.type-goldkey .teacher-menu .dep-1 .n1::before{top:50px;}
+    .ui-modal.type-goldkey .teacher-menu .dep-1 .n2::before{top:100px;}
+    .ui-modal.type-goldkey .teacher-menu .dep-1 .n3::before{top:150px;}
+
+    .ui-modal.type-goldkey .teacher-menu .dep-2 {width:100%; padding:10px 20px 20px;}
+
+    .ui-modal.type-goldkey .teacher-menu .dep-2 button {
+        height: 40px;
+        border-radius: 20px;
+        padding: 5px 20px 6px;
+        font-size: 16px;
+        margin: 0 6px 10px;
+    }
+    .ui-modal.type-goldkey .ui-modal-header img{width:81px;}
+    .ui-modal.type-goldkey .ui-modal-header .logo{top:25px; left:20px;}
+    .type-goldkey .leader-list{margin-top:20px;}
 
 }
 @media (max-width:1400px) {
@@ -11,12 +54,7 @@
     .logo-tera {display:block;float:left; width:81px; }
     .logo-tera img{width:100%; display: block;}
 
-    .ui-modal.type-premium .ui-modal-header img{width:81px;}
-    .ui-modal.type-premium .ui-modal-header .logo{top:25px; left:20px;}
-    .ui-modal .btn-close{left:auto; right:10px; margin-left:0; top:5px; transform: scale(0.6) rotate(45deg);}
-
-    .ui-modal.type-premium .ui-modal-cont{padding:60px 0 50px;}
-    .ui-modal.type-premium .tit h2{font-size:30px}
+    
 
     .goldkey{position: absolute; top:20px; left:-15px; z-index: 100; width:45px; }
     .goldkey .key-line{display:block; position: absolute; top:0; left:27px; height:50px;}
@@ -114,6 +152,10 @@
     .leader-section-c .review-area .box-star {display:block;margin-top:8px}
     .leader-section-c .review-area .review-item {height:186px}
 
+    .ui-modal.type-goldkey .tit{word-break: keep-all;}
+    .ui-modal.type-goldkey .tit h2{font-size:20px; margin-bottom:10px;}
+    .ui-modal.type-goldkey .tit h2 em{font-size:16px;}
+
 }
 @media (max-width:1100px) {
     /* 메인 */
@@ -165,7 +207,7 @@
     .footer-area {padding-bottom:40px}
 
     /* 리더소개 */
-    .leader-section-a {margin:0 24px}
+    .leader-section-a {margin:0 24px;}
     .leader-section-a .review-area {display:none}
     .leader-section-a .leader-box {max-width:100%}
     .leader-section-a .leader-content,

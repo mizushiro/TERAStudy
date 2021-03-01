@@ -61,7 +61,7 @@
 .ui-modal .btn-close:after {content:'';display:block;position:absolute;background-color:#fff;left:50%;top:50%}
 .ui-modal .btn-close:before {width:20px;height:2px;margin:-1px 0 0 -10px}
 .ui-modal .btn-close:after {width:2px;height:20px;margin:-10px 0 0 -1px}
-
+.type-goldkey .leader-list{margin-top:50px;}
 .leader-list{position:relative; width:100%; max-width:1500px; padding-top:50px; font-size:0; text-align: center; margin:20px auto; background:url(../../resources/images/main/swiper-bg.png) no-repeat 50% 0 / 100%}
 .leader-list li{display:inline-block; margin:0 22px;}
 
