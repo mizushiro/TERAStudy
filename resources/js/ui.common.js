@@ -72,6 +72,17 @@
 				},900);
 			}
 
+			var loopTimer;
+			function loopGoldKey(){
+				clearTimeout(loopTimer);
+				loopTimer = setTimeout(function(){
+					goldkeyAct();
+					loopGoldKey();
+				},3000);
+			}
+			loopGoldKey();
+			
+
 			
 		},
 		
