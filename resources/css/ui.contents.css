@@ -11,7 +11,7 @@
 .teacher-menu .dep-1{position:relative;}
 .teacher-menu .dep-1 li::before{content:""; display:block; position:absolute; left:0; width:calc((100% - 1510px) / 2); border-top:2px solid #fff; opacity:0.3;}
 .teacher-menu .btn-dep-1{position:absolute; left:50%; font-size:24px; font-family: SCD; font-weight: 600; color:#fff; opacity: .3; overflow:hidden; height:85px; margin-left:-750px; transition:all .2s ease-out}
-.teacher-menu .on .btn-dep-1{font-size:48px; opacity:1; padding-left:75px;}
+.teacher-menu .on .btn-dep-1{font-size:44px; opacity:1; padding-left:75px;}
 .teacher-menu .on .btn-dep-1::after{left:0;}
 .teacher-menu .dep-1 li.on::before{border-top:2px solid #f3b805; opacity:1;}
 .teacher-menu .btn-dep-1::after{content:""; display:block; width:68px; height:53px; background:url(../../resources/images/common/key.png) no-repeat 0 0 / cover; position:absolute; top:15px; left:-68px; transition:all .2s ease-out}
