@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@media (max-width:1600px) {
+    .title-group {padding-left:60px}
+    .ajax-banner{top:-10px; right:0;width:750px;}
+    .ajax-banner .banner-swiper{margin:0 auto;width:560px;}
+
+}
 @media (max-width:1500px) {
     .teacher-menu .btn-dep-1{
         left:50px;
@@ -44,7 +50,7 @@
     .ui-modal.type-goldkey .ui-modal-header img{width:81px;}
     .ui-modal.type-goldkey .ui-modal-header .logo{top:25px; left:20px;}
     .type-goldkey .leader-list{margin-top:20px;}
-
+    
 }
 @media (max-width:1400px) {
    
@@ -97,6 +103,13 @@
 
     .teacher-list .slick-prev{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:-20px; position: absolute; top:50%; z-index: 2;}
     .teacher-list .slick-next{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:-20px; position: absolute; top:50%; z-index: 2;}
+
+    .banner-swiper .slick-prev{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:-40px; position: absolute; top:50%; z-index: 2;margin-top:-17px}
+    .banner-swiper .slick-next{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:-40px; position: absolute; top:50%; z-index: 2; margin-top:-17px}
+    .ajax-banner{top:-10px; right:0;width:480px;}
+    .ajax-banner .banner-swiper{margin:0 auto;width:400px;}
+
+
 
     .btn-area.line{margin-top:10px;}
 
@@ -156,6 +169,9 @@
     .ui-modal.type-goldkey .tit h2{font-size:20px; margin-bottom:10px;}
     .ui-modal.type-goldkey .tit h2 em{font-size:16px;}
 
+   
+    
+
 }
 @media (max-width:1100px) {
     /* 메인 */
@@ -182,6 +198,16 @@
     /* side nav */
     .btn-top,
     .btn-kakao {width:44px;height:45px}
+
+    .ajax-banner{top:auto; right:0;width:100%; position:relative; padding:0 50px; background:#292a2e;}
+    .ajax-banner .banner-swiper{margin:0 auto;width:100%;}
+    .ajax-banner .banner-swiper img{width:100%;}
+
+    .title-group{min-height:350px;}
+    .title-group h2{font-size:50px;}
+    .title-group p{font-size:18px;}
+    .title-group p em{ border-bottom:2px solid #f5e987;}
+
 
 }
 @media (max-width:1000px) {
@@ -223,6 +249,8 @@
     .extension-active .active-detail .active-title .leader-name {font-size:20px}
     .extension-detail .extension-list {width:100%}
     .leader-section-c .title-a {font-size:40px;top:-40px;margin-bottom:-20px}
+
+   
 }
 @media (max-width:910px) {
     /* 메인 */
