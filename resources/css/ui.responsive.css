@@ -104,13 +104,6 @@
     .teacher-list .slick-prev{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:-20px; position: absolute; top:50%; z-index: 2;}
     .teacher-list .slick-next{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:-20px; position: absolute; top:50%; z-index: 2;}
 
-    .banner-swiper .slick-prev{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:-40px; position: absolute; top:50%; z-index: 2;margin-top:-17px}
-    .banner-swiper .slick-next{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:-40px; position: absolute; top:50%; z-index: 2; margin-top:-17px}
-    .ajax-banner{top:-10px; right:0;width:480px;}
-    .ajax-banner .banner-swiper{margin:0 auto;width:400px;}
-
-
-
     .btn-area.line{margin-top:10px;}
 
     .leader-info{margin-bottom:100px}
@@ -199,9 +192,21 @@
     .btn-top,
     .btn-kakao {width:44px;height:45px}
 
-    .ajax-banner{top:auto; right:0;width:100%; position:relative; padding:0 50px; background:#292a2e;}
-    .ajax-banner .banner-swiper{margin:0 auto;width:100%;}
+    body.page-sub{background-position:50% -170px;}
+    .page-sub .base-footer:before{display:none;}
+    .page-sub .footer-area{padding-top:10px;}
+    .ajax-banner{top:auto; right:0;width:100%; position:relative; }
+    .ajax-banner .banner-swiper{margin:0 auto;width:100%; padding:0 50px; background: #292a2e;}
     .ajax-banner .banner-swiper img{width:100%;}
+    .ajax-banner:before {
+        content: '';
+        height: 120px;
+        width: 100%;
+        display: block;
+        background: url(../../resources/images/common/footer_bg_c.png) no-repeat 50% 100%;
+    }
+    .banner-swiper .slick-prev{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:10px; position: absolute; top:50%; z-index: 2;margin-top:-17px}
+    .banner-swiper .slick-next{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:10px; position: absolute; top:50%; z-index: 2; margin-top:-17px}
 
     .title-group{min-height:350px;}
     .title-group h2{font-size:50px;}
