@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+	<meta name="keywords" content="테라스터디, 차별화된 1:1 맞춤형 수업"/>
+	<meta name="description" content=""/>
+    
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+    <title>테라스터디</title>
+
+	<link rel="stylesheet" href="../../resources/css/ui.base.css">
+	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="../../resources/js/ui.global.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
+
+	<link rel="stylesheet" href="../../resources/js/lib/slick.css" />
+	<script src="../../resources/js/lib/slick.js"></script>
+	<style>
+
+	</style>
+</head>
+
+<body class="bg-none page-leader">	
+	<div class="base-wrap">
+		<header class="base-header">
+		</header>
+		<main class="base-body-a">
+
+		</main>
+        <footer class="base-footer type-b"></footer>
+
+		<div class="base-goldkey"></div>
+	</div>
+
+	<script>
+		;(function($, win, doc, undefined) {
+			$(doc).ready(function() {
+				$plugins.common.init();
+
+				$('.teacher-swiper').slick({
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1
+				});
+
+				
+				$('.teacher-menu .btn-dep-1').off('click.tc').on('click.tc', function(){
+					$(this).closest('li').addClass('on').siblings('li').removeClass('on');
+				})
+
+                //후기
+                $('.review-item .btn-more').off('click.rv').on('click.rv', function(){
+                    $(this).closest('.review-area').addClass('active').siblings('.review-area').removeClass('active');
+                });
+                $('.review-area .btn-review-close').off('click.rv').on('click.rv', function(){
+                    $(this).closest('.review-area').removeClass('active');
+                });
+			});
+		
+		})(jQuery, window, document);
+
+	</script>
+</body>
+</html>
