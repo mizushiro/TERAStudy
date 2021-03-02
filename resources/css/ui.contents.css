@@ -262,6 +262,20 @@
 .leader-section-c .more-area .btn-more:before {width:20px;height:2px;margin:-1px 0 0 -10px}
 .leader-section-c .more-area .btn-more:after {width:2px;height:20px;margin:-10px 0 0 -1px}
 
+/* sub title */
+.title-group{width:100%; position: relative; padding-left:20px; min-height:350px;}
+.title-group h2{font-size:70px; color:#fff; font-weight:100;}
+.title-group p{color:#fff; font-size:27px; font-weight:500; line-height:1.4; padding-left:5px}
+.title-group p em{color:#f5e987; border-bottom:4px solid #f5e987;}
+
+/* banner */
+.ajax-banner{position:absolute; top:-10px; right:-60px; z-index: 1; width:750px;}
+.ajax-banner .banner-swiper{margin:0 auto;width:560px;}
+.ajax-banner .banner-swiper a{display: block; margin:0 auto;}
+.ajax-banner .banner-swiper img{width:100%;display: block;  margin:0 auto;max-width:max-content}
+.ajax-banner .slick-prev{width:68px; height:68px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0; left:-80px; position: absolute; top:50%; z-index: 2; margin-top:-34px;}
+.ajax-banner .slick-next{width:68px; height:68px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0; transform: rotate(180deg); right:-80px; position: absolute; top:50%; z-index: 2; margin-top:-34px;}
+
 /* login */
 .login-box {max-width:1100px;margin:0 auto;background-color:#fff;border-radius:30px;box-shadow:10px 0 10px rgba(0,0,0,.07);padding:60px 0}
 .login-area {max-width:585px;margin:0 auto}

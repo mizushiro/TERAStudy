@@ -22,6 +22,18 @@
 				page:true,
 				callback:$plugins.common.goldkey 
 			});
+			$plugins.uiAjax({ 
+				id:$('.ajax-banner'), 
+				url:'../../html/inc/banner.html',
+				page:true,
+				callback:function(){
+					$('.banner-swiper').slick({
+						infinite: true,
+						slidesToShow: 1,
+						slidesToScroll: 1
+					});
+				}
+			});
 			
 			//scrolltop 
 			var stopAni = false;
