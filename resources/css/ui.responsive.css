@@ -135,6 +135,12 @@
     .extension-detail .extension-list {width:calc(100% - 180px)}
 
     .leader-section-c {padding:0 24px}
+
+    .ajax-banner{top:10px; right:0;width:600px;}
+    .ajax-banner .banner-swiper{margin:0 auto;width:400px;}
+    .banner-swiper .slick-prev{width:40px; height:40px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:-60px; position: absolute; top:50%; z-index: 2;margin-top:-17px}
+    .banner-swiper .slick-next{width:40px; height:40px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:-60px; position: absolute; top:50%; z-index: 2; margin-top:-17px}
+
 }
 @media (max-width:1280px) {
     /* 메인 */
@@ -162,7 +168,6 @@
     .ui-modal.type-goldkey .tit h2{font-size:20px; margin-bottom:10px;}
     .ui-modal.type-goldkey .tit h2 em{font-size:16px;}
 
-   
     
 
 }
@@ -208,7 +213,7 @@
     .banner-swiper .slick-prev{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:10px; position: absolute; top:50%; z-index: 2;margin-top:-17px}
     .banner-swiper .slick-next{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:10px; position: absolute; top:50%; z-index: 2; margin-top:-17px}
 
-    .title-group{min-height:350px;}
+    .title-group{min-height:200px;}
     .title-group h2{font-size:50px;}
     .title-group p{font-size:18px;}
     .title-group p em{ border-bottom:2px solid #f5e987;}
