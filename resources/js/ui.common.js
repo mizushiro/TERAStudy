@@ -34,6 +34,21 @@
 					});
 				}
 			});
+			$plugins.uiAjax({
+				id:$('.terms-a'),
+				url:'../../html/inc/terms-a.html',
+				page:true
+			});
+			$plugins.uiAjax({
+				id:$('.terms-b'),
+				url:'../../html/inc/terms-b.html',
+				page:true
+			});
+			$plugins.uiAjax({
+				id:$('.terms-c'),
+				url:'../../html/inc/terms-c.html',
+				page:true
+			});
 			
 			//scrolltop 
 			var stopAni = false;
