@@ -294,8 +294,8 @@
 .login-other .other-item .box-checkbox-a {margin-right:26px}
 .login-other .link-join {position:relative;padding-right:16px;display:inline-block}
 .login-other .link-join:after {content:'';position:absolute;display:inline-block;width:10px;height:10px;border:solid #36383f;border-width:2px 2px 0 0;-webkit-transform:rotate(45deg);transform:rotate(45deg);top:50%;right:0;z-index:10;margin-top:-5px}
-
 .login-other .link-join .link-txt {text-decoration:underline;font-size:24px;color:#36383f}
+.login-box .form-item .form-col-a {vertical-align:middle}
 
 .form-item {display:table;width:100%}
 .form-item ~ .form-item {margin-top:18px}

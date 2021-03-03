@@ -53,14 +53,12 @@
     
 }
 @media (max-width:1400px) {
-   
     body {background-size:cover;}
     .base-wrap{padding-top:55px;}
     .base-header {padding:20px 20px 15px;}
     .logo-tera {display:block;float:left; width:81px; }
     .logo-tera img{width:100%; display: block;}
 
-    
 
     .goldkey{position: absolute; top:20px; left:-15px; z-index: 100; width:45px; }
     .goldkey .key-line{display:block; position: absolute; top:0; left:27px; height:50px;}
@@ -168,7 +166,9 @@
     .ui-modal.type-goldkey .tit h2{font-size:20px; margin-bottom:10px;}
     .ui-modal.type-goldkey .tit h2 em{font-size:16px;}
 
-    
+    /* sub */
+    .title-group h2 {font-size:54px}
+    .title-group p {font-size:24px}
 
 }
 @media (max-width:1100px) {
@@ -198,9 +198,9 @@
     .btn-kakao {width:44px;height:45px}
 
     body.page-sub{background-position:50% -170px;}
-    .page-sub .base-footer:before{display:none;}
-    .page-sub .footer-area{padding-top:10px;}
-    .ajax-banner{top:auto; right:0;width:100%; position:relative; }
+    /*.page-sub .base-footer:before{display:none;}
+    .page-sub .footer-area{padding-top:10px;}*/
+    /*.ajax-banner{top:auto; right:0;width:100%; position:relative; }
     .ajax-banner .banner-swiper{margin:0 auto;width:100%; padding:0 50px; background: #292a2e;}
     .ajax-banner .banner-swiper img{width:100%;}
     .ajax-banner:before {
@@ -212,11 +212,25 @@
     }
     .banner-swiper .slick-prev{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:10px; position: absolute; top:50%; z-index: 2;margin-top:-17px}
     .banner-swiper .slick-next{width:34px; height:34px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:10px; position: absolute; top:50%; z-index: 2; margin-top:-17px}
+    */
 
     .title-group{min-height:200px;}
     .title-group h2{font-size:50px;}
     .title-group p{font-size:18px;}
     .title-group p em{ border-bottom:2px solid #f5e987;}
+
+    /* 로그인 */
+    .login-box {max-width:calc(100% - 48px);padding:40px}
+    .form-item .form-col-a {width:100px}
+    .form-item label {font-size:20px}
+    .form-item .input-a {height:40px;border-radius:6px}
+    .login-area .btn-gold {margin-top:20px}
+    .btn-gold.big {height:60px;border-radius:30px;font-size:24px}
+    .btn-gold.big::after {height:60px;background-size:auto 100%}
+
+    .box-checkbox-a label {font-size:16px;padding-left:32px}
+    .login-other .link-join .link-txt {font-size:16px}
+    .login-other .link-join:after {width:6px;height:6px;margin-top:-3px}
 
 
 }
@@ -260,13 +274,16 @@
     .extension-detail .extension-list {width:100%}
     .leader-section-c .title-a {font-size:40px;top:-40px;margin-bottom:-20px}
 
-   
+   /* sub */
+    .ajax-banner {display:none}
 }
 @media (max-width:910px) {
     /* 메인 */
+    .page-sub .base-footer,
     .base-footer {background:none;}
     .base-footer:before {content:'';height:120px;width:100%;display:block;background:url("../../resources/images/common/footer_bg_c.png") no-repeat 50% 100%}
     .footer-area {background-color:#292a2e;padding:50px 24px 40px}
+    .page-sub .footer-area {padding-top:50px}
     .footer-content .footer-logo {position:static;margin-bottom:20px}
 
     /* 리더소개 */
@@ -383,6 +400,16 @@
     /* side nav */
     .side-nav {right:12px;bottom:20px}
     .side-nav .btn-kakao {margin-top:8px}
+
+    /* sub */
+    .title-group h2 {font-size:36px}
+    .title-group p {font-size:16px}
+    .login-box {border-radius:20px;padding:24px}
+    .form-item .form-col-a {width:80px}
+    .form-item label {font-size:16px}
+    .form-item ~ .form-item {margin-top:8px}
+    .login-other {display:block}
+    .login-other .other-item ~ .other-item {border-top:1px dashed #dadada;padding-top:10px;margin-top:10px;text-align:right}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
