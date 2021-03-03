@@ -221,9 +221,6 @@
 
     /* 로그인 */
     .box-a {max-width:calc(100% - 48px);padding:40px}
-    .form-item .form-col-a {width:100px}
-    .form-item label {font-size:20px}
-    .form-item .input-a {height:40px;border-radius:6px}
     .login-area .btn-gold {margin-top:20px}
     .btn-gold.big {height:60px;border-radius:30px;font-size:24px}
     .btn-gold.big::after {height:60px;background-size:auto 100%}
@@ -232,6 +229,28 @@
     .login-other .link-join .link-txt {font-size:16px}
     .login-other .link-join:after {width:6px;height:6px;margin-top:-3px}
 
+    /* 회원가입 */
+    .btn-type-a {height:40px;border-radius:4px;font-size:16px;padding:0 20px}
+    .join-area .error-massage .error-data {padding-left:170px;font-size:16px}
+    .agree-title .box-checkbox-a label {font-size:16px}
+    .agree-area .btn-folding {height:32px;border-radius:16px;padding:0 12px;font-size:14px}
+    .agree-area .btn-folding:after {width:4px;height:4px;border-width:1px 1px 0 0}
+    .agree-area .agree-item {padding-left:32px}
+
+    /* form */
+    .form-item .form-col-a {width:100px}
+    .form-item label {font-size:20px}
+    .form-item .input-a {height:40px;border-radius:6px}
+    .form-item .form-col-c {width:160px}
+    .form-item .input-a {font-size:16px}
+    .form-item .input-a::-webkit-input-placeholder {font-size:16px}
+    .form-item .input-a::-moz-placeholder {font-size:16px}
+    .form-item .input-a:-ms-input-placeholder {font-size:16px}
+    .form-item .input-a:-moz-placeholder {font-size:16px}
+    .form-item .form-col-txt {font-size:20px}
+
+    /* select */
+    .form-select {height:40px;border-radius:4px;font-size:16px;background-size:auto 5px;padding-right:30px}
 
 }
 @media (max-width:1000px) {
@@ -405,11 +424,42 @@
     .title-group h2 {font-size:36px}
     .title-group p {font-size:16px}
     .box-a {border-radius:20px;padding:24px}
+
+    /* form */
     .form-item .form-col-a {width:80px}
     .form-item label {font-size:16px}
     .form-item ~ .form-item {margin-top:8px}
+    .form-item .form-col-c {width:120px}
+    .join-area .error-massage .error-data {padding-left:120px;font-size:14px}
+    .form-item .form-col-txt {font-size:16px}
+
+    /* login */
     .login-other {display:block}
     .login-other .other-item ~ .other-item {border-top:1px dashed #dadada;padding-top:10px;margin-top:10px;text-align:right}
+}
+@media (max-width:600px) {
+    /* 회원가입 */
+    .join-area .form-item {display:block}
+    .join-area .form-item > [class^="form-col-"] {display:block;width:100%}
+    .join-area .form-item > [class^="form-col-"] + [class^="form-col-"] {margin-top:8px}
+    .join-area .error-massage .error-data {padding-left:0}
+    .join-area .form-col-select {padding-left:0 !important}
+    .join-area .form-col-select .form-select {width:100%}
+    .agree-area .agree-item {padding-left:0}
+    .agree-area .agree-all {border-bottom:1px dashed #d5d6d7}
+    .agree-area .active .agree-content {max-height:300px}
+
+    /* terms */
+    .terms-box .terms-tit-a {font-size:16px}
+    .terms-box .terms-tit-b {font-size:15px}
+    .terms-box .terms-tit-c {font-size:14px}
+    .terms-box .terms-txt-a {font-size:14px;line-height:20px}
+    .terms-box .terms-blt-a {font-size:16px}
+    .terms-box .terms-blt-b {font-size:13px;padding-left:8px}
+    .terms-box .terms-blt-b:before {width:2px;height:2px}
+    .terms-box .terms-indent-a {font-size:14px;padding-left:18px;text-indent:-18px}
+    .terms-box .terms-inner-b {padding-left:18px}
+    .terms-box .terms-indent-b {font-size:13px}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
