@@ -220,7 +220,7 @@
     .title-group p em{ border-bottom:2px solid #f5e987;}
 
     /* 로그인 */
-    .login-box {max-width:calc(100% - 48px);padding:40px}
+    .box-a {max-width:calc(100% - 48px);padding:40px}
     .form-item .form-col-a {width:100px}
     .form-item label {font-size:20px}
     .form-item .input-a {height:40px;border-radius:6px}
@@ -404,7 +404,7 @@
     /* sub */
     .title-group h2 {font-size:36px}
     .title-group p {font-size:16px}
-    .login-box {border-radius:20px;padding:24px}
+    .box-a {border-radius:20px;padding:24px}
     .form-item .form-col-a {width:80px}
     .form-item label {font-size:16px}
     .form-item ~ .form-item {margin-top:8px}
