@@ -359,8 +359,13 @@
 .form-item [class^="form-col-"] {display:table-cell;vertical-align:middle}
 .form-item .form-col-a {width:146px}
 .form-item .form-col-c {width:220px}
+.form-item .form-col-d {width:200px}
+.form-item .form-col-e {width:300px}
+.form-col-d .form-select {width:100%}
 .form-item .form-col-btn {width:1px;white-space:nowrap}
 .form-item .form-col-txt {width:1px;white-space:nowrap;padding:0 10px;font-size:24px;color:#000;font-weight:500}
+.form-item .form-col-btns {font-size:0}
+.form-item .form-col-btns button ~ button {margin-left:8px}
 .form-item [class^="form-col-"] + .form-col-select,
 .form-item [class^="form-col-"] + .form-col-btn {padding-left:10px}
 .form-item label {font-size:21px;color:#000}
@@ -395,3 +400,13 @@
 .box-item-a .review-data .txt-review {width:calc(100% - 160px);text-overflow:ellipsis;overflow:hidden;white-space:nowrap;font-size:16px;color:#555}
 .box-item-a .writer-data {margin-top:12px;padding-top:12px;border-top:1px dashed #eee;text-align:right;font-size:16px;color:#555}
 .box-item-a .writer-data .writer-id {padding-right:12px;font-weight:600;color:#000}
+
+/* 검색 */
+.search-area {max-width:1500px;margin:0 auto 28px}
+.box-search-a {display:table;width:100%}
+.box-search-a .search-col-a {display:table-cell;vertical-align:top}
+.box-search-a .search-col-btn {display:table-cell;width:1%;white-space:nowrap;vertical-align:top}
+.search-area .form-select,
+.search-area .input-a {border-color:#d6d6d6;border-width:1px}
+.search-area .form-item [class^="form-col-"] ~ [class^="form-col-"]  {padding-left:8px}
+.search-area .btn-type-c {min-width:100px}
