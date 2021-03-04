@@ -54,6 +54,9 @@
     /* 마이페이지 */
     .box-list-a {padding:0 24px}
 
+    /* 검색 */
+    .search-area {padding:0 24px}
+
  }
 @media (max-width:1400px) {
     body {background-size:cover;}
@@ -257,6 +260,14 @@
     /* select */
     .form-select {height:40px;border-radius:4px;font-size:16px;background-size:auto 5px;padding-right:30px}
 
+    /* 검색 */
+    .search-area {margin-bottom:20px}
+
+    /* btn */
+    .btn-type-c,
+    .btn-type-d {height:40px;line-height:40px;border-radius:6px;font-size:14px}
+    .btn-type-b {height:40px;line-height:40px;border-radius:6px;font-size:16px}
+
 }
 @media (max-width:1000px) {
     /* 메인 */
@@ -300,6 +311,11 @@
 
    /* sub */
     .ajax-banner {display:none}
+
+    /* form */
+    .box-search-a .form-item .form-col-d {width:140px}
+    .box-search-a .form-item .form-col-e {width:220px}
+    .search-area .btn-type-c {min-width:80px}
 }
 @media (max-width:910px) {
     /* 메인 */
@@ -441,6 +457,21 @@
     /* login */
     .login-other {display:block}
     .login-other .other-item ~ .other-item {border-top:1px dashed #dadada;padding-top:10px;margin-top:10px;text-align:right}
+
+    /* from */
+    .search-area.search-area {margin-bottom:0}
+    .box-list-a {margin-top:50px}
+    .box-search-a {display:block}
+    .box-search-a .search-col-a,
+    .box-search-a .search-col-btn {display:block;width:100%}
+    .box-search-a .form-item {display:block}
+    .box-search-a .form-item [class^="form-col-"] {display:block;width:100%}
+    .search-area .form-item [class^="form-col-"] ~ [class^="form-col-"] {padding-left:0;margin-top:8px}
+    .search-area .search-col-btn {margin-top:12px;border-top:1px solid #d6d6d6;padding-top:12px}
+    .search-area .form-item .form-col-btns {display:flex}
+    .search-area .form-item .form-col-btns button {flex:1}
+    .search-area .form-item .form-col-btns button ~ button {margin-left:8px}
+    .search-area .search-col-btn .btn-type-b {width:100%;text-align:center}
 }
 @media (max-width:600px) {
     /* 회원가입 */
