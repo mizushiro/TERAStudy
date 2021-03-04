@@ -281,7 +281,7 @@
 .login-area {max-width:585px;margin:0 auto}
 .login-area .btn-gold {margin-top:40px}
 .btn-gold.big {position:relative; height:80px; border-radius:40px; padding:10px 60px; width:100%;font-size:32px; font-weight:500; font-family:'Noto Sans KR'; background:linear-gradient(-69deg,#fff28c, #daa337, #dda93e 70%, #ebbc4c 80%, #fff28c);box-shadow:0 0 12px rgba(0,0,0,.17);border:none}
-.btn-gold.big:before {content:'';position:absolute;top:4px;left:4px;right:4px;bottom:4px;border-radius:46px; background:linear-gradient(-69deg,#e2a936, #a27623, #dda93e 70%, #ebbc4c 80%, #fdeaa6)}
+.btn-gold.big:before {content:'';position:absolute;top:4px;left:4px;right:4px;bottom:4px;border-radius:46px; background:linear-gradient(-69deg, #e2a936, #a27623, #dda93e 70%, #ebbc4c 80%, #fdeaa6)}
 .btn-gold.big::after {content:""; display:block; width:113px; height:80px; background:url(../../resources/images/common/light-2.png) no-repeat 0 0;background-size:auto 80px;position:absolute; top:0;left:0}
 .btn-gold.big span {position:relative}
 .btn-gold.big:focus,
@@ -353,7 +353,10 @@
 
 /* 마이페이지 */
 .box-list-a {max-width:1500px;margin:0 auto}
-.box-item-a {background-color:#fff;border-radius:8px;padding:20px 30px;display:flex;box-shadow:0 5px 5px rgba(0,0,0,.15)}
+.box-item-a {background-color:#fff;border-radius:8px;box-shadow:0 5px 5px rgba(0,0,0,.15)}
+.box-item-a .link-review {padding:20px 30px;display:flex;width:100%;position:relative}
+.box-item-a .link-review:before {content:'';display:block;position:absolute;top:0;right:0;left:0;bottom:0;border:2px solid #e1b76a;border-radius:8px;opacity:0;-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out}
+.box-item-a .link-review:hover:before {opacity:1}
 .box-item-a ~ .box-item-a {margin-top:12px}
 .box-item-a .leader-info-a {width:100px;text-align:center}
 .leader-info-a .leader-img img {vertical-align:top;max-width:100%}
@@ -370,6 +373,6 @@
 .box-item-a .review-data {display:flex;align-content:center;margin-top:4px}
 .box-item-a .review-data .star-area {width:160px}
 .box-item-a .review-data .txt-review {width:calc(100% - 160px);text-overflow:ellipsis;overflow:hidden;white-space:nowrap;font-size:16px;color:#555}
-.box-item-a .writer-data {margin-top:12px;padding-top:12px;border-top:1px dashed #eee;text-align:right;font-size:16px}
-.box-item-a .writer-data .writer-id {padding-right:12px;font-weight:600}
+.box-item-a .writer-data {margin-top:12px;padding-top:12px;border-top:1px dashed #eee;text-align:right;font-size:16px;color:#555}
+.box-item-a .writer-data .writer-id {padding-right:12px;font-weight:600;color:#000}
 
