@@ -85,7 +85,27 @@
 .ui-modal.type-goldkey .teacher-menu .dep-1 .n2::before{top:135px}
 .ui-modal.type-goldkey .teacher-menu .dep-1 .n3::before{top:215px}
 
+.ui-modal.type-payment.ready.open.current:after{background:rgba(0,0,0,0.7)}
+.ui-modal.type-payment .ui-modal-header{position:relative;  background:#292a2e; color:#fff; border-top-left-radius:30px; border-top-right-radius:30px; padding:60px 0 30px;}
+.type-payment .ui-modal-wrap{background:transparent; width:740px;}
 
+.payment-top{margin:0 auto; overflow:hidden; display:flex; width:550px;}
+.payment-top .face{width:160px; text-align: center;}
+.payment-top .face img{display:block; margin:0 auto;}
+.payment-top .face span{display:block; width:100%; color:#b7b7b8; font-size:15px; margin-top:5px;}
+.payment-top .info{width:auto;}
+.payment-top .info h2{font-weight:100; font-size:32px; }
+.payment-top .info h2 em{display:inline-block; color:#ffe36f; font-weight:100; border-bottom:1px solid #fff28c; font-family:'Noto Sans TC', sans-serif; padding-bottom:3px; line-height:1.1}
+.payment-top .info  p{margin-top:5px; font-size:18px;}
+.payment-top .info .tag{font-size:15px; color:#848484; margin-top:5px;}
+
+.ui-modal.type-payment .btn-close{position:absolute; background-color:transparent; left:auto; right:20px; top:20px;}
+
+.ui-modal.type-payment .ui-modal-cont{width:100%; background:#fff;}
+.ui-modal.type-payment .content{padding:30px 50px; min-height:400px;}
+
+
+.class-label{font-size:18px; padding:5px 10px; border-radius:15px; border:2px solid #c39863; color:#c39863; display:block; position:absolute; top:20px; left:20px;}
 
 .leader-info{position:relative; width:100%; max-width:1600px; margin:0 auto 210px;}
 .leader-info .photo{position:absolute; right:45px; top:-80px; max-width:calc(100% - 780px); width:max-content;}

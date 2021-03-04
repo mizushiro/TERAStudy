@@ -16,12 +16,32 @@
 				page:true,
 				callback:$plugins.common.footer 
 			});
+
 			$plugins.uiAjax({ 
 				id:$('.base-goldkey'), 
 				url:'../../html/inc/goldkey.html',
 				page:true,
 				callback:$plugins.common.goldkey 
 			});
+
+			$plugins.uiAjax({ 
+				id:$('.base-payment'), 
+				url:'../../html/inc/payment.html',
+				page:true,
+				callback:function(){
+					$plugins.uiModalOpen({ 
+						id:'paymentModal', 
+						type: 'normal',
+						wrap: $('body'),
+						ps: 'center',
+						mg: 10,
+						callback:function() { console.log('open callback'); },
+						closeCallback:function() { console.log('close callback'); },
+						endfocus:false 
+					});
+				}
+			});
+
 			$plugins.uiAjax({ 
 				id:$('.ajax-banner'), 
 				url:'../../html/inc/banner.html',
@@ -115,18 +135,11 @@
 		
 		header: function(){			
 			$('.goldkey .key').off('click.goldkey').on('click.goldkey', function(){
-				console.log(22);
 				$plugins.uiModalOpen({ 
 					id:'goldkeyModal', 
 					type: 'normal',
 					wrap: $('body'),
-					moblieFull: false,
 					ps: 'center',
-					src: false,
-					remove: false,
-					modalWidth: false,
-					modalHeight: false,
-					innerScroll: false,
 					mg: 10,
 					callback:function() { console.log('open callback'); },
 					closeCallback:function() { console.log('close callback'); },
