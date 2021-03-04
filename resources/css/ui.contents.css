@@ -280,9 +280,9 @@
 .box-a {max-width:1100px;margin:0 auto;background-color:#fff;border-radius:30px;box-shadow:10px 0 10px rgba(0,0,0,.07);padding:60px 0}
 .login-area {max-width:585px;margin:0 auto}
 .login-area .btn-gold {margin-top:40px}
-.btn-gold.big {position:relative; height:99px; border-radius:50px; padding:12px 60px; width:100%;font-size:36px; font-weight:500; font-family:'Noto Sans KR'; background:linear-gradient(-69deg,#fff28c, #daa337, #dda93e 70%, #ebbc4c 80%, #fff28c);box-shadow:0 0 12px rgba(0,0,0,.17);border:none}
+.btn-gold.big {position:relative; height:80px; border-radius:40px; padding:10px 60px; width:100%;font-size:32px; font-weight:500; font-family:'Noto Sans KR'; background:linear-gradient(-69deg,#fff28c, #daa337, #dda93e 70%, #ebbc4c 80%, #fff28c);box-shadow:0 0 12px rgba(0,0,0,.17);border:none}
 .btn-gold.big:before {content:'';position:absolute;top:4px;left:4px;right:4px;bottom:4px;border-radius:46px; background:linear-gradient(-69deg,#e2a936, #a27623, #dda93e 70%, #ebbc4c 80%, #fdeaa6)}
-.btn-gold.big::after {content:""; display:block; width:113px; height:99px; background:url(../../resources/images/common/light-2.png) no-repeat 0 0; position:absolute; top:0;left:0}
+.btn-gold.big::after {content:""; display:block; width:113px; height:80px; background:url(../../resources/images/common/light-2.png) no-repeat 0 0;background-size:auto 80px;position:absolute; top:0;left:0}
 .btn-gold.big span {position:relative}
 .btn-gold.big:focus,
 .btn-gold.big:hover{color:#fff;background:linear-gradient(-44deg, #b57601,#b07f23 40%, #b0780d, #d4951c);}
@@ -296,10 +296,12 @@
 .login-other .link-join:after {content:'';position:absolute;display:inline-block;width:10px;height:10px;border:solid #36383f;border-width:2px 2px 0 0;-webkit-transform:rotate(45deg);transform:rotate(45deg);top:50%;right:0;z-index:10;margin-top:-5px}
 .login-other .link-join .link-txt {text-decoration:underline;font-size:24px;color:#36383f}
 .box-a .form-item .form-col-a {vertical-align:middle}
+.login-area .form-item .input-a {border-radius:14px;height:72px;font-size:28px}
+.login-area .form-item label {font-size:28px}
 
 /* join */
 .join-area { max-width:880px;margin:0 auto}
-.error-massage {color:#946b3e;font-size:21px}
+.error-massage {color:#946b3e;font-size:18px}
 .join-area .error-massage .error-data {padding-left:230px;margin-top:8px;display:block}
 .join-area .btn-gold.big {max-width:585px;margin:40px auto 0;display:block}
 .agree-area {margin-top:40px;border-top:1px solid #d5d6d7;padding-top:40px}
@@ -341,8 +343,8 @@
 .form-item .form-col-txt {width:1px;white-space:nowrap;padding:0 10px;font-size:24px;color:#000;font-weight:500}
 .form-item [class^="form-col-"] + .form-col-select,
 .form-item [class^="form-col-"] + .form-col-btn {padding-left:10px}
-.form-item label {font-size:28px;color:#000}
-.form-item .input-a {border:2px solid #eee;border-radius:14px;height:72px;width:100%;padding:0 12px;font-size:28px;font-weight:500;outline:none;color:#565656}
+.form-item label {font-size:21px;color:#000}
+.form-item .input-a {border:2px solid #eee;border-radius:8px;height:54px;width:100%;padding:0 12px;font-size:21px;font-weight:500;outline:none;color:#565656}
 .form-item .input-a:focus {border-color:#292a2e}
 .form-item .input-a::-webkit-input-placeholder {color:#bfbfbf;font-weight:300}
 .form-item .input-a::-moz-placeholder {color:#bfbfbf;font-weight:300}

@@ -228,6 +228,8 @@
     .box-checkbox-a label {font-size:16px;padding-left:32px}
     .login-other .link-join .link-txt {font-size:16px}
     .login-other .link-join:after {width:6px;height:6px;margin-top:-3px}
+    .login-area .form-item .input-a {border-radius:6px;height:40px;font-size:16px}
+    .login-area .form-item label {font-size:16px}
 
     /* 회원가입 */
     .btn-type-a {height:40px;border-radius:4px;font-size:16px;padding:0 20px}
@@ -460,6 +462,9 @@
     .terms-box .terms-indent-a {font-size:14px;padding-left:18px;text-indent:-18px}
     .terms-box .terms-inner-b {padding-left:18px}
     .terms-box .terms-indent-b {font-size:13px}
+
+    /* btn */
+    .btn-gold.big {height:48px;padding:6px 30px;font-size:20px}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
