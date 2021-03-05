@@ -411,6 +411,9 @@
 .content-item-group .content-item .content-title {font-size:16px;float:left;line-height:20px}
 .content-item-group .content-item .content-data {font-size:16px;float:left;line-height:20px;margin-top:0;padding-left:4px}
 .content-item-group .content-item .content-data .pay {color:#c39863;font-weight:600;font-size:18px}
+.btn-area-a {margin-top:20px;font-size:0;text-align:center}
+.btn-area-a [class^="btn-type-"] ~ [class^="btn-type-"] {margin-left:10px}
+.btn-area-a [class^="btn-type-"] {min-width:120px;text-align:center}
 
 /* 검색 */
 .search-area {max-width:1500px;margin:0 auto 28px}
