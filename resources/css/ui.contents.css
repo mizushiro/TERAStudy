@@ -436,13 +436,13 @@
 .box-search-b .form-item .input-a:-moz-placeholder {font-size:18px}
 
 /* tab link */
-.tab-link{position:relative; margin:-80px auto 0; text-align:center;}
+.tab-link{position:relative; margin:-80px auto 30px; text-align:center;}
 .tab-link a{font-size:24px; color:#fff;display:inline-block;padding:14px 40px 10px; background:#898989; border:2px solid #828282; font-weight:600;box-shadow:0 5px 10px rgba(0,0,0,.2);  text-align: center; border-radius:35px; height:70px; margin:0 10px; text-shadow:0 1px 4px rgba(137,100,37,1);}
 .tab-link a.selected{border:2px solid #c7941a;background: linear-gradient(-69deg,#e2a936, #a27623,#ae7f2d ,  #f5c75f 70%, #e6b352);}
 .tab-link a:hover,
 .tab-link a:focus{background: linear-gradient(-44deg, #252525,#2a2a2a 40%, #3e3e3e, #3c3c3c);border-color:#828282;box-shadow:0 0 8px rgba(0,0,0,.1)}
 
-.courses-wrap{display:flex; flex-wrap:wrap;}
+.courses-wrap{display:flex; flex-wrap:wrap; }
 .courses-item::after{content:""; display:block; clear:both;}
 .courses-item{background-color: #fff; border-radius: 20px;border: 1px solid transparent;box-shadow: 5px 0 18px rgb(0 0 0 / 15%);position: relative; flex:0 calc(50% - 30px); margin:15px 15px; overflow:hidden}
 .courses-item-a{float:left; width:260px; position:relative; padding: 20px 30px 0 30px;}
@@ -475,6 +475,8 @@
 .paging .paging-first,
 .paging .paging-last{background:url(../../resources/images/common/paging_b2.png) no-repeat 0 0; margin:0;}
 .paging .paging-first{transform: rotate(180deg);}
+.paging button:disabled{opacity:0.2}
+
 
 .btn-gold {display:inline-block;border:2px solid #c7941a;background: linear-gradient(-69deg,#e2a936, #a27623,#ae7f2d ,  #f5c75f 70%, #e6b352);color:#fff;font-family: SCD;font-weight: 600;text-shadow:0 1px 4px rgba(137,100,37,1);box-shadow:10px 0 10px rgba(0,0,0,.6);transition:all .2s ease-out}
 .btn-gold:hover,
