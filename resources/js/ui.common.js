@@ -29,16 +29,16 @@
 				url:'../../html/inc/payment.html',
 				page:true,
 				callback:function(){
-					$plugins.uiModalOpen({ 
-						id:'paymentModal', 
-						type: 'normal',
-						wrap: $('body'),
-						ps: 'center',
-						mg: 10,
-						callback:function() { console.log('open callback'); },
-						closeCallback:function() { console.log('close callback'); },
-						endfocus:false 
-					});
+					// $plugins.uiModalOpen({ 
+					// 	id:'paymentModal', 
+					// 	type: 'normal',
+					// 	wrap: $('body'),
+					// 	ps: 'center',
+					// 	mg: 10,
+					// 	callback:function() { console.log('open callback'); },
+					// 	closeCallback:function() { console.log('close callback'); },
+					// 	endfocus:false 
+					// });
 				}
 			});
 

@@ -43,7 +43,7 @@
 				</div>
 				
 				<div class="tab-link">
-					<a href="#">
+					<a href="#" class="selected">
 						<span>수강내역</span>
 					</a>
 					<a href="#">
@@ -59,6 +59,53 @@
 						<span>개인정보수정</span>
 					</a>
 				</div>
+
+				<div class="courses-wrap">
+					<div class="courses-item">
+						<div class="courses-item-a">
+							<img src="../../resources/images/temp/@t-img08.png" alt="">
+							<button type="button" class="btn-talk">
+								<span>대화하기</span>
+							</button>
+						</div>
+						<div class="courses-item-b">
+							<dl>
+								<dt>
+									<em class="ctg">영어</em>
+									1회 30분(총4회) 강의 기본<br>
+									<b>김소영 리더</b>
+								</dt>
+								<dd>
+									<ul>
+										<li>월 오전 14:00~14:30</li>
+										<li>월 오후 14:00~14:30</li>
+										<li>화 오전 10:00~10:30</li>
+										<li>수 오전 10:00~10:30</li>
+										<li>수 오전 10:00~10:30</li>
+									</ul>
+									<p>2021-01-01~2021-04-15</p>
+								</dd>
+							</dl>
+							
+						</div>
+					</div>
+
+				</div>
+
+				<div class="paging">
+					<button type="button" class="paging-first"><span class="blind">처음으로</span></button>
+					<button type="button" class="paging-prev"><span class="blind">이전</span></button>
+
+					<button type="button" class="on"><span>1</span></button>
+					<button type="button"><span>2</span></button>
+					<button type="button"><span>3</span></button>
+					<button type="button"><span>4</span></button>
+					<button type="button"><span>5</span></button>
+				
+					<button type="button" class="paging-next"><span class="blind">다음</span></button>
+					<button type="button" class="paging-last"><span class="blind">마지막으로</span></button>
+				</div>
+
 			</div>
 		</main>
         <footer class="base-footer"></footer>
@@ -71,11 +118,6 @@
 			$(doc).ready(function() {
 				$plugins.common.init();
 
-				$('.teacher-swiper').slick({
-					infinite: true,
-					slidesToShow: 4,
-					slidesToScroll: 1
-				});
 
 				// 약관
 				$('.agree-area .btn-folding').off('click.rv').on('click.rv', function(){
