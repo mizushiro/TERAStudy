@@ -55,8 +55,10 @@
     .box-list-a {padding:0 24px}
 
     .leader-section-a{padding:0 50px}
+
     /* 검색 */
     .search-area {padding:0 24px}
+    .box-search-b .form-item .form-col-d {width:160px}
 
  }
 @media (max-width:1400px) {
@@ -504,6 +506,7 @@
     .btn-gold.big {height:48px;padding:6px 30px;font-size:20px}
 
     /* 마이페이지 */
+    .box-item-a.not-link,
     .box-item-a .link-review {display:block;padding:16px 20px}
     .box-item-a .leader-info-a {width:100%;margin:-50px 0 0;position:relative}
     .box-item-a .box-content {padding-left:0;width:100%}
@@ -515,6 +518,10 @@
     .box-item-a .review-data .txt-review {font-size:14px;width:100%;margin-top:4px;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;overflow:hidden;-webkit-box-orient:vertical;max-height:42px}
     .box-item-a ~ .box-item-a {margin-top:50px}
     .box-item-a .writer-data {font-size:14px;text-align:left}
+    .content-item-group .content-item .content-title,
+    .content-item-group .content-item .content-data {font-size:14px}
+    .content-item-group .content-item .content-data .pay {font-size:16px}
+    .content-item-group .content-item ~ .content-item {margin-top:4px}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}

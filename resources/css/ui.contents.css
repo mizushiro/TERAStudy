@@ -364,14 +364,15 @@
 .form-item .form-col-d {width:200px}
 .form-item .form-col-e {width:300px}
 .form-col-d .form-select {width:100%}
-.form-item .form-col-btn {width:1px;white-space:nowrap}
-.form-item .form-col-txt {width:1px;white-space:nowrap;padding:0 10px;font-size:24px;color:#000;font-weight:500}
+.form-item .form-col-btn {width:1px;white-space:nowrap;font-size:0}
+.form-item .form-col-txt {width:1px;white-space:nowrap;padding:0 10px !important;font-size:24px;color:#000;font-weight:500}
 .form-item .form-col-btns {font-size:0}
+.form-item .form-col-btn button ~ button,
 .form-item .form-col-btns button ~ button {margin-left:8px}
 .form-item [class^="form-col-"] + .form-col-select,
 .form-item [class^="form-col-"] + .form-col-btn {padding-left:10px}
 .form-item label {font-size:21px;color:#000}
-.form-item .input-a {border:2px solid #eee;border-radius:8px;height:54px;width:100%;padding:0 12px;font-size:21px;font-weight:500;outline:none;color:#565656}
+.form-item .input-a {border:2px solid #eee;border-radius:8px;height:54px;width:100%;padding:0 12px;font-size:21px;font-weight:500;outline:none;color:#565656;box-sizing:border-box}
 .form-item .input-a:focus {border-color:#292a2e}
 .form-item .input-a::-webkit-input-placeholder {color:#bfbfbf;font-weight:300}
 .form-item .input-a::-moz-placeholder {color:#bfbfbf;font-weight:300}
@@ -381,6 +382,7 @@
 /* 마이페이지 */
 .box-list-a {max-width:1500px;margin:0 auto}
 .box-item-a {background-color:#fff;border-radius:8px;box-shadow:0 5px 5px rgba(0,0,0,.15)}
+.box-item-a.not-link,
 .box-item-a .link-review {padding:20px 30px;display:flex;width:100%;position:relative}
 .box-item-a .link-review:before {content:'';display:block;position:absolute;top:0;right:0;left:0;bottom:0;border:2px solid #e1b76a;border-radius:8px;opacity:0;-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out}
 .box-item-a .link-review:hover:before {opacity:1}
@@ -389,6 +391,7 @@
 .leader-info-a .leader-img img {vertical-align:top;max-width:100%}
 .leader-info-a .leader-name {margin-top:8px;font-size:16px;font-weight:600;color:#555}
 .box-item-a .box-content {width:calc(100% - 100px);padding-left:20px}
+.content-item-group {margin-top:12px;padding-top:12px;border-top:1px dashed #eee}
 .box-item-a .content-item ~ .content-item {margin-top:8px}
 .box-item-a .content-item .content-title {font-size:18px;color:#000;font-weight:500}
 .box-item-a .content-item .content-data {margin-top:4px}
@@ -402,6 +405,10 @@
 .box-item-a .review-data .txt-review {width:calc(100% - 160px);text-overflow:ellipsis;overflow:hidden;white-space:nowrap;font-size:16px;color:#555}
 .box-item-a .writer-data {margin-top:12px;padding-top:12px;border-top:1px dashed #eee;text-align:right;font-size:16px;color:#555}
 .box-item-a .writer-data .writer-id {padding-right:12px;font-weight:600;color:#000}
+.content-item-group .content-item {display:inline-block;white-space:nowrap;overflow:hidden;padding-right:20px}
+.content-item-group .content-item .content-title {font-size:16px;float:left;line-height:20px}
+.content-item-group .content-item .content-data {font-size:16px;float:left;line-height:20px;margin-top:0;padding-left:4px}
+.content-item-group .content-item .content-data .pay {color:#c39863;font-weight:600;font-size:18px}
 
 /* 검색 */
 .search-area {max-width:1500px;margin:0 auto 28px}
@@ -411,6 +418,7 @@
 .search-area .form-select,
 .search-area .input-a {border-color:#d6d6d6;border-width:1px}
 .search-area .form-item [class^="form-col-"] ~ [class^="form-col-"]  {padding-left:8px}
+.search-area .form-item .form-group [class^="form-col-"] ~ [class^="form-col-"] {padding-left:0}
 .search-area .btn-type-c {min-width:100px}
 
 /* tab link */
