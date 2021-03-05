@@ -300,6 +300,7 @@
 
 /* login */
 .box-a {max-width:1100px;margin:0 auto;background-color:#fff;border-radius:30px;box-shadow:10px 0 10px rgba(0,0,0,.07);padding:60px 0}
+.box-a.big {max-width:1500px}
 .login-area {max-width:585px;margin:0 auto}
 .login-area .btn-gold {margin-top:40px}
 .btn-gold.big {position:relative; height:80px; border-radius:40px; padding:10px 60px; width:100%;font-size:32px; font-weight:500; font-family:'Noto Sans KR'; background:linear-gradient(-69deg,#fff28c, #daa337, #dda93e 70%, #ebbc4c 80%, #fff28c);box-shadow:0 0 12px rgba(0,0,0,.17);border:none}
@@ -365,7 +366,7 @@
 .form-item .form-col-e {width:300px}
 .form-col-d .form-select {width:100%}
 .form-item .form-col-btn {width:1px;white-space:nowrap;font-size:0}
-.form-item .form-col-txt {width:1px;white-space:nowrap;padding:0 10px !important;font-size:24px;color:#000;font-weight:500}
+.form-item .form-col-txt {width:1px;white-space:nowrap;padding:0 10px !important;font-size:24px;color:#000;font-weight:500;text-align:center}
 .form-item .form-col-btns {font-size:0}
 .form-item .form-col-btn button ~ button,
 .form-item .form-col-btns button ~ button {margin-left:8px}
@@ -373,6 +374,7 @@
 .form-item [class^="form-col-"] + .form-col-btn {padding-left:10px}
 .form-item label {font-size:21px;color:#000}
 .form-item .input-a {border:2px solid #eee;border-radius:8px;height:54px;width:100%;padding:0 12px;font-size:21px;font-weight:500;outline:none;color:#565656;box-sizing:border-box}
+.form-item .input-a:disabled {background-color:#eee;color:#999}
 .form-item .input-a:focus {border-color:#292a2e}
 .form-item .input-a::-webkit-input-placeholder {color:#bfbfbf;font-weight:300}
 .form-item .input-a::-moz-placeholder {color:#bfbfbf;font-weight:300}
@@ -409,6 +411,9 @@
 .content-item-group .content-item .content-title {font-size:16px;float:left;line-height:20px}
 .content-item-group .content-item .content-data {font-size:16px;float:left;line-height:20px;margin-top:0;padding-left:4px}
 .content-item-group .content-item .content-data .pay {color:#c39863;font-weight:600;font-size:18px}
+.btn-area-a {margin-top:20px;font-size:0;text-align:center}
+.btn-area-a [class^="btn-type-"] ~ [class^="btn-type-"] {margin-left:10px}
+.btn-area-a [class^="btn-type-"] {min-width:120px;text-align:center}
 
 /* 검색 */
 .search-area {max-width:1500px;margin:0 auto 28px}
@@ -418,8 +423,17 @@
 .search-area .form-select,
 .search-area .input-a {border-color:#d6d6d6;border-width:1px}
 .search-area .form-item [class^="form-col-"] ~ [class^="form-col-"]  {padding-left:8px}
-.search-area .form-item .form-group [class^="form-col-"] ~ [class^="form-col-"] {padding-left:0}
 .search-area .btn-type-c {min-width:100px}
+.search-area .form-item .form-col-txt + [class^="form-col-"] {padding-left:0}
+.box-search-b:after {content:'';display:block;clear:both}
+.box-search-b .search-col-a {float:left;width:calc((100% - 450px) / 2)}
+.box-search-b .search-col-b {float:left;width:434px}
+.box-search-b .search-col-b .input-a {width:200px}
+.box-search-b [class^="search-col-"] ~ [class^="search-col-"] {margin-left:8px}
+.box-search-b .form-item .input-a::-webkit-input-placeholder {font-size:18px}
+.box-search-b .form-item .input-a::-moz-placeholder {font-size:18px}
+.box-search-b .form-item .input-a:-ms-input-placeholder {font-size:18px}
+.box-search-b .form-item .input-a:-moz-placeholder {font-size:18px}
 
 /* tab link */
 .tab-link{position:relative; margin:-80px auto 0; text-align:center;}
