@@ -418,8 +418,17 @@
 .search-area .form-select,
 .search-area .input-a {border-color:#d6d6d6;border-width:1px}
 .search-area .form-item [class^="form-col-"] ~ [class^="form-col-"]  {padding-left:8px}
-.search-area .form-item .form-group [class^="form-col-"] ~ [class^="form-col-"] {padding-left:0}
 .search-area .btn-type-c {min-width:100px}
+.search-area .form-item .form-col-txt + [class^="form-col-"] {padding-left:0}
+.box-search-b:after {content:'';display:block;clear:both}
+.box-search-b .search-col-a {float:left;width:calc((100% - 450px) / 2)}
+.box-search-b .search-col-b {float:left;width:434px}
+.box-search-b .search-col-b .input-a {width:200px}
+.box-search-b [class^="search-col-"] ~ [class^="search-col-"] {margin-left:8px}
+.box-search-b .form-item .input-a::-webkit-input-placeholder {font-size:18px}
+.box-search-b .form-item .input-a::-moz-placeholder {font-size:18px}
+.box-search-b .form-item .input-a:-ms-input-placeholder {font-size:18px}
+.box-search-b .form-item .input-a:-moz-placeholder {font-size:18px}
 
 /* tab link */
 .tab-link a{font-size:24px; color:#fff; }

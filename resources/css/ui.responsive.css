@@ -58,7 +58,6 @@
 
     /* 검색 */
     .search-area {padding:0 24px}
-    .box-search-b .form-item .form-col-d {width:160px}
 
  }
 @media (max-width:1400px) {
@@ -148,6 +147,13 @@
     .ajax-banner .banner-swiper{margin:0 auto;width:400px;}
     .banner-swiper .slick-prev{width:40px; height:40px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:-60px; position: absolute; top:50%; z-index: 2;margin-top:-17px}
     .banner-swiper .slick-next{width:40px; height:40px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 /cover; transform: rotate(180deg); right:-60px; position: absolute; top:50%; z-index: 2; margin-top:-17px}
+
+    /* search */
+    .box-search-b {position:relative;height:116px}
+    .box-search-b .search-col-a,
+    .box-search-b .search-col-b {width:calc((100% - 8px) / 2)}
+    .box-search-b .search-col-b + .search-col-a {position:absolute;bottom:0;right:0;width:100%;margin-left:0}
+    .box-search-b .search-col-b .input-a {width:100%}
 
 }
 @media (max-width:1280px) {
@@ -266,11 +272,16 @@
 
     /* 검색 */
     .search-area {margin-bottom:20px}
+    .box-search-b {height:88px}
 
     /* btn */
     .btn-type-c,
     .btn-type-d {height:40px;line-height:40px;border-radius:6px;font-size:14px}
     .btn-type-b {height:40px;line-height:40px;border-radius:6px;font-size:16px}
+
+    /* radio */
+    .box-radio-group {height:40px;border-radius:6px}
+    .box-radio-group .radio-item .radio-label {font-size:14px}
 
 }
 @media (max-width:1000px) {
@@ -336,6 +347,13 @@
     .extension-active {padding-left:0}
     .extension-active .active-detail {padding-bottom:120px}
     .extension-detail .extension-list .extension-item {font-size:16px}
+}
+@media (max-width:870px) {
+    .box-search-b {height:auto}
+    .box-search-b .search-col-a,
+    .box-search-b .search-col-b {float:none;width:100%;margin-left:0 !important}
+    .box-search-b .search-col-b + .search-col-a {position:static}
+    .box-search-b [class^="search-col-"] ~ [class^="search-col-"] {margin-top:8px}
 }
 @media (max-width:767px) {
     /* 메인 */
