@@ -698,6 +698,8 @@
     /* 아이디/비밀번호 */
     .top-txt {padding-top:55px;padding-bottom:20px}
 
+    .file-img{width:calc(100% - 30px);}
+
 }
 @media (max-width:320px) {
     .ui-modal-cont .teacher-item .btn-area {padding-bottom:10px}
