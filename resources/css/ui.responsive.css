@@ -299,6 +299,8 @@
     .btn-type-d,
     .btn-type-e,
     .btn-type-f {height:40px;line-height:40px;border-radius:6px;font-size:14px}
+    .btn-type-g,
+    .btn-type-h {height:40px;line-height:38px;border-radius:6px;font-size:14px}
     .btn-type-b {height:40px;line-height:40px;border-radius:6px;font-size:16px}
 
     /* radio */
