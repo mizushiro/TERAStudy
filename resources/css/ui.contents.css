@@ -494,9 +494,9 @@
 .courses-item::after{content:""; display:block; clear:both;}
 .courses-item .flag{position: absolute; top:0; right:10px;}
 .courses-item{background-color: #fff; border-radius: 20px;border: 1px solid transparent;box-shadow: 5px 0 18px rgb(0 0 0 / 15%);position: relative; flex:0 calc(50% - 30px); margin:15px 15px; overflow:hidden}
-.courses-item-a{float:left; width:240px; position:relative; padding: 20px 20px 0;}
-.courses-item-b{float:left; width:calc(100% - 280px); padding: 20px 20px 0 0;}
-.courses-item-b dt {font-size:26px;font-weight:600;color:#c39863;line-height:26px; padding:30px 50px 0 0;}
+.courses-item-a{float:left; width:200px; position:relative; padding: 20px 20px 10px;}
+.courses-item-b{float:left; width:calc(100% - 240px); padding: 20px 20px 0 0;}
+.courses-item-b dt {font-size:26px;font-weight:600;color:#c39863;line-height:26px; padding:10px 50px 0 0;}
 .courses-item-b dt .ctg {display:inline-block;border:1px solid #c39863;margin-right:4px;border-radius:4px;color:#c39863;font-size:18px;padding:4px 12px 4px;line-height:1;height:auto;vertical-align:top;font-weight:400}
 .courses-item-b dt b{color:#514635; font-size:18px; font-weight:600; display:block; margin:15px 0 10px;}
 .courses-item-b dd ul{overflow:hidden;}
@@ -512,7 +512,7 @@
 .ready .courses-item-c ol li{background:#dfdfdf !important; border-color:#dfdfdf !important; color:#fff !important;}
 .ready .courses-item-c .btn-gold.big:disabled{background:#ababad !important; border-color:#ababad !important;}
 .ready .courses-item-c .btn-gold.big:disabled::before{display:none}
-.btn-talk{height: 50px;background-color: #514635;border-radius: 25px;color: #fff;font-size: 20px;font-weight: 400;display: inline-block;padding: 0 20px;line-height: 48px; position:absolute; bottom:0; left:50%; transform: translate(-50%, 0);}
+.btn-talk{height: 50px;background-color: #514635;border-radius: 25px;color: #fff;font-size: 20px;font-weight: 400;display: inline-block;padding: 0 20px;line-height: 48px; width:100%;}
 .btn-talk::before{content:""; display:inline-block; width:30px; height:30px; background:url(../../resources/images/common/ico-talk.png) no-repeat 0 0 / cover; vertical-align: middle;}
 .box-btns {position:relative}
 .box-btns .leave {position:absolute;right:24px;top:12px}

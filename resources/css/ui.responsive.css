@@ -579,7 +579,7 @@
     .courses-item-c .btn-gold.big{width:100%;}
     .btn-gold.big::after{height:45px}
 
-    .courses-item .btn-talk{ bottom:-20px; padding:5px 10px 8px; border-radius:4px; height:auto;line-height: 1; width:calc(100% - 20px);}
+    .courses-item .btn-talk{ padding:5px 5px 8px; border-radius:4px; height:auto;line-height: 1; }
     .courses-item .btn-talk::before{background-size:16px; width:15px;  height:15px; margin-right:5px}
     .courses-item .btn-talk span{font-size:12px;}
 
