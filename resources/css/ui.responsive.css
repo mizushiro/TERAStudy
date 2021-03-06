@@ -382,6 +382,9 @@
     .content-item-group .content-item-btn {position:static;display:block;border-top:1px dashed #eee;padding-top:12px;margin-top:10px}
     .box-btns .leave {top:8px}
 
+    /* margin */
+    .mgt-a {margin-top:60px !important}
+
 }
 @media (max-width:870px) {
     .box-search-b {height:auto}
@@ -517,6 +520,7 @@
 
     /* sub */
     body.page-sub{background-position:50% -190px}
+    .title-group.type-my,
     .title-group{margin-bottom:20px}
     .title-group h2 {font-size:26px}
     .title-group .face{width:50px; margin-top:0}
