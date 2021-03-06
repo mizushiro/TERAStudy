@@ -43,6 +43,20 @@
 					}
 				});
 			}
+
+			if ($('.ajax-mypage-top').length) {
+				$plugins.uiAjax({ 
+					id:$('.ajax-mypage-top'), 
+					url:'../../html/inc/mypageTop.html',
+					page:true,
+					callback:function(){
+						var n = $('.ajax-mypage-top').data('n');
+
+						$('.tab-link option').eq(n - 1).prop('selected', true);	
+						$('.tab-link a').eq(n - 1).addClass('selected');
+					}
+				});
+			}
 			
 
 			$plugins.uiAjax({ 

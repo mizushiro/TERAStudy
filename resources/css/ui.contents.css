@@ -309,6 +309,7 @@
 
 /* sub title */
 .title-group{width:100%; position: relative; padding-left:20px; min-height:200px; margin-bottom:90px}
+.title-group .face{display: inline-block; vertical-align: middle;}
 .title-group h2{font-size:70px; color:#fff; font-weight:100; margin-bottom:4px;}
 .title-group p{color:#fff; font-size:27px; font-weight:500; line-height:1.4; padding-left:5px}
 .title-group p em{color:#f5e987; border-bottom:4px solid #f5e987;}
