@@ -130,7 +130,7 @@
 
 
 .level-01{font-size:18px; padding:5px 10px; border-radius:15px; border:2px solid #c39863; color:#c39863; display:inline-block; vertical-align: middle;}
-.class-label{font-size:18px; padding:5px 10px; border-radius:15px; border:2px solid #c39863; color:#c39863; display:block; position:absolute; top:20px; left:20px;}
+.class-label{font-size:18px; padding:5px 10px; border-radius:15px; border:2px solid #c39863; color:#c39863; display:inline-block; }
 
 .leader-info{position:relative; width:100%; max-width:1600px; margin:0 auto 210px;}
 .leader-info .photo{position:absolute; right:45px; top:-80px; max-width:calc(100% - 780px); width:max-content;}

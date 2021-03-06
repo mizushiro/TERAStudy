@@ -224,6 +224,7 @@
 					$('.file-img .del').on('click', function(){
 						$(this).closest('.file-upload').find('img').remove();
 						$(this).closest('.file-upload').find('input').val('');
+						$(this).remove();
 					});
 				}; 
 				reader.readAsDataURL(event.target.files[0]);
