@@ -479,6 +479,16 @@
 .view-action .btn-round-a {display:inline-flex;justify-content:center;align-items:center}
 .view-action .btn-round-a i {margin-right:4px}
 
+.star-choice .box-star {position:relative}
+.star-choice .box-star .box-radio-star {position:absolute;height:100%;width:100%}
+.star-choice .box-star .box-radio-star:nth-of-type(2) {width:80%}
+.star-choice .box-star .box-radio-star:nth-of-type(3) {width:60%}
+.star-choice .box-star .box-radio-star:nth-of-type(4) {width:40%}
+.star-choice .box-star .box-radio-star:nth-of-type(5) {width:20%}
+.star-choice .box-star .box-radio-star label {height:100%;width:100%;display:block}
+.star-choice .box-star .box-radio-star .radio-star {position:absolute;top:0;left:0;opacity:0}
+.star-choice .box-star .box-radio-star .radio-star:checked + label:before {content:'';background:url("../../resources/images/common/star-data-b.png") no-repeat;display:block;height:100%}
+
 /* 검색 */
 .search-area {max-width:1500px;margin:0 auto 28px}
 .box-search-a {display:table;width:100%;}
