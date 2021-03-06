@@ -252,6 +252,7 @@
     .btn-gold.big::after {height:60px;background-size:auto 100%}
 
     .box-checkbox-a label {font-size:16px;padding-left:32px}
+    .box-btns .link-join .link-txt,
     .link-join .link-txt {font-size:16px}
     .link-join:after {width:6px;height:6px;margin-top:-3px}
     .login-area .form-item .input-a {border-radius:6px;height:40px;font-size:16px}
