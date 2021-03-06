@@ -495,7 +495,8 @@
 .star-choice .box-star .box-radio-star:nth-of-type(5) {width:20%}
 .star-choice .box-star .box-radio-star label {height:100%;width:100%;display:block}
 .star-choice .box-star .box-radio-star .radio-star {position:absolute;top:0;left:0;opacity:0}
-.star-choice .box-star .box-radio-star .radio-star:checked + label:before {content:'';background:url("../../resources/images/common/star-data-b.png") no-repeat;display:block;height:100%}
+.star-choice .box-star .box-radio-star .radio-star + label:before {content:'';background:url("../../resources/images/common/star-data-b.png") no-repeat;display:block;height:100%;opacity:0;transition:all .3s ease-out;-webkit-transition:all .3s ease-out}
+.star-choice .box-star .box-radio-star .radio-star:checked + label:before {opacity:1}
 
 /* 검색 */
 .search-area {max-width:1500px;margin:0 auto 28px}
