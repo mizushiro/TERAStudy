@@ -5428,7 +5428,7 @@ if (!Object.keys){
 
 	
 	/* ------------------------
-	* name : file uploadt
+	* name : file upload
 	* date : 2020-06-20
 	------------------------ */	
 	win[global] = win[global].uiNameSpace(namespace, {
@@ -5437,20 +5437,28 @@ if (!Object.keys){
 		}
 	});
 	function createUiFileUpload(opt){
-		$(doc).on('change', '.ui-file-inp', function(){
-				upload(this);
+		var reader = new FileReader(); 
+		$(doc).on('change', '.ui-file-inp', function(event){
+				upload(event, this);
 			})
-			.on('click', '.ui-file-del', function(){
-				fileDel(this);
+			.on('click', '.ui-file-del', function(event){
+				fileDel(event, this);
 			});
 			
 		//fn
-		function upload(t){
+		function upload(event, t){
 			var $this = $(t),
+				ev = event,
 				files= $this[0].files,
 				id = $this.attr('id'),
 				len = files.length,
 				$list = $('.ui-file-list[aria-labelledby="'+ id +'"]');
+			console.log(ev);
+			
+			reader.onload = function(ev) {
+				var imgSrc = ev.target.result;
+				console.log(imgSrc);
+			}
 
 			$list.find('.ui-file-item').remove();
 			$list.find('.ui-file-del').remove();
