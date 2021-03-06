@@ -36,73 +36,46 @@
 				</div>
 				<div class="ajax-mypage-top" data-n="5"></div>
 
+				<div class="view-action">
+					<button type="button" class="btn-round-a active"><i class="icon-a"></i>45</button>
+					<button type="button" class="btn-round-a"><i class="icon-b"></i>137</button>
+					<button type="button" class="btn-round-a"><i class="icon-c"></i>99</button>
+					<button type="button" class="btn-round-a"><i class="icon-d"></i>공유</button>
+				</div>
 				<section class="box-a big">
-					<div class="write-area">
-						<div class="form-item">
-							<div class="form-col-c"><label for="w-category">카테고리</label></div>
-							<div class="form-col-b">
-								<select name="" id="w-category" class="form-select">
-									<option value="">회원정보</option>
-								</select>
+					<div class="view-area">
+						<div class="box-top">
+							<p class="view-title secret">[기타문의] 강의선생님 문의  강의선생님 문의</p><!-- D : 비밀글인 경우 [secret] class add -->
+							<div class="writer-data">
+								<span class="writer-id">zhe***</span>
+								<span class="write-day">2021-02-05</span>
+								<span class="write-state">답변대기</span>
 							</div>
 						</div>
-						<div class="box-massage">
-							<span class="box-checkbox-a"><input type="checkbox" class="form-checkbox" id="secret-ck"><label for="secret-ck">비밀글 <span class="point-color">(*비밀글 선택 시 다른 사람은 게시물을 볼 수 없습니다. ) </span></label></span>
-						</div>
-						<div class="form-item">
-							<div class="form-col-c"><label for="w-hp">휴대전화</label></div>
-							<div class="form-col-b"><input type="tel" id="w-hp" class="input-a"></div>
-						</div>
-						<div class="box-massage">
-							<span class="box-checkbox-a"><input type="checkbox" class="form-checkbox" id="sms-ck"><label for="sms-ck"><span class="point-color">선택 시 답변 알림 SMS 발송됩니다.</span></label></span>
-						</div>
-						<div class="form-item">
-							<div class="form-col-c"><label for="w-title">제목</label></div>
-							<div class="form-col-b"><input type="text" id="w-title" class="input-a" placeholder=""></div>
-						</div>
-						<div class="form-item">
-							<div class="form-col-c"><label for="w-content">문의내용</label></div>
-							<div class="form-col-b"><textarea name="" id="w-content" cols="30" rows="10" class="form-textarea"></textarea></div>
-						</div>
-
-						<div class="form-item">
-							<div class="form-col-c"><label for="real-input">첨부파일1</label></div>
-							<div class="form-col-b">
-								<div class="file-upload">
-									<input type="file" id="real-input" class="inp-imgfile for-a11y" accept="img/*" required multiple>
-									<button type="button" class="btn-file btn-type-g">사진업로드</button>
-									<div class="file-img"></div>	
-								</div>
+						<div class="view-contents">
+							<p>수업 관련 문의드립니다.수업 관련 문의드립니다. 수업 관련 문의드립니다.수업 관련 문의드립니다. 수업 관련 문의드립니다.</p>
+							<div class="view-img-area">
+								<img src="../../resources/images/temp/@sample.jpg" alt="">
+								<img src="../../resources/images/temp/@sample.jpg" alt="">
 							</div>
 						</div>
-						<div class="form-item">
-							<div class="form-col-c"><label for="real-input2">첨부파일2</label></div>
-							<div class="form-col-b">
-								<div class="file-upload">
-									<input type="file" id="real-input2" class="inp-imgfile for-a11y" accept="img/*" required multiple>
-									<button type="button" class="btn-file btn-type-g">사진업로드</button>
-									<div class="file-img"></div>
-								</div>
-							</div>
-						</div>
-						<div class="form-item">
-							<div class="form-col-c"><label for="w-safe">도배방지키</label></div>
-							<div class="form-col-b">
-								<div class="form-group">
-									<div class="form-col-c"><input type="tel" id="w-safe" class="input-a"></div>
-									<div class="form-col-b"><span class="box-safe">1234</span></div>
-								</div>
-							</div>
-						</div>
-						<div class="box-massage">
-							<p class="txt-a">* 도배방지키를 확인해주세요.  </p>
-						</div>
+                        <div class="answer-area">
+                            <div class="answer-title-box">
+                                <p class="answer-title">안녕하세요. 답변드립니다. 답변드립니다.답변드립니다.</p>
+                                <div class="writer-data">
+                                    <span class="writer-id">관리자</span>
+                                    <span class="write-day">2021-02-05</span>
+                                </div>
+                            </div>
+                            <div class="answer-content">
+                                <p>수업 관련 문의드립니다.수업 관련 문의드립니다. 수업 관련 문의드립니다.수업 관련 문의드립니다. 수업 관련 문의드립니다.</p>
+                            </div>
+                        </div>
 					</div>
 				</section>
 				<div class="btn-area-a">
-					<button type="button" class="btn-type-e">취소</button>
-					<button type="button" class="btn-type-f">다시쓰기</button>
-					<button type="button" class="btn-type-c">저장</button>
+					<button type="button" class="btn-type-e">목록</button>
+					<button type="button" class="btn-type-c">수정</button><!-- D : 내가 쓴 글인 경우 노출 -->
 				</div>
 			</div>
 		</main>
@@ -116,9 +89,8 @@
 			$(doc).ready(function() {
 				$plugins.common.init();
 				$plugins.common.setThumbnail();
-				
+
 			});
-		
 		})(jQuery, window, document);
 
 	</script>

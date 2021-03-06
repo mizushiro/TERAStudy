@@ -363,7 +363,7 @@
 
     /* 마이페이지 */
     .view-area .box-top {display:block}
-    .view-area .box-top .view-title.secret {font-size:20px}
+    .view-area .box-top .view-title {font-size:20px}
     .view-area .writer-data {margin-top:8px;border-top:1px dashed #eee;padding-top:8px;text-align:right;font-size:16px}
     .view-area .view-contents {padding-top:20px}
     .view-area .view-contents p {font-size:16px;line-height:24px}
@@ -692,7 +692,7 @@
     .btn-area-a [class^="btn-type-"] {min-width:1px;flex:1;padding:0}
     .btn-area-a [class^="btn-type-"] ~ [class^="btn-type-"] {margin-left:6px}
     .form-item .box-safe {display:block}
-    .view-area .box-top .view-title.secret {font-size:16px}
+    .view-area .box-top .view-title {font-size:16px}
     .view-area .writer-data {font-size:14px}
     .view-area .view-contents {padding-top:20px}
     .view-area .view-contents p {font-size:14px;line-height:20px}
@@ -743,10 +743,14 @@
     .ui-modal-cont .teacher-item {width:100%;height:auto;min-height:250px}
     .ui-modal-cont .teacher-item .info dd {max-height:72px;display:-webkit-box;-webkit-line-clamp:4;overflow:hidden;-webkit-box-orient:vertical}
 
-    
-
     /* 아이디/비밀번호 */
     .top-txt {padding-top:55px;padding-bottom:20px}
+
+    /* 마이페이지 */
+    .view-area .view-title .subject {height:24px;font-size:13px;line-height:22px;position:relative;top:-2px}
+    .view-area .writer-data {text-align:left}
+    .view-area .writer-data .box-star-area {display:block;border-bottom:1px dashed #eee;padding-bottom:12px;margin-bottom:8px;text-align:left}
+    .view-area .writer-data {padding-left:0}
 
     .file-img{width:calc(100% - 30px)}
 
