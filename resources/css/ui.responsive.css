@@ -609,12 +609,30 @@
     .ui-modal-cont .teacher-item .info dd {max-height:72px;display:-webkit-box;-webkit-line-clamp:4;overflow:hidden;-webkit-box-orient:vertical;}
 
     /* 결제하기 */
-    .payment-top .face{width:100px}
+    .payment-top{width:100%; padding:0 }
+    .payment-top .face{width:100px; margin-right:10px; }
+    .payment-top .face span{font-size:12px}
     .payment-top .face img{width:100%;}
+    .payment-top .info{padding-right:20px;}
+    .payment-top .info h2 em,
+    .payment-top .info h2{font-size:20px}
+    .payment-top .info p{font-size:14px;}
+    .payment-top .info .tag{font-size:12px; }
+    .payment-top .info .tag span + span{margin-left:5px;}
     .box-radio-group.type-box .radio-item .radio-label{padding:4px 10px}
     .box-radio-group.type-box .radio-item{border:0; margin:0 2px; font-size:13px}
     .box-radio-group.type-box.col-3 .radio-item{margin:0 2px 5px}
     .box-radio-group.type-box.col-3 .radio-item{min-width:calc(50% - 4px)}
+    .ui-modal.type-payment .guide{font-size:12px;}
+    .ui-modal.type-payment .box-checkbox-a label{font-size:14px;}
+    .payment-info h3 {font-size:18px}
+    .payment-info dl dt, .payment-info dl dd {font-size:14px; padding:5px 0; }
+    .payment-info.form-item dd{width:100%;}
+    .payment-info.form-item dt{width:100%; margin-top:5px; padding-top:0}
+    .ui-modal.type-payment .btn-area button{padding:15px 10px; font-size:14px}
+    .ui-modal.type-payment .btn-area button strong,
+    .ui-modal.type-payment .btn-area button em{font-size:20px}
+
 }
 @media (max-width:320px) {
     .ui-modal-cont .teacher-item .btn-area {padding-bottom:10px}
