@@ -341,9 +341,9 @@
 .login-other {max-width:1100px;margin:20px auto 0;padding:0 28px;display:flex;justify-content:space-between}
 .login-other .other-item .box-checkbox-a {margin-right:26px}
 .login-other .other-item .link-join ~ .link-join {margin-left:20px}
-.login-other .link-join {position:relative;padding-right:16px;display:inline-block}
-.login-other .link-join:after {content:'';position:absolute;display:inline-block;width:10px;height:10px;border:solid #36383f;border-width:2px 2px 0 0;-webkit-transform:rotate(45deg);transform:rotate(45deg);top:50%;right:0;z-index:10;margin-top:-5px}
-.login-other .link-join .link-txt {text-decoration:underline;font-size:24px;color:#36383f}
+.link-join {position:relative;padding-right:16px;display:inline-block}
+.link-join:after {content:'';position:absolute;display:inline-block;width:10px;height:10px;border:solid #36383f;border-width:2px 2px 0 0;-webkit-transform:rotate(45deg);transform:rotate(45deg);top:50%;right:0;z-index:10;margin-top:-5px}
+.link-join .link-txt {text-decoration:underline;font-size:24px;color:#36383f}
 .box-a .form-item .form-col-a {vertical-align:middle}
 .login-area .form-item .input-a {border-radius:14px;height:72px;font-size:28px}
 .login-area .form-item label {font-size:28px}
@@ -398,6 +398,8 @@
 .form-item .form-col-btns button ~ button {margin-left:8px}
 .form-item [class^="form-col-"] + .form-col-select,
 .form-item [class^="form-col-"] + .form-col-btn {padding-left:10px}
+.form-item .form-col-select {width:200px}
+.form-item .form-select {width:100%}
 .form-item label {font-size:21px;color:#000}
 .form-item .input-a {border:2px solid #eee;border-radius:8px;height:54px;width:100%;padding:0 12px;font-size:21px;font-weight:500;outline:none;color:#565656;box-sizing:border-box}
 .form-item .input-a:disabled {background-color:#eee;color:#999}
@@ -406,6 +408,8 @@
 .form-item .input-a::-moz-placeholder {color:#bfbfbf;font-weight:300}
 .form-item .input-a:-ms-input-placeholder {color:#bfbfbf;font-weight:300}
 .form-item .input-a:-moz-placeholder {color:#bfbfbf;font-weight:300}
+.form-item .form-textarea {border:2px solid #eee;border-radius:8px;height:200px;width:100%;padding:12px;font-size:21px;font-weight:500;outline:none;color:#565656;box-sizing:border-box;resize:none}
+.form-item .box-safe {margin-left:8px;height:54px;padding:0 32px;font-size:18px;color:#222;border-radius:8px;text-align:center;line-height:54px;letter-spacing:4px;background-color:#eee;display:inline-block}
 
 /* 마이페이지 */
 .box-list-a {max-width:1500px;margin:0 auto}
@@ -500,6 +504,8 @@
 .ready .courses-item-c .btn-gold.big:disabled::before{display:none}
 .btn-talk{height: 50px;background-color: #514635;border-radius: 25px;color: #fff;font-size: 20px;font-weight: 400;display: inline-block;padding: 0 20px;line-height: 48px; position:absolute; bottom:0; left:50%; transform: translate(-50%, 0);}
 .btn-talk::before{content:""; display:inline-block; width:30px; height:30px; background:url(../../resources/images/common/ico-talk.png) no-repeat 0 0 / cover; vertical-align: middle;}
+.box-btns {position:relative}
+.box-btns .leave {position:absolute;left:24px;top:12px}
 
 
 .paging{position:relative; width:100%; margin:30px auto; text-align: center; }
