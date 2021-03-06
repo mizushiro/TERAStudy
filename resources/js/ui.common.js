@@ -80,6 +80,24 @@
 					}
 				});
 			}
+			if ($('.ajax-customer-top').length) {
+				$plugins.uiAjax({
+					id:$('.ajax-customer-top'),
+					url:'../../html/inc/customerTop.html',
+					page:true,
+					callback:function(){
+						var n = $('.ajax-customer-top').data('n');
+
+						$('.tab-link option').eq(n - 1).prop('selected', true);
+						$('.tab-link a').eq(n - 1).addClass('selected');
+
+						$('.tab-link select').on('change', function(){
+							location.href = $(this).val();
+						})
+
+					}
+				});
+			}
 			
 
 			$plugins.uiAjax({ 

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+	<meta name="keywords" content="테라스터디, 차별화된 1:1 맞춤형 수업"/>
+	<meta name="description" content=""/>
+    
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+    <title>테라스터디</title>
+
+	<link rel="stylesheet" href="../../resources/css/ui.base.css">
+	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="../../resources/js/ui.global.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
+
+	<link rel="stylesheet" href="../../resources/js/lib/slick.css" />
+	<script src="../../resources/js/lib/slick.js"></script>
+	<style>
+
+	</style>
+</head>
+
+<body class="page-sub">	
+	<div class="base-wrap">
+		<header class="base-header">
+		</header>
+		<main class="base-body-a">
+			<div class="base-container">
+				<div class="ajax-banner">
+				</div>
+				<div class="ajax-customer-top" data-n="4"></div>
+
+				<section class="box-a big">
+					<div class="write-area">
+						<div class="form-item">
+							<div class="form-col-c"><p class="item-title">평가 별점</p></div>
+							<div class="form-col-b">
+								<div class="star-choice">
+									<span class="box-star">
+										<span class="box-radio-star">
+											<input type="radio" class="radio-star" id="star-5" name="starChoice">
+											<label for="star-5"><span class="for-a11y">5점</span></label>
+										</span>
+										<span class="box-radio-star">
+											<input type="radio" class="radio-star" id="star-4" name="starChoice">
+											<label for="star-4"><span class="for-a11y">4점</span></label>
+										</span>
+										<span class="box-radio-star">
+											<input type="radio" class="radio-star" id="star-3" name="starChoice">
+											<label for="star-3"><span class="for-a11y">3점</span></label>
+										</span>
+										<span class="box-radio-star">
+											<input type="radio" class="radio-star" id="star-2" name="starChoice">
+											<label for="star-2"><span class="for-a11y">2점</span></label>
+										</span>
+										<span class="box-radio-star">
+											<input type="radio" class="radio-star" id="star-1" name="starChoice">
+											<label for="star-1"><span class="for-a11y">1점</span></label>
+										</span>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="w-category">수업</label></div>
+							<div class="form-col-b">
+								<select name="" id="w-category" class="form-select">
+									<option value="">선택</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="w-title">제목</label></div>
+							<div class="form-col-b"><input type="text" id="w-title" class="input-a" placeholder=""></div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="w-content">내용</label></div>
+							<div class="form-col-b"><textarea name="" id="w-content" cols="30" rows="10" class="form-textarea"></textarea></div>
+						</div>
+
+						<div class="form-item">
+							<div class="form-col-c"><label for="real-input">첨부파일1</label></div>
+							<div class="form-col-b">
+								<div class="file-upload">
+									<input type="file" id="real-input" class="inp-imgfile for-a11y" accept="" required multiple>
+									<button type="button" class="btn-file btn-type-g">사진업로드</button>
+									<div class="file-img"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="btn-area-a">
+					<button type="button" class="btn-type-h">취소</button>
+					<button type="button" class="btn-type-e">취소</button>
+					<button type="button" class="btn-type-f">다시쓰기</button>
+					<button type="button" class="btn-type-c">저장</button>
+				</div>
+			</div>
+		</main>
+        <footer class="base-footer"></footer>
+
+		<div class="base-goldkey"></div>
+	</div>
+
+	<script>
+		;(function($, win, doc, undefined) {
+			$(doc).ready(function() {
+				$plugins.common.init();
+				$plugins.common.setThumbnail();
+
+			});
+		})(jQuery, window, document);
+
+	</script>
+</body>
+</html>
