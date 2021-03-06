@@ -176,6 +176,36 @@
 			});
 		},
 
+		setThumbnail: function(){
+			var $wrap = $('.file-upload');
+			var $browseBtn = $wrap.find('.btn-file');
+			var $realInput = $wrap.find('.inp-imgfile');
+			var $img = $wrap.find('.file-img');
+
+			$browseBtn.off('click.fu').on('click.fu', function(){
+				$wrap = $(this).closest('.file-upload');
+				$realInput = $wrap.find('.inp-imgfile');
+				$img = $wrap.find('.file-img');
+
+				$realInput.click();
+			});
+
+			$realInput.off('change.fu').on('change.fu', function(event){
+				readInputFile(event);
+			});
+
+			function readInputFile(event){
+				var reader = new FileReader(); 
+				reader.onload = function(event) { 
+					var img = document.createElement("img"); 
+					img.setAttribute("src", event.target.result); 
+					$img.find('img').remove();
+					$img.append(img);
+				}; 
+				reader.readAsDataURL(event.target.files[0]);
+			}
+			
+		},
 		goldkey: function(){
 
 		}
