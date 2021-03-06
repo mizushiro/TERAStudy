@@ -535,7 +535,8 @@
 
     /* form */
     .form-item .form-col-a {width:80px}
-    .form-item label {font-size:16px}
+    .form-item label,
+    .form-item .item-title {font-size:16px}
     .form-item ~ .form-item {margin-top:8px}
     .form-item .form-col-c {width:120px}
     .write-area .error-massage .error-data {padding-left:120px;font-size:14px}
