@@ -402,7 +402,7 @@
     .ui-modal.open.ps-center .ui-modal-wrap{margin:0; width:100%; border-radius:0;}
     .ui-modal.type-payment .btn-close{right:0; top:0}
     .class-label{font-size:14px; border-width:1px; top:10px; left:10px;}
-    .ui-modal.type-payment .ui-modal-header{padding:50px 0 20px;}
+    .ui-modal.type-payment .ui-modal-header{padding:20px 0 20px;}
     .ui-modal.type-payment .content{padding:20px 24px;}
     .ui-modal.type-payment .guide{width:calc(100% + 48px); margin-left:-24px;}
 }
@@ -663,17 +663,10 @@
     /* 아이디/비밀번호 */
     .top-txt .info-txt {font-size:14px;line-height:20px}
     .top-txt .info-txt .m-block {display:block}
-}
-@media (max-width:510px) {
-    .ui-modal-cont .leader-list {padding:0 10px}
-    .ui-modal-cont .leader-list ul {display:flex;flex-wrap:wrap}
-    .ui-modal-cont .leader-list li {margin:0 10px;width:calc(50% - 20px)}
-    .ui-modal-cont .teacher-item {width:100%;height:auto;min-height:250px}
-    .ui-modal-cont .teacher-item .info dd {max-height:72px;display:-webkit-box;-webkit-line-clamp:4;overflow:hidden;-webkit-box-orient:vertical;}
 
     /* 결제하기 */
     .payment-top{width:100%; padding:0 }
-    .payment-top .face{width:100px; margin-right:10px; }
+    .payment-top .face{width:100px; margin-right:10px; margin-left:10px; }
     .payment-top .face span{font-size:12px}
     .payment-top .face img{width:100%;}
     .payment-top .info{padding-right:20px;}
@@ -692,9 +685,20 @@
     .payment-info dl dt, .payment-info dl dd {font-size:14px; padding:5px 0; }
     .payment-info.form-item dd{width:100%;}
     .payment-info.form-item dt{width:100%; margin-top:5px; padding-top:0}
+    .ui-modal.type-payment .btn-area{position:fixed; left:0; bottom:0; z-index: 100;}
     .ui-modal.type-payment .btn-area button{padding:15px 10px; font-size:14px}
     .ui-modal.type-payment .btn-area button strong,
     .ui-modal.type-payment .btn-area button em{font-size:20px}
+    .ui-modal.type-payment .ui-modal-cont{padding-bottom:80px;}
+}
+@media (max-width:510px) {
+    .ui-modal-cont .leader-list {padding:0 10px}
+    .ui-modal-cont .leader-list ul {display:flex;flex-wrap:wrap}
+    .ui-modal-cont .leader-list li {margin:0 10px;width:calc(50% - 20px)}
+    .ui-modal-cont .teacher-item {width:100%;height:auto;min-height:250px}
+    .ui-modal-cont .teacher-item .info dd {max-height:72px;display:-webkit-box;-webkit-line-clamp:4;overflow:hidden;-webkit-box-orient:vertical;}
+
+    
 
     /* 아이디/비밀번호 */
     .top-txt {padding-top:55px;padding-bottom:20px}
