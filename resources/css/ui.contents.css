@@ -461,8 +461,8 @@
 
 
 /* 검색 */
-.search-area {max-width:1500px;margin:0 auto 28px}
-.box-search-a {display:table;width:100%}
+.search-area {max-width:1500px;  margin:0 auto 28px}
+.box-search-a {display:table;width:100%;}
 .box-search-a .search-col-a {display:table-cell;vertical-align:top}
 .box-search-a .search-col-btn {display:table-cell;width:1%;white-space:nowrap;vertical-align:top}
 .search-area .form-select,
