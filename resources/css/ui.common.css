@@ -153,6 +153,14 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 .btn-type-f {height:54px;background-color:#c39863;border-radius:8px;color:#fff;font-size:18px;font-weight:400;display:inline-block;padding:0 20px;line-height:54px}
 .btn-type-g {height:54px;background-color:#fff;border-radius:8px;color:#514635;font-size:18px;font-weight:400;display:inline-block;padding:0 20px;line-height:52px;border:1px solid #514635}
 .btn-type-h {height:54px;background-color:#fff;border-radius:8px;color:#ababad;font-size:18px;font-weight:400;display:inline-block;padding:0 20px;line-height:52px;border:1px solid #ababad}
+.btn-round-a {min-width:90px;text-align:center;height:40px;border-radius:20px;border:1px solid #494032;font-size:16px;color:#494032;background-color:#fff}
+
+/* icon */
+.icon-a {width:26px;height:26px;display:inline-block;background:url("../../resources/images/icon/icon-1.png") no-repeat 50% 50%;background-size:100%}
+.icon-b {width:26px;height:26px;display:inline-block;background:url("../../resources/images/icon/icon-2.png") no-repeat 50% 50%;background-size:100%}
+.icon-c {width:26px;height:26px;display:inline-block;background:url("../../resources/images/icon/icon-3.png") no-repeat 50% 50%;background-size:100%}
+.icon-d {width:26px;height:26px;display:inline-block;background:url("../../resources/images/icon/icon-4.png") no-repeat 50% 50%;background-size:100%}
+.active .icon-a {background-image:url("../../resources/images/icon/icon-1-on.png")}
 
 /* side nav */
 .sticky .btn-top {opacity:1}
