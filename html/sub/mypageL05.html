@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+	<meta name="keywords" content="테라스터디, 차별화된 1:1 맞춤형 수업"/>
+	<meta name="description" content=""/>
+    
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+    <title>테라스터디</title>
+
+	<link rel="stylesheet" href="../../resources/css/ui.base.css">
+	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="../../resources/js/ui.global.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
+
+	<link rel="stylesheet" href="../../resources/js/lib/slick.css" />
+	<script src="../../resources/js/lib/slick.js"></script>
+	<style>
+
+	</style>
+</head>
+
+<body class="page-sub">	
+	<div class="base-wrap">
+		<header class="base-header">
+		</header>
+		<main class="base-body-a">
+			<div class="base-container">
+				<div class="ajax-banner">
+				</div>
+				<div class="title-group">
+					<h2>홍길동 <span class="level-01">리더</span></h2>
+				</div>
+				<div class="tab-link">
+					<select title="마이페이지">
+						<option>강의목록</option>
+						<option>리더수수료관리</option>
+						<option>수강후기</option>
+						<option>1:1 문의하기</option>
+						<option selected>개인정보수정</option>
+					</select>
+					<a href="#"><span>강의목록</span></a>
+					<a href="#"><span>리더수수료관리</span></a>
+					<a href="#"><span>수강후기</span></a>
+					<a href="#"><span>1:1 문의하기</span></a>
+					<a href="#" class="selected"><span>개인정보수정</span></a>
+				</div>
+				<section class="box-a big">
+					<div class="join-area">
+						<div class="form-item">
+							<div class="form-col-c"><label for="join-id">아이디</label></div>
+							<div class="form-col-b"><input type="text" id="join-id" class="input-a" value="tera" disabled></div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="join-pw">비밀번호</label></div>
+							<div class="form-col-b"><input type="password" id="join-pw" class="input-a" placeholder="영문자+숫자조합 8~12자리 이하"></div>
+						</div>
+						<p class="error-massage"></p><!-- D : error massage 미노출시 -->
+						<div class="form-item">
+							<div class="form-col-c"><label for="join-pw2">비밀번호 확인</label></div>
+							<div class="form-col-b"><input type="password" id="join-pw2" class="input-a" placeholder="비밀번호 재입력"></div>
+						</div>
+						<p class="error-massage"></p><!-- D : error massage 미노출시 -->
+						<div class="form-item">
+							<div class="form-col-c"><label for="join-name">이름</label></div>
+							<div class="form-col-b"><input type="text" id="join-name" class="input-a" placeholder="실명 입력(실명인증 이용시 자동입력)"></div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="join-nic-name">닉네임</label></div>
+							<div class="form-col-b"><input type="text" id="join-nic-name" class="input-a"></div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="join-number">주민등록번호</label></div>
+							<div class="form-col-b">
+								<div class="form-group">
+									<div class="form-col-b"><input type="tel" id="join-number" class="input-a"></div>
+									<div class="form-col-txt">-</div>
+									<div class="form-col-b"><input type="tel" id="join-number2" class="input-a"></div>
+								</div>
+							</div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="join-hp">휴대전화</label></div>
+							<div class="form-col-b"><input type="tel" id="join-hp" class="input-a"></div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="join-email">이메일</label></div>
+							<div class="form-col-b">
+								<div class="form-group">
+									<div class="form-col-b"><input type="email" id="join-email" class="input-a"></div>
+									<div class="form-col-txt">@</div>
+									<div class="form-col-b"><input type="email" id="join-email2" class="input-a"></div>
+								</div>
+							</div>
+							<div class="form-col-select">
+								<select name="" id="" class="form-select">
+									<option value="">직접입력</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="btn-area-a">
+					<button type="button" class="btn-type-e">취소</button>
+					<button type="button" class="btn-type-c">저장</button>
+				</div>
+			</div>
+		</main>
+        <footer class="base-footer"></footer>
+
+		<div class="base-goldkey"></div>
+	</div>
+
+	<script>
+		;(function($, win, doc, undefined) {
+			$(doc).ready(function() {
+				$plugins.common.init();
+
+				$('.teacher-swiper').slick({
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1
+				});
+
+				// 약관
+				$('.agree-area .btn-folding').off('click.rv').on('click.rv', function(){
+					$(this).closest('.agree-item').toggleClass('active').siblings('.agree-item').removeClass('active');
+				});
+			});
+		
+		})(jQuery, window, document);
+
+	</script>
+</body>
+</html>

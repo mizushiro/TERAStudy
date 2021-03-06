@@ -137,6 +137,7 @@
 
     .leader-section-c {padding:0 24px}
 
+    .title-group {min-height:160px}
     .ajax-banner{top:10px; right:0;width:600px;}
     .ajax-banner .banner-swiper{margin:0 auto;width:400px;}
     .banner-swiper .slick-prev{width:40px; height:40px; background: url(../../resources/images/common/arrow-swiper.png) no-repeat 0 0 / cover; left:-60px; position: absolute; top:50%; z-index: 2;margin-top:-17px}
@@ -329,6 +330,7 @@
     .leader-section-c .title-a {font-size:40px;top:-40px;margin-bottom:-20px}
 
    /* sub */
+    .title-group {min-height:50px}
     .ajax-banner {display:none}
 
     /* form */
