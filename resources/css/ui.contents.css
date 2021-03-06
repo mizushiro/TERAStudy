@@ -478,6 +478,11 @@
 .view-action .btn-round-a ~ .btn-round-a {margin-left:10px}
 .view-action .btn-round-a {display:inline-flex;justify-content:center;align-items:center}
 .view-action .btn-round-a i {margin-right:4px}
+.answer-area {margin-top:40px}
+.answer-area .answer-title-box {background-color:#eee;padding:12px 30px;border-radius:6px;display:flex;justify-content:space-between;align-items:center}
+.answer-area .answer-title {font-size:18px;color:#000;line-height:28px;font-weight:500}
+.answer-area .answer-content {padding:30px}
+.answer-area .answer-content p {font-size:18px;line-height:28px;color:#555}
 
 .star-choice .box-star {position:relative}
 .star-choice .box-star .box-radio-star {position:absolute;height:100%;width:100%}
@@ -557,7 +562,6 @@
 .paging .paging-last{background:url(../../resources/images/common/paging_b2.png) no-repeat 0 0 / cover;margin:0;}
 .paging .paging-first{transform: rotate(180deg);}
 .paging button:disabled{opacity:0.2}
-
 
 .btn-gold {display:inline-block;border:2px solid #c7941a;background: linear-gradient(-69deg,#e2a936, #a27623,#ae7f2d ,  #f5c75f 70%, #e6b352);color:#fff;font-family: SCD;font-weight: 600;text-shadow:0 1px 4px rgba(137,100,37,1);box-shadow:10px 0 10px rgba(0,0,0,.6);transition:all .2s ease-out}
 .btn-gold:hover,

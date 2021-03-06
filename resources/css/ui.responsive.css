@@ -367,6 +367,12 @@
     .view-area .writer-data {margin-top:8px;border-top:1px dashed #eee;padding-top:8px;text-align:right;font-size:16px}
     .view-area .view-contents {padding-top:20px}
     .view-area .view-contents p {font-size:16px;line-height:24px}
+    .answer-area {margin-top:30px}
+    .answer-area .answer-title-box {padding:8px 20px;display:block}
+    .answer-area .answer-title {font-size:16px;line-height:24px}
+    .answer-area .answer-content {padding:20px}
+    .answer-area .answer-content p {font-size:16px;line-height:24px}
+    .view-area .answer-title-box .writer-data {border-color:#ddd}
 }
 @media (max-width:910px) {
     /* 메인 */
@@ -690,6 +696,11 @@
     .view-area .view-contents .view-img-area {margin-top:30px}
     .view-area .view-contents .view-img-area img {max-width:100%;margin-right:0;display:block}
     .view-area .view-contents .view-img-area img ~ img {margin-top:8px}
+    .answer-area {margin-top:20px}
+    .answer-area .answer-title-box {padding:8px 12px}
+    .answer-area .answer-title {font-size:14px;line-height:20px}
+    .answer-area .answer-content {padding:12px}
+    .answer-area .answer-content p {font-size:14px;line-height:20px}
 
     /* 아이디/비밀번호 */
     .top-txt .info-txt {font-size:14px;line-height:20px}
