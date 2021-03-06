@@ -424,7 +424,7 @@
 .box-item-a .link-review:hover:before {opacity:1}
 .box-item-a ~ .box-item-a {margin-top:12px}
 .box-item-a .leader-info-a {width:100px;text-align:center}
-.leader-info-a .leader-img img {vertical-align:top;max-width:100%}
+.leader-info-a .leader-img img {vertical-align:top;max-width:100px}
 .leader-info-a .leader-name {margin-top:8px;font-size:16px;font-weight:600;color:#555}
 .box-item-a .box-content {width:calc(100% - 100px);padding-left:20px}
 .content-item-group {margin-top:12px;padding-top:12px;border-top:1px dashed #eee;position:relative}
