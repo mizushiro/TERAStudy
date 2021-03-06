@@ -62,6 +62,24 @@
 					}
 				});
 			}
+			if ($('.ajax-mypage-top-l').length) {
+				$plugins.uiAjax({
+					id:$('.ajax-mypage-top-l'),
+					url:'../../html/inc/mypageTopL.html',
+					page:true,
+					callback:function(){
+						var n = $('.ajax-mypage-top-l').data('n');
+
+						$('.tab-link option').eq(n - 1).prop('selected', true);
+						$('.tab-link a').eq(n - 1).addClass('selected');
+
+						$('.tab-link select').on('change', function(){
+							location.href = $(this).val();
+						})
+
+					}
+				});
+			}
 			
 
 			$plugins.uiAjax({ 
