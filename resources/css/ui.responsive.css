@@ -245,8 +245,8 @@
     .btn-gold.big::after {height:60px;background-size:auto 100%}
 
     .box-checkbox-a label {font-size:16px;padding-left:32px}
-    .login-other .link-join .link-txt {font-size:16px}
-    .login-other .link-join:after {width:6px;height:6px;margin-top:-3px}
+    .link-join .link-txt {font-size:16px}
+    .link-join:after {width:6px;height:6px;margin-top:-3px}
     .login-area .form-item .input-a {border-radius:6px;height:40px;font-size:16px}
     .login-area .form-item label {font-size:16px}
 
@@ -279,14 +279,14 @@
 
     /* btn */
     .btn-type-c,
-    .btn-type-d {height:40px;line-height:40px;border-radius:6px;font-size:14px}
+    .btn-type-d,
+    .btn-type-e,
+    .btn-type-f {height:40px;line-height:40px;border-radius:6px;font-size:14px}
     .btn-type-b {height:40px;line-height:40px;border-radius:6px;font-size:16px}
 
     /* radio */
     .box-radio-group {height:40px;border-radius:6px}
     .box-radio-group .radio-item .radio-label {font-size:14px}
-
-   
 }
 @media (max-width:1000px) {
     /* 메인 */
@@ -357,10 +357,11 @@
     .title-group{margin-bottom:40px}
     .tab-link a{display:none;}
     .tab-link{padding:0 24px}
-    .tab-link select{display:block; width:100%; color:#fff;display:inline-block;padding:2px 40px 0; background:#898989 url(../../resources/images/common/ico-tab.png) no-repeat right 10px top 50%/ 40px; border:2px solid #828282; font-weight:600;box-shadow:0 5px 10px rgba(0,0,0,.2);  text-align: center; border-radius:35px; height:40px; margin:0; text-shadow:0 1px 4px rgba(0,0,0,0.2); text-align: center;appearance:none; -moz-appearance:none; -webkit-appearance:none; border:1px solid #c9c9c9; font-size:16px; cursor:pointer;}
+    .tab-link select{display:block; width:100%; color:#fff;padding:2px 40px 0; background:#d09429 url(../../resources/images/common/ico-tab.png) no-repeat right 10px top 50%/ 40px; font-weight:600;box-shadow:0 5px 10px rgba(0,0,0,.2);  text-align: center; border-radius:35px; height:40px; margin:0; text-shadow:0 1px 4px rgba(0,0,0,0.2); appearance:none; -moz-appearance:none; -webkit-appearance:none; border:1px solid #af7817; font-size:16px; cursor:pointer;}
 
     /* 마이페이지 */
     .content-item-group .content-item-btn {position:static;display:block;border-top:1px dashed #eee;padding-top:12px;margin-top:10px}
+    .box-btns .leave {top:8px}
 
 }
 @media (max-width:870px) {
@@ -514,6 +515,7 @@
     .form-item .form-col-c {width:120px}
     .join-area .error-massage .error-data {padding-left:120px;font-size:14px}
     .form-item .form-col-txt {font-size:16px}
+    .form-item .form-col-select {width:140px}
 
     /* login */
     .login-other {display:block}
@@ -609,6 +611,7 @@
     .content-item-group .content-item-btn {text-align:center}
     .content-item-btn button {font-size:15px}
     .content-item-btn .btn-talk::before {width:24px;height:24px;position:relative;top:-2px;margin-right:2px}
+    .box-btns .leave {position:static;margin:20px 24px 0;border-top:1px dashed #ddd;padding-top:12px;text-align:right}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
