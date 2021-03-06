@@ -547,9 +547,9 @@
     .courses-item-c .btn-gold.big{width:100%;}
     .btn-gold.big::after{height:45px}
 
-    .btn-talk{ bottom:-20px; padding:5px 10px 8px; border-radius:4px; height:auto;line-height: 1; width:calc(100% - 20px);}
-    .btn-talk::before{background-size:16px; width:15px;  height:15px; margin-right:5px}
-    .btn-talk span{font-size:12px;}
+    .courses-item .btn-talk{ bottom:-20px; padding:5px 10px 8px; border-radius:4px; height:auto;line-height: 1; width:calc(100% - 20px);}
+    .courses-item .btn-talk::before{background-size:16px; width:15px;  height:15px; margin-right:5px}
+    .courses-item .btn-talk span{font-size:12px;}
 
     .paging{margin:20px auto; display:flex; justify-content: center; align-items: center;}
     .paging > *{flex:0 7vmin;}
