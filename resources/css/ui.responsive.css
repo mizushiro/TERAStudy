@@ -519,7 +519,7 @@
     body.page-sub{background-position:50% -190px}
     .title-group{margin-bottom:20px}
     .title-group h2 {font-size:26px}
-    .title-group .face{width:50px;}
+    .title-group .face{width:50px; margin-top:0}
     .title-group .face img{width:100%;}
     .title-group p {font-size:14px}
     .title-group p em{ border-bottom:2px solid #f5e987; }
