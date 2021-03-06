@@ -357,7 +357,7 @@
     .title-group{margin-bottom:40px}
     .tab-link a{display:none;}
     .tab-link{padding:0 24px}
-    .tab-link select{display:block; width:100%; color:#fff;padding:2px 40px 0; background:#d09429 url(../../resources/images/common/ico-tab.png) no-repeat right 10px top 50%/ 40px; font-weight:600;box-shadow:0 5px 10px rgba(0,0,0,.2);  text-align: center; border-radius:35px; height:40px; margin:0; text-shadow:0 1px 4px rgba(0,0,0,0.2); appearance:none; -moz-appearance:none; -webkit-appearance:none; border:1px solid #af7817; font-size:16px; cursor:pointer;}
+    .tab-link select{display:block; width:100%; color:#fff;padding:0 40px 0 20px; background:#d09429 url(../../resources/images/common/ico-tab.png) no-repeat right 10px top 50%/ 40px; font-weight:600;box-shadow:0 5px 10px rgba(0,0,0,.2);  text-align: center; border-radius:35px; height:40px; margin:0; text-shadow:0 1px 4px rgba(0,0,0,0.2); appearance:none; -moz-appearance:none; -webkit-appearance:none; border:1px solid #af7817; font-size:16px; cursor:pointer;}
 
     /* 마이페이지 */
     .content-item-group .content-item-btn {position:static;display:block;border-top:1px dashed #eee;padding-top:12px;margin-top:10px}
