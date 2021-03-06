@@ -56,8 +56,14 @@
 						</div>
 
 						<div class="form-item">
-							<div class="form-col-c"><label for="w-file1">첨부파일1</label></div>
-							<div class="form-col-b"></div>
+							<div class="form-col-c"><label for="real-input">첨부파일1</label></div>
+							<div class="form-col-b">
+								<div class="file-upload">
+									<input type="file" id="real-input" class="inp-imgfile for-a11y" accept="" required multiple>
+									<button type="button" class="btn-file btn-type-g">사진업로드</button>
+									<div class="file-img"></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -78,19 +84,9 @@
 		;(function($, win, doc, undefined) {
 			$(doc).ready(function() {
 				$plugins.common.init();
+				$plugins.common.setThumbnail();
 
-				$('.teacher-swiper').slick({
-					infinite: true,
-					slidesToShow: 4,
-					slidesToScroll: 1
-				});
-
-				// 약관
-				$('.agree-area .btn-folding').off('click.rv').on('click.rv', function(){
-					$(this).closest('.agree-item').toggleClass('active').siblings('.agree-item').removeClass('active');
-				});
 			});
-		
 		})(jQuery, window, document);
 
 	</script>
