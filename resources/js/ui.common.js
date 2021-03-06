@@ -54,6 +54,11 @@
 
 						$('.tab-link option').eq(n - 1).prop('selected', true);	
 						$('.tab-link a').eq(n - 1).addClass('selected');
+
+						$('.tab-link select').on('change', function(){
+							location.href = $(this).val();
+						})
+						
 					}
 				});
 			}
