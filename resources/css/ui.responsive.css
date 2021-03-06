@@ -277,7 +277,7 @@
     /* form */
     .form-item .form-col-a {width:100px}
     .form-item label {font-size:20px}
-    .form-item .box-safe {height:40px;border-radius:6px;line-height:40px;display:block}
+    .form-item .box-safe {height:40px;border-radius:6px;line-height:40px}
     .form-item .input-a {height:40px;border-radius:6px}
     .form-item .form-col-c {width:160px}
     .form-item .input-a {font-size:16px}
@@ -658,6 +658,7 @@
     .btn-area-a {display:flex;padding:0 24px}
     .btn-area-a [class^="btn-type-"] {min-width:1px;flex:1;padding:0}
     .btn-area-a [class^="btn-type-"] ~ [class^="btn-type-"] {margin-left:6px}
+    .form-item .box-safe {display:block}
 
     /* 아이디/비밀번호 */
     .top-txt .info-txt {font-size:14px;line-height:20px}
