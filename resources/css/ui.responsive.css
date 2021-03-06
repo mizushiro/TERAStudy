@@ -353,6 +353,10 @@
     .extension-active {padding-left:0}
     .extension-active .active-detail {padding-bottom:120px}
     .extension-detail .extension-list .extension-item {font-size:16px}
+
+    /* 마이페이지 */
+    .content-item-group .content-item-btn {position:static;display:block;border-top:1px dashed #eee;padding-top:12px;margin-top:10px}
+
 }
 @media (max-width:870px) {
     .box-search-b {height:auto}
@@ -555,6 +559,9 @@
     .content-item-group .content-item ~ .content-item {margin-top:4px}
     .search-area.search-area {margin-bottom:0}
     .box-list-a {margin-top:50px}
+    .content-item-group .content-item-btn {text-align:center}
+    .content-item-btn button {font-size:15px}
+    .content-item-btn .btn-talk::before {width:24px;height:24px;position:relative;top:-2px;margin-right:2px}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
