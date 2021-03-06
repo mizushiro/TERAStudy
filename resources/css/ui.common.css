@@ -116,7 +116,7 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 .footer-area {max-width:1304px;margin:0 auto;padding-top:290px}
 .page-sub .footer-area {padding-top:230px}
 .footer-content {position:relative;padding-left:246px}
-.footer-content .footer-logo {position:absolute;top:0;left:0;width:162px;height:32px;background:url("../../resources/images/common/footer-logo.png") no-repeat 0 0;background-size:100%}
+.footer-content .footer-logo {position:absolute;top:0;left:0;width:182px;height:22px;background:url("../../resources/images/common/footer-logo.png") no-repeat 0 0;background-size:100%}
 .footer-content .footer-nav {margin-bottom:24px}
 .footer-content .footer-nav:after {content:'';display:block;clear:both}
 .footer-content .footer-nav .footer-nav-item {float:left}
