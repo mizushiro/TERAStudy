@@ -252,6 +252,7 @@
     .btn-gold.big::after {height:60px;background-size:auto 100%}
 
     .box-checkbox-a label {font-size:16px;padding-left:32px}
+    .box-btns .link-join .link-txt,
     .link-join .link-txt {font-size:16px}
     .link-join:after {width:6px;height:6px;margin-top:-3px}
     .login-area .form-item .input-a {border-radius:6px;height:40px;font-size:16px}
@@ -268,6 +269,10 @@
     .agree-area .btn-folding {height:32px;border-radius:16px;padding:0 12px;font-size:14px}
     .agree-area .btn-folding:after {width:4px;height:4px;border-width:1px 1px 0 0}
     .agree-area .agree-item {padding-left:32px}
+
+    /* 아이디/비밀번호 */
+    .top-txt {padding-top:80px}
+    .top-txt .info-txt {font-size:20px;line-height:32px}
 
     /* form */
     .form-item .form-col-a {width:100px}
@@ -539,6 +544,9 @@
     .login-other {display:block}
     .login-other .other-item ~ .other-item {border-top:1px dashed #dadada;padding-top:10px;margin-top:10px;text-align:right}
 
+    /* 아이디/비밀번호 */
+    .top-txt .info-txt {font-size:16px;line-height:28px;font-weight:500}
+
     /* from */
     .box-search-a {display:block}
     .box-search-a .search-col-a,
@@ -648,6 +656,10 @@
     .btn-area-a {display:flex;padding:0 24px}
     .btn-area-a [class^="btn-type-"] {min-width:1px;flex:1}
     .btn-area-a [class^="btn-type-"] ~ [class^="btn-type-"] {margin-left:6px}
+
+    /* 아이디/비밀번호 */
+    .top-txt .info-txt {font-size:14px;line-height:20px}
+    .top-txt .info-txt .m-block {display:block}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
@@ -680,6 +692,9 @@
     .ui-modal.type-payment .btn-area button{padding:15px 10px; font-size:14px}
     .ui-modal.type-payment .btn-area button strong,
     .ui-modal.type-payment .btn-area button em{font-size:20px}
+
+    /* 아이디/비밀번호 */
+    .top-txt {padding-top:55px;padding-bottom:20px}
 
 }
 @media (max-width:320px) {
