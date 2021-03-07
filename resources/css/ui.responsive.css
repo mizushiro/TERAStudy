@@ -710,6 +710,8 @@
     .answer-area .answer-title {font-size:14px;line-height:20px}
     .answer-area .answer-content {padding:12px}
     .answer-area .answer-content p {font-size:14px;line-height:20px}
+    .tbl-base td {font-size:13px}
+    .type-inquiry td:nth-child(2) {font-size:14px}
 
     /*.box-search-b .search-col-b .form-item .form-col-d {width:150px}
     .box-search-b .search-col-b .form-item .form-col-d .input-a {width:150px}
