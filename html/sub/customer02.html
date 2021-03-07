@@ -35,6 +35,7 @@
 				<div class="ajax-banner">
 				</div>
 				<div class="ajax-customer-top" data-n="2"></div>
+
 				<section class="search-area">
 					<fieldset>
 						<legend class="for-a11y">검색</legend>
@@ -58,6 +59,45 @@
 						</div>
 					</fieldset>
 				</section>
+
+				<div class="box-a big">
+					<dl class="ui-acco" id="exeAcco1">
+						<div class="ui-acco-wrap">
+							<dt class="ui-acco-tit">
+								<button type="button" class="ui-acco-btn">
+									<span>[기타문의] 궁금한 내용을 모아 놓았습니다.</span>
+								</button>
+							</dt>
+							<dd class="ui-acco-pnl">
+								<div class="ui-acco-pnl-wrap">
+									답변이 여기에 나오면 됩니다. 답변이 여기에 나오면 됩니다.
+									답변이 여기에 나오면 됩니다. 답변이 여기에 나오면 됩니다.
+									답변이 여기에 나오면 됩니다. 답변이 여기에 나오면 됩니다.
+									답변이 여기에 나오면 됩니다.
+
+								</div>
+							</dd>
+						</div>
+						<div class="ui-acco-wrap">
+							<dt class="ui-acco-tit">
+								<button type="button" class="ui-acco-btn">
+									<span>[기타문의] 궁금한 내용을 모아 놓았습니다.</span>
+								</button>
+							</dt>
+							<dd class="ui-acco-pnl">
+								<div class="ui-acco-pnl-wrap">
+									답변이 여기에 나오면 됩니다. 답변이 여기에 나오면 됩니다.
+									답변이 여기에 나오면 됩니다. 답변이 여기에 나오면 됩니다.
+									답변이 여기에 나오면 됩니다. 답변이 여기에 나오면 됩니다.
+									답변이 여기에 나오면 됩니다.
+
+								</div>
+							</dd>
+						</div>
+					</dl>
+
+					
+				</div>
 
 				<!-- S : paging -->
 				<div class="paging">
@@ -85,7 +125,12 @@
 		;(function($, win, doc, undefined) {
 			$(doc).ready(function() {
 				$plugins.common.init();
-				$plugins.common.setThumbnail();
+				$plugins.uiAccordion({ 
+					id: 'exeAcco1', 
+					current: [0], 
+					autoclose: true, 
+					callback: function(v){console.log(v)} 
+				});
 
 			});
 		})(jQuery, window, document);
