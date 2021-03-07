@@ -161,8 +161,11 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 .icon-c {width:26px;height:26px;display:inline-block;background:url("../../resources/images/icon/icon-3.png") no-repeat 50% 50%;background-size:100%}
 .icon-d {width:26px;height:26px;display:inline-block;background:url("../../resources/images/icon/icon-4.png") no-repeat 50% 50%;background-size:100%}
 .active .icon-a {background-image:url("../../resources/images/icon/icon-1-on.png")}
+.icon-customer-a {width:120px;height:120px;display:inline-block;background:url("../../resources/images/icon/icon-customer1.png") no-repeat 50% 50%;background-size:100%}
+.icon-customer-b {width:120px;height:120px;display:inline-block;background:url("../../resources/images/icon/icon-customer2.png") no-repeat 50% 50%;background-size:100%}
+.icon-customer-c {width:120px;height:120px;display:inline-block;background:url("../../resources/images/icon/icon-customer3.png") no-repeat 50% 50%;background-size:100%}
 
-/* side nav */
+    /* side nav */
 .sticky .btn-top {opacity:1}
 .side-nav {position:fixed;right:30px;bottom:30px;z-index:10}
 .side-nav .btn-kakao {margin-top:10px}

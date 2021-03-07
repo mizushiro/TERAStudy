@@ -515,6 +515,16 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .comment-area.active .comment-top .btn-comment-toggle:after {-webkit-transform:rotate(-45deg);transform:rotate(-45deg);top:1px}
 .comment-area.active .comment-list {display:block}
 
+.customer-summery {border-radius:30px;background-color:#2e3036;box-shadow:0 -5px 10px rgba(0,0,0,.3);padding:40px 80px;position:relative;margin-bottom:28px;display:flex;justify-content:space-between;align-items:center}
+.customer-summery:before {content:'';position:absolute;top:-1px;right:-1px;bottom:-1px;left:-1px;border:1px solid #fff;border-radius:30px}
+.customer-summery .customer-tel {color:#dca33d;font-size:48px;font-weight:600;margin-top:20px}
+.customer-summery .customer-time {color:#fff;font-size:24px}
+.customer-summery .customer-summery-contents {width:60%;display:flex;justify-content:space-between}
+.customer-summery .customer-summery-contents .customer-item {flex:1;background:url("../../resources/images/main/box-light.png") no-repeat 100% 0 #22252c;border:1px solid #161616;border-radius:20px;padding:30px;box-shadow:5px 0 18px rgba(26,29,36,.6)}
+.customer-summery .customer-summery-contents .customer-item ~ .customer-item {margin-left:40px}
+.customer-summery .customer-summery-contents .customer-item i {display:block;margin:0 auto}
+.customer-summery .customer-summery-contents .customer-item {font-size:20px;color:#fff;line-height:30px;margin-top:18px;text-align:center;word-break:keep-all}
+
 /* 검색 */
 .search-area {max-width:1500px;margin:0 auto 28px}
 .box-search-a {display:table;width:100%}
