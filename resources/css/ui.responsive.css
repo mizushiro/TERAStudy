@@ -413,11 +413,13 @@
     .box-search-b [class^="search-col-"] ~ [class^="search-col-"] {margin-top:8px}
     .box-search-b .form-item [class^="form-col-"] ~ [class^="form-col-"] {padding-left:8px !important}
     .search-area .form-item .form-col-txt + [class^="form-col-"] {padding-left:0 !important}
-    .box-search-b .search-col-b .form-item {table-layout:fixed;overflow:hidden}
+    .box-search-b .search-col-b .form-item {display:block;justify-content:space-between;align-items:center}
+    .box-search-b .search-col-b .form-item:after {content:'';display:block;clear:both}
+    .box-search-b .search-col-b .form-item [class^="form-col-"] {display:block;margin-top:0 !important;float:left}
     .box-search-b .search-col-b .form-item .form-col-d {width:calc((100% - 30px) / 2)}
-    .box-search-b .search-col-b .form-item .form-col-d input[type='date'] {min-width:150px;line-height:38px}
-    .box-search-b .search-col-b .form-item .form-col-txt {width:30px}
-    .box-search-b .search-col-b .form-item .input-a {min-width:100%;display:block;width:100%}
+    .box-search-b .search-col-b .form-item .form-col-d input[type='date'] {line-height:38px}
+    .box-search-b .search-col-b .form-item .form-col-txt {width:30px;line-height:40px}
+    .box-search-b .search-col-b .form-item .input-a {min-width:100%;display:block;width:100%;box-sizing:border-box}
     .box-search-b .form-item .input-a::-webkit-input-placeholder {font-size:14px}
     .box-search-b .form-item .input-a::-moz-placeholder {font-size:14px}
     .box-search-b .form-item .input-a:-ms-input-placeholder {font-size:14px}
