@@ -322,8 +322,8 @@
     .view-area {padding:0;margin:-10px 0}
     .terms-content-box {padding:0}
 
-    .ui-acco { padding:0;}
-
+    /* 고객센터 */
+    .box-a .ui-acco {padding:0}
 }
 @media (max-width:1000px) {
     /* 메인 */
@@ -652,6 +652,12 @@
     .tbl-base td.subject{padding:0}
 
     .view-area {margin:0}
+
+    /* 고객센터 */
+    .box-a .ui-acco-btn {font-size:15px;padding:20px 40px}
+    .box-a .ui-acco-pnl {padding:20px 20px 20px 40px;font-size:14px;line-height:24px}
+    .box-a .ui-acco-pnl:before {font-size:20px;left:15px;top:20px}
+    .box-a .ui-acco-btn:before {font-size:20px;left:15px}
 }
 @media (max-width:600px) {
     /* 회원가입 */
@@ -677,6 +683,7 @@
     .terms-box .terms-indent-a {font-size:14px;padding-left:18px;text-indent:-18px}
     .terms-box .terms-inner-b {padding-left:18px}
     .terms-box .terms-indent-b {font-size:13px}
+    .terms-content-box .terms-list .terms-list-item {font-size:13px;line-height:24px}
 
     /* btn */
     .btn-gold.big {height:48px;padding:6px 30px;font-size:20px}
