@@ -552,7 +552,8 @@
 .ready .courses-item-c .btn-gold.big:disabled {background:#ababad !important;border-color:#ababad !important}
 .ready .courses-item-c .btn-gold.big:disabled {text-shadow:0 1px 4px rgba(0,0,0,.4)}
 .ready .courses-item-c .btn-gold.big:disabled::before{display:none}
-.btn-talk{height: 50px;background-color: #514635;border-radius: 25px;color: #fff;font-size: 20px;font-weight: 400;display: inline-block;padding: 0 20px;line-height: 48px;width:100%}
+.courses-item .btn-talk {width:100%}
+.btn-talk {height: 50px;background-color: #514635;border-radius: 25px;color: #fff;font-size: 20px;font-weight: 400;display: inline-block;padding: 0 20px;line-height: 48px}
 .btn-talk::before{content:"";display:inline-block;width:30px;height:30px;background:url(../../resources/images/common/ico-talk.png) no-repeat 0 0 / cover;vertical-align: middle}
 .box-btns {position:relative}
 .box-btns .leave {position:absolute;right:24px;top:12px}
