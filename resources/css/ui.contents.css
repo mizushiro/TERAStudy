@@ -388,6 +388,10 @@
 .terms-box .terms-inner-a {margin-top:10px;padding-left:12px}
 .terms-box .terms-inner-b {margin-top:6px;padding-left:22px}
 
+.terms-content-box .terms-box .terms-tit-b {text-align:center;font-weight:600}
+.terms-content-box .terms-box .terms-tit-b ~ .terms-tit-b {margin-top:20px}
+.terms-content-box .terms-box .terms-tit-c {font-weight:500;margin-bottom:4px}
+
 /* form */
 .form-item,
 .form-group {display:table;width:100%}
