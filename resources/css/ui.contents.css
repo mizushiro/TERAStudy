@@ -615,7 +615,7 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .ui-acco-tit-wrap {width:auto; text-decoration:none; color:#000;}
 .ui-acco-btn {top:0; right:0; width:100%; height:100%; padding:25px 40px 25px 60px; letter-spacing:0; text-align:left; color:#000; font-size:18px;}
 .ui-acco-btn:before {content:"Q"; color:#28292d; font-size:30px; font-weight:600; display:block; position:absolute; top:18px; left:23px; font-family: 'Roboto';}
-.ui-acco-btn:after {content:""; width:30px; height:30px; background:url(../images/common/arrow-acco.png) no-repeat 0 0 / cover; display:block; position:absolute; right:10px; top:50%; margin-top:-10px; float:right; overflow:hidden; color:#000;}
+.ui-acco-btn:after {content:""; width:30px; height:30px; background:url(../images/common/arrow-acco.png) no-repeat 0 0 / cover; display:block; position:absolute; right:10px; top:50%; margin-top:-15px; float:right; overflow:hidden; color:#000;}
 .ui-acco-btn.selected:after {content:"";transform: rotate(180deg);}
 a.ui-acco-btn {text-decoration: underline; color:blue}
 a.ui-acco-btn .ui-acco-arrow {transform: rotate(-90deg);}

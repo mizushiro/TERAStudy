@@ -321,6 +321,9 @@
     /* 마이페이지 */
     .view-area {padding:0;margin:-10px 0}
     .terms-content-box {padding:0}
+
+    .ui-acco { padding:0;}
+
 }
 @media (max-width:1000px) {
     /* 메인 */
@@ -774,6 +777,13 @@
     .customer-summery .customer-summery-contents .customer-item ~ .customer-item {margin-left:0}
     .customer-summery .customer-summery-contents .customer-item i {width:60px;height:60px}
     .customer-summery .customer-summery-contents .customer-item p {text-align:left;width:calc(100% - 60px);padding-left:8px}
+
+    /* 자주하는질문 */
+    .ui-acco-btn{font-size: 16px; padding:15px 40px 15px 30px}
+    .ui-acco-pnl:before{font-size:18px; top:14px; left:11px;}
+    .ui-acco-btn:before{font-size:18px; top:16px; left:11px;}
+
+    .ui-acco-pnl{padding:15px 20px 15px 30px}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
