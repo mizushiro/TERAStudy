@@ -408,6 +408,7 @@
 .form-item label,
 .form-item .item-title {font-size:21px;color:#000}
 .form-item .input-a {border:2px solid #eee;border-radius:8px;height:54px;width:100%;padding:0 12px;font-size:21px;font-weight:500;outline:none;color:#565656;box-sizing:border-box}
+.input-a {-webkit-appearance:none;-moz-appearance:none;-moz-box-sizing: border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 .form-item .input-a:disabled {background-color:#eee;color:#999}
 .form-item .input-a:focus {border-color:#292a2e}
 .form-item .input-a::-webkit-input-placeholder {color:#bfbfbf;font-weight:300}

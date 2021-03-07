@@ -156,6 +156,7 @@
 
 }
 @media (max-width:1280px) {
+    .base-body-a {overflow-x:hidden}
     body.page-sub{background-position:50% -100px}
 
     /* 메인 */
