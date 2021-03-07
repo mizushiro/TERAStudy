@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+	<meta name="keywords" content="테라스터디, 차별화된 1:1 맞춤형 수업"/>
+	<meta name="description" content=""/>
+    
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+    <title>테라스터디</title>
+
+	<link rel="stylesheet" href="../../resources/css/ui.base.css">
+	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="../../resources/js/ui.global.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
+
+	<link rel="stylesheet" href="../../resources/js/lib/slick.css" />
+	<script src="../../resources/js/lib/slick.js"></script>
+	<style>
+
+	</style>
+</head>
+
+<body class="page-sub">	
+	<div class="base-wrap">
+		<header class="base-header">
+		</header>
+		<main class="base-body-a">
+			<div class="base-container">
+				<div class="ajax-banner">
+				</div>
+				<div class="ajax-customer-top" data-n="1"></div>
+
+				<section class="search-area">
+					<fieldset>
+						<legend class="for-a11y">검색</legend>
+						<div class="box-search-a">
+							<div class="search-col-a">
+								<div class="form-item">
+									<div class="form-col-d">
+										<select name="" id="" class="form-select">
+											<option value="">전체</option>
+										</select>
+									</div>
+									<div class="form-col-e">
+										<input type="text" class="input-a" placeholder="제목/내용/작성자 입력">
+									</div>
+									<div class="form-col-btns">
+										<button type="button" class="btn-type-c">조회</button>
+										<button type="button" class="btn-type-d">초기화</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</section>
+				<div class="tbl-base type-inquiry">
+					<table>
+						<caption>번호,제목,등록일 정보의 공지사항 게시물 목록입니다</caption>
+						<colgroup>
+							<col class="col1">
+							<col class="col2">
+							<col class="col4">
+						</colgroup>
+						<thead>
+						<tr>
+							<th scope="col">번호</th>
+							<th scope="col">제목</th>
+							<th scope="col">등록일</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="notify">
+							<td>100</td>
+							<td class="subject">
+								<a href="#">[기타문의] 강의선생님 문의  강의선생님 문의 강의선생님 문의 문의  문의  문의  문의</a>
+							</td>
+							<td>2021-01-18</td>
+						</tr>
+						<tr>
+							<td>100</td>
+							<td class="subject"><a href="#">[기타문의] 강의선생님 문의  강의선생님 문의 강의선생님 문의 문의  문의  문의  문의</a>
+							</td>
+							<td>2021-01-18</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<!-- S : paging -->
+				<div class="paging">
+					<button type="button" class="paging-first" disabled><span class="blind">처음으로</span></button>
+					<button type="button" class="paging-prev" disabled><span class="blind">이전</span></button>
+
+					<button type="button" class="on"><span>1</span></button>
+					<button type="button"><span>2</span></button>
+					<button type="button"><span>3</span></button>
+					<button type="button"><span>4</span></button>
+					<button type="button"><span>5</span></button>
+
+					<button type="button" class="paging-next"><span class="blind">다음</span></button>
+					<button type="button" class="paging-last"><span class="blind">마지막으로</span></button>
+				</div>
+				<!-- E : paging -->
+			</div>
+		</main>
+        <footer class="base-footer"></footer>
+
+		<div class="base-goldkey"></div>
+	</div>
+
+	<script>
+		;(function($, win, doc, undefined) {
+			$(doc).ready(function() {
+				$plugins.common.init();
+				$plugins.common.setThumbnail();
+
+			});
+		})(jQuery, window, document);
+
+	</script>
+</body>
+</html>
