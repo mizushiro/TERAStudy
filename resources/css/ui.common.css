@@ -214,8 +214,8 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 .tbl-base.type-inquiry col.col5{width:12%}
 
 .file-upload .btn-file{width:140px}
-.file-img{width:240px;max-height:300px;position:relative;overflow:hidden}
-.file-img img{width:100%;margin-top:10px}
+.file-img{width:240px;max-height:300px;position:relative}
+.file-img img{max-width:100%;margin-top:10px;max-height:300px}
 .file-img .del{width:30px;height:30px;background: url(../../resources/images/common/file-del.png) no-repeat 0 0 / cover;position:absolute;top:10px;right:-35px}
 
 /* margin */

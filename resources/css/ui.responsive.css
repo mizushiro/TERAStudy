@@ -759,7 +759,7 @@
     .view-area .writer-data .box-star-area {display:block;border-bottom:1px dashed #eee;padding-bottom:12px;margin-bottom:8px;text-align:left}
     .view-area .writer-data {padding-left:0}
 
-    .file-img{width:calc(100% - 30px)}
+    .file-img {width:calc(100% - 30px)}
 
 }
 @media (max-width:320px) {
