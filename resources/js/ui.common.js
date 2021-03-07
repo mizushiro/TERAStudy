@@ -236,9 +236,10 @@
 					var img = document.createElement("img"); 
 					img.setAttribute("src", event.target.result); 
 					$img.find('img').remove();
+					$wrap.find('.del').remove();
 					$img.append(img);
 					$img.append('<button type="button" class="del"><span class="blind">삭제</span></button>');
-
+					
 					$('.file-img .del').on('click', function(){
 						$(this).closest('.file-upload').find('img').remove();
 						$(this).closest('.file-upload').find('input').val('');
