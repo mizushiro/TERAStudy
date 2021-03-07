@@ -42,7 +42,7 @@
 					<button type="button" class="btn-round-a"><i class="icon-c"></i>99</button>
 					<button type="button" class="btn-round-a"><i class="icon-d"></i>공유</button>
 				</div>
-				<section class="box-a big customer-type">
+				<section class="box-a big"><!--customer-type-->
 					<div class="view-area">
 						<div class="box-top">
 							<p class="view-title">영어/중국어 1개월 무료 체험단 모집</p>
@@ -57,7 +57,7 @@
 								<img src="../../resources/images/temp/@sample.jpg" alt="">
 							</div>
 							<!-- S : 댓글영역 -->
-							<div class="comment-area">
+							<!--<div class="comment-area">
 								<div class="comment-top">
 									<p class="comment-count">댓글<span class="value">999개</span></p>
 									<button type="button" class="btn-comment-toggle"><span class="for-a11y">댓글보기</span></button>
@@ -65,7 +65,7 @@
 								<div class="comment-list">
 									댓글노출영역
 								</div>
-							</div>
+							</div>-->
 							<!-- E : 댓글영역 -->
 						</div>
 					</div>
@@ -87,9 +87,9 @@
 				$plugins.common.setThumbnail();
 
 				// 댓글
-				$('.comment-area .btn-comment-toggle').on('click', function(){
+				/*$('.comment-area .btn-comment-toggle').on('click', function(){
 					$(this).parent().parent().toggleClass('active');
-				});
+				});*/
 			});
 		})(jQuery, window, document);
 
