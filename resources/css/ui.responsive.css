@@ -413,9 +413,10 @@
     .box-search-b [class^="search-col-"] ~ [class^="search-col-"] {margin-top:8px}
     .box-search-b .form-item [class^="form-col-"] ~ [class^="form-col-"] {padding-left:8px !important}
     .search-area .form-item .form-col-txt + [class^="form-col-"] {padding-left:0 !important}
-    .box-search-b .search-col-b .form-item {table-layout:fixed}
+    .box-search-b .search-col-b .form-item {table-layout:fixed;overflow:hidden}
     .box-search-b .search-col-b .form-item .form-col-d {width:calc((100% - 30px) / 2)}
     .box-search-b .search-col-b .form-item .form-col-txt {width:30px}
+    .box-search-b .search-col-b .form-item .input-a {min-width:100%}
     .box-search-b .form-item .input-a::-webkit-input-placeholder {font-size:14px}
     .box-search-b .form-item .input-a::-moz-placeholder {font-size:14px}
     .box-search-b .form-item .input-a:-ms-input-placeholder {font-size:14px}
