@@ -310,6 +310,7 @@
 
     /* 마이페이지 */
     .view-area {padding:0;margin:-10px 0}
+    .terms-content-box {padding:0}
 }
 @media (max-width:1000px) {
     /* 메인 */

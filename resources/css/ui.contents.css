@@ -500,6 +500,8 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .star-choice .box-star .box-radio-star .radio-star + label:before {content:'';background:url("../../resources/images/common/star-data-b.png") no-repeat;display:block;height:100%;opacity:0;transition:all .3s ease-out;-webkit-transition:all .3s ease-out}
 .star-choice .box-star .box-radio-star .radio-star:checked + label:before {opacity:1}
 
+.terms-content-box {padding:0 40px}
+
 /* 검색 */
 .search-area {max-width:1500px;margin:0 auto 28px}
 .box-search-a {display:table;width:100%}

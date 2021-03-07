@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+	<meta name="keywords" content="테라스터디, 차별화된 1:1 맞춤형 수업"/>
+	<meta name="description" content=""/>
+    
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+    <title>테라스터디</title>
+
+	<link rel="stylesheet" href="../../resources/css/ui.base.css">
+	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="../../resources/js/ui.global.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
+
+	<link rel="stylesheet" href="../../resources/js/lib/slick.css" />
+	<script src="../../resources/js/lib/slick.js"></script>
+	<style>
+
+	</style>
+</head>
+
+<body class="page-sub">	
+	<div class="base-wrap">
+		<header class="base-header">
+		</header>
+		<main class="base-body-a">
+			<div class="base-container">
+				<div class="ajax-banner">
+				</div>
+				<div class="title-group">
+					<h2>개인정보 수집이용</h2>
+					<p>
+						프리미엄 강사진과 프리미엄 컨설팅의 <br>
+						<em>비대면 수업 TERA STUDY</em>
+					</p>
+				</div>
+
+				<section class="box-a mgt-a">
+					<div class="terms-content-box">
+						<div class="terms-c"></div>
+					</div>
+				</section>
+			</div>
+		</main>
+        <footer class="base-footer"></footer>
+
+		<div class="base-goldkey"></div>
+	</div>
+
+	<script>
+		;(function($, win, doc, undefined) {
+			$(doc).ready(function() {
+				$plugins.common.init();
+
+				$('.teacher-swiper').slick({
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1
+				});
+
+				// 약관
+				$('.agree-area .btn-folding').off('click.rv').on('click.rv', function(){
+					$(this).closest('.agree-item').toggleClass('active').siblings('.agree-item').removeClass('active');
+				});
+			});
+		
+		})(jQuery, window, document);
+
+	</script>
+</body>
+</html>
