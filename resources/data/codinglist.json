@@ -495,7 +495,7 @@
             "memo": ""
         },
         {
-            "state": "대기",
+            "state": "진행",
             "date": "20210307",
             "enddate": "미정",
             "moddate": "미정",
@@ -514,7 +514,7 @@
             "memo": ""
         },
         {
-            "state": "완료",
+            "state": "진행",
             "date": "20210307",
             "enddate": "미정",
             "moddate": "미정",
