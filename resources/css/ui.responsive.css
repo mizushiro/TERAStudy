@@ -416,7 +416,7 @@
     .box-search-b .search-col-b .form-item {table-layout:fixed;overflow:hidden}
     .box-search-b .search-col-b .form-item .form-col-d {width:calc((100% - 30px) / 2)}
     .box-search-b .search-col-b .form-item .form-col-txt {width:30px}
-    .box-search-b .search-col-b .form-item .input-a {min-width:100%}
+    .box-search-b .search-col-b .form-item .input-a {min-width:100%;display:block;width:100%}
     .box-search-b .form-item .input-a::-webkit-input-placeholder {font-size:14px}
     .box-search-b .form-item .input-a::-moz-placeholder {font-size:14px}
     .box-search-b .form-item .input-a:-ms-input-placeholder {font-size:14px}
