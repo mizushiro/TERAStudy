@@ -327,6 +327,7 @@
 /* login */
 .box-a {max-width:1100px;margin:0 auto;background-color:#fff;border-radius:30px;box-shadow:10px 0 10px rgba(0,0,0,.07);padding:60px 0}
 .box-a.big {max-width:1500px}
+.box-a.customer-type {padding-bottom:0}
 .login-area {max-width:585px;margin:0 auto}
 .login-area .btn-gold {margin-top:40px}
 .btn-gold.big {position:relative;height:80px;border-radius:40px;padding:10px 60px;width:100%;font-size:32px;font-weight:500;font-family:'Noto Sans KR';background:linear-gradient(-69deg,#fff28c, #daa337, #dda93e 70%, #ebbc4c 80%, #fff28c);box-shadow:0 0 12px rgba(0,0,0,.17);border:none}
@@ -501,6 +502,11 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .star-choice .box-star .box-radio-star .radio-star:checked + label:before {opacity:1}
 
 .terms-content-box {padding:0 40px}
+
+/* 고객센터 */
+.comment-top {border-top:1px solid #eee;display:flex;justify-content:space-between;align-items:center;margin-top:30px;padding:28px 0}
+.comment-top .comment-count {font-size:18px;color:#000}
+.comment-top .comment-count .value {font-weight:600;color:#514635;padding-left:12px}
 
 /* 검색 */
 .search-area {max-width:1500px;margin:0 auto 28px}
