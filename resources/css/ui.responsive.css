@@ -201,6 +201,15 @@
     .tbl-base thead th{font-size:16px;padding:10px 0}
     .tbl-base th, 
     .tbl-base td{font-size:14px;padding:10px 10px}
+
+    /* 고객센터 */
+    .customer-summery {padding:40px}
+    .customer-summery .customer-tel {font-size:32px}
+    .customer-summery .customer-time {font-size:18px}
+    .customer-summery .customer-summery-contents {width:64%}
+    .customer-summery .customer-summery-contents .customer-item {font-size:16px}
+    .customer-summery .customer-summery-contents .customer-item i {width:80px;height:80px}
+    .customer-summery .customer-summery-contents .customer-item ~ .customer-item {margin-left:20px}
 }
 @media (max-width:1100px) {
     .tab-link{margin-top:20px}
@@ -405,6 +414,11 @@
 
     /* margin */
     .mgt-a {margin-top:60px !important}
+
+    /* 고객센터 */
+    .customer-summery {display:block}
+    .customer-summery .customer-summery-contents {width:100%}
+    .customer-summery .customer-summery-contents .customer-item {padding:20px}
 
 }
 @media (max-width:870px) {
@@ -748,6 +762,18 @@
     .ui-modal.type-payment .btn-area button strong,
     .ui-modal.type-payment .btn-area button em{font-size:20px}
     .ui-modal.type-payment .ui-modal-cont{padding-bottom:80px}
+
+    /* 고객센터 */
+    .customer-summery {padding:32px 24px 24px;border-radius:20px}
+    .customer-summery:before {border-radius:20px}
+    .customer-summery .customer-logo img {vertical-align:top;width:120px}
+    .customer-summery .customer-tel {font-size:20px;margin-top:8px}
+    .customer-summery .customer-time {font-size:16px}
+    .customer-summery .customer-summery-contents {display:block}
+    .customer-summery .customer-summery-contents .customer-item {display:flex;justify-content:space-between;align-items:center;font-size:14px;padding:10px 20px}
+    .customer-summery .customer-summery-contents .customer-item ~ .customer-item {margin-left:0}
+    .customer-summery .customer-summery-contents .customer-item i {width:60px;height:60px}
+    .customer-summery .customer-summery-contents .customer-item p {text-align:left;width:calc(100% - 60px);padding-left:8px}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
@@ -766,7 +792,6 @@
     .view-area .writer-data {padding-left:0}
 
     /*.file-img {width:calc(100% - 30px)}*/
-
 }
 @media (max-width:320px) {
     .ui-modal-cont .teacher-item .btn-area {padding-bottom:10px}
