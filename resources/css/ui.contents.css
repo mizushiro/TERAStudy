@@ -15,6 +15,9 @@
 .teacher-menu .on .btn-dep-1::after{left:0}
 .teacher-menu .dep-1 li.on::before{border-top:2px solid #f3b805;opacity:1}
 .teacher-menu .btn-dep-1::after{content:"";display:block;width:68px;height:53px;background:url(../../resources/images/common/key.png) no-repeat 0 0 / cover;position:absolute;top:15px;left:-68px;transition:all .2s ease-out}
+.teacher-menu .leader-type .btn-dep-1::after {background-image:url("../../resources/images/common/key3.png")}
+.teacher-menu .leader-type .btn-dep-1::before {content:'';position:absolute;width:44px;height:45px;background:url(../../resources/images/common/light-3.png) no-repeat 0 0;top:15px;left:0;z-index:2;background-size:auto 100%;
+    animation-name:lightani;animation-duration:1.5s;animation-timing-function:ease-out;animation-iteration-count:infinite;}
 .teacher-menu .n1 .btn-dep-1{top:30px}
 .teacher-menu .n2 .btn-dep-1{top:125px}
 .teacher-menu .n3 .btn-dep-1{top:170px}
@@ -24,6 +27,12 @@
 .teacher-menu .on .dep-2{display:block}
 .teacher-menu .dep-2{display:none;width:1170px;margin:0 auto;text-align:center;padding:30px 0 0}
 .teacher-menu .dep-2 button{height:68px;border-radius:34px;padding:10px 30px;font-size:26px;margin:0 12px 20px}
+
+@keyframes lightani {
+    0% {opacity:.5;transform:scale(1)}
+    50% {opacity:1;transform:scale(1.2)}
+    100% {opacity:.5;transform:scale(1)}
+}
 
 /* over-type */
 .teacher-menu.over-type .n1 .btn-dep-1 {top:0}

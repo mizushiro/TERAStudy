@@ -30,6 +30,8 @@
     .ui-modal.type-goldkey .teacher-menu .on .btn-dep-1{font-size:20px;opacity:1;padding-left:75px}
     .ui-modal.type-goldkey .teacher-menu .on .btn-dep-1::after{left:30px}
     .ui-modal.type-goldkey .teacher-menu .btn-dep-1::after{ width:34px;height:27px;top:5px;left:30px}
+    .ui-modal.type-goldkey .teacher-menu .leader-type .btn-dep-1::before {height:22px;top:5px;left:33px}
+    .ui-modal.type-goldkey .teacher-menu .n2 .btn-dep-1::after {transform: scaleX(1)}
     .ui-modal.type-goldkey .teacher-menu .n1 .btn-dep-1{top:30px}
     .ui-modal.type-goldkey .teacher-menu .n2 .btn-dep-1{top:80px}
     .ui-modal.type-goldkey .teacher-menu .n3 .btn-dep-1{top:130px}
