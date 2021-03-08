@@ -547,7 +547,7 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .customer-summery .customer-tel {color:#dca33d;font-size:48px;font-weight:600;margin-top:20px}
 .customer-summery .customer-time {color:#fff;font-size:24px}
 .customer-summery .customer-summery-contents {width:60%;display:flex;justify-content:space-between}
-.customer-summery .customer-summery-contents .customer-item {flex:1;background:url("../../resources/images/main/box-light.png") no-repeat 100% 0 #22252c;border:1px solid #161616;border-radius:20px;padding:30px;box-shadow:5px 0 18px rgba(26,29,36,.6)}
+.customer-summery .customer-summery-contents .customer-item {flex:1;background:url("../../resources/images/main/box-light.png") no-repeat 100% 0 #22252c;border:1px solid #161616;border-radius:20px;padding:30px;box-shadow:5px 0 18px rgba(26,29,36,.6);position:relative;z-index:2}
 .customer-summery .customer-summery-contents .customer-item ~ .customer-item {margin-left:40px}
 .customer-summery .customer-summery-contents .customer-item i {display:block;margin:0 auto}
 .customer-summery .customer-summery-contents .customer-item {font-size:20px;color:#fff;line-height:30px;margin-top:18px;text-align:center;word-break:keep-all}
