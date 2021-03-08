@@ -33,7 +33,7 @@
 					차별화된 <strong>1:1 맞춤형 수업,</strong><br>
 					<span class="logo-text">TERA <b>STUDY</b></span>에서 경험하실 수 있습니다.
 				</h2>
-				<nav class="teacher-menu">
+				<nav class="teacher-menu over-type"><!-- S : 3개 이상일 경우 [over-type] class add -->
 					<ul class="dep-1">
 						<li class="n1">
 							<button type="button" class="btn-dep-1"><span>영어</span></button>
@@ -62,8 +62,6 @@
 								<button type="button" class="btn-gold">
 									<span>맞춤강의</span>
 								</button>
-								
-									
 							</div>
 						</li>
 						<li class="n2">
@@ -93,7 +91,64 @@
 								<button type="button" class="btn-gold">
 									<span>맞춤강의</span>
 								</button>
-									
+							</div>
+						</li>
+						<li class="n3">
+							<button type="button" class="btn-dep-1"><span>일본어</span></button>
+							<div class="dep-2">
+								<button type="button" class="btn-gold selected">
+									<span>주니어</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>내신/수능</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>일상/여행 회화</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>비즈니스/직장</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>강사준비</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>발음/프리토킹</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>TOEIC/시험</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>맞춤강의</span>
+								</button>
+							</div>
+						</li>
+						<li class="n4">
+							<button type="button" class="btn-dep-1"><span>스페니시</span></button>
+							<div class="dep-2">
+								<button type="button" class="btn-gold selected">
+									<span>일상/여행 회화</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>내신/수능</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>주니어</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>비즈니스/직장</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>강사준비</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>발음/프리토킹</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>TOEIC/시험</span>
+								</button>
+								<button type="button" class="btn-gold">
+									<span>맞춤강의</span>
+								</button>
 							</div>
 						</li>
 						<!-- <li class="n3">
@@ -513,7 +568,7 @@
 				});
 
 				function randomMenu(){
-					var n = Math.floor(Math.random() * 2) + 1;
+					var n = Math.floor(Math.random() * 4) + 1;
 
 					console.log(n);
 					$('.teacher-menu .dep-1 > .n' + n).addClass('on');

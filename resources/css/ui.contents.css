@@ -25,6 +25,17 @@
 .teacher-menu .dep-2{display:none;width:1170px;margin:0 auto;text-align:center;padding:30px 0 0}
 .teacher-menu .dep-2 button{height:68px;border-radius:34px;padding:10px 30px;font-size:26px;margin:0 12px 20px}
 
+/* over-type */
+.teacher-menu.over-type .n1 .btn-dep-1 {top:0}
+.teacher-menu.over-type .n2 .btn-dep-1 {top:50px}
+.teacher-menu.over-type .n3 .btn-dep-1 {top:100px}
+.teacher-menu.over-type .n4 .btn-dep-1 {top:150px}
+.teacher-menu.over-type .dep-1 .n1::before {top:46px}
+.teacher-menu.over-type .dep-1 .n2::before {top:96px}
+.teacher-menu.over-type .dep-1 .n3::before {top:146px}
+.teacher-menu.over-type .dep-1 .n4::before {top:196px}
+.teacher-menu.over-type .on .btn-dep-1 {font-size:40px}
+
 .btn-gold.type-more{width:250px;font-size:16px;color:#000;border-radius:20px;background:linear-gradient(-69deg,#e2a936, #a27623, #ffee92 50%, #f5c75f 80%, #e6b352)}
 .btn-gold.type-more:focus,
 .btn-gold.type-more:hover{color:#fff;background:linear-gradient(-44deg, #633f00,#674100 40%, #a46d00, #925f00)}
