@@ -543,7 +543,18 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .customer-summery .customer-summery-contents .customer-item i {display:block;margin:0 auto}
 .customer-summery .customer-summery-contents .customer-item {font-size:20px;color:#fff;line-height:30px;margin-top:18px;text-align:center;word-break:keep-all}
 
-/* 검색 */
+.use-info {margin:40px 50px;display:flex;justify-content:space-between}
+.use-info .info-item {width:calc((100% - 120px) / 4);padding:50px 20px;background-color:#fff;border-radius:20px;box-shadow:5px 0 18px rgba(26,29,36,.47)}
+.use-info .info-item .info-number {display:flex;margin:0 auto;height:50px;width:50px;align-items:center;justify-content:center;color:#fff;background-color:#504633;border-radius:50%;font-size:18px;font-weight:500}
+.use-info [class^="icon-info-"] {display:block;width:161px;height:161px;margin:16px auto 24px;background-repeat:no-repeat;background-position:0 0;background-size:100%}
+.use-info .icon-info-a {background-image:url("../../resources/images/icon/icon-info1.png")}
+.use-info .icon-info-b {background-image:url("../../resources/images/icon/icon-info2.png")}
+.use-info .icon-info-c {background-image:url("../../resources/images/icon/icon-info3.png")}
+.use-info .icon-info-d {background-image:url("../../resources/images/icon/icon-info4.png")}
+.use-info .info-item .use-title {font-size:24px;color:#504633;font-weight:500;text-align:center}
+.use-info .info-item .use-txt {font-size:17px;line-height:26px;color:#292a2e;word-break:keep-all;text-align:center;letter-spacing:-1px;margin-top:8px}
+
+    /* 검색 */
 .search-area {max-width:1500px;margin:0 auto 28px}
 .box-search-a {display:table;width:100%}
 .box-search-a .search-col-a {display:table-cell;vertical-align:top}
@@ -577,7 +588,7 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .courses-wrap{display:flex;flex-wrap:wrap}
 .courses-item::after{content:"";display:block;clear:both}
 .courses-item .flag{position: absolute;top:0;right:10px}
-.courses-item{background-color: #fff;border-radius: 20px;border: 1px solid transparent;box-shadow: 5px 0 18px rgba(0,0,0,.15);position: relative;flex:0 calc(50% - 30px);margin:15px 15px;overflow:hidden}
+.courses-item {background-color: #fff;border-radius: 20px;border: 1px solid transparent;box-shadow: 5px 0 18px rgba(0,0,0,.15);position: relative;flex:0 calc(50% - 30px);margin:15px 15px;overflow:hidden}
 .courses-item-a{float:left;width:200px;position:relative;padding: 20px 20px 10px}
 .courses-item-b{float:left;width:calc(100% - 240px);padding: 20px 20px 0 0}
 .courses-item-b dt {font-size:26px;font-weight:600;color:#c39863;line-height:26px;padding:10px 50px 0 0}
@@ -603,7 +614,8 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .box-btns {position:relative}
 .box-btns .leave {position:absolute;right:24px;top:12px}
 .box-btns .link-join .link-txt {font-size:18px}
-
+.courses-item .link-courses {display:block;position:relative;height:100%;overflow:hidden}
+.courses-item .link-courses img {min-height:100%;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);min-width:100%}
 
 .paging{position:relative;width:100%;margin:30px auto;text-align: center}
 .paging button.on{border-radius:50%;background:#c39863;color:#fff}

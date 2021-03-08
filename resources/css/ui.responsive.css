@@ -59,6 +59,8 @@
     .search-area {padding:0 24px}
     .tbl-base{width:calc(100% - 48px);margin:0 24px}
 
+    /* 고객센터 */
+    .use-info {margin:40px 24px}
  }
 @media (max-width:1400px) {
     body {background-size:cover}
@@ -167,6 +169,7 @@
     
     .courses-wrap{padding:0 10px}
     .courses-item{flex: 0 calc(100% - 30px)}
+    .courses-item.banner-item {display:none}
 
 }
 @media (max-width:1280px) {
@@ -223,6 +226,11 @@
     .customer-summery .customer-summery-contents .customer-item {font-size:16px}
     .customer-summery .customer-summery-contents .customer-item i {width:80px;height:80px}
     .customer-summery .customer-summery-contents .customer-item ~ .customer-item {margin-left:20px}
+    .use-info .info-item {padding:30px 20px;width:calc((100% - 90px) / 4)}
+    .use-info .info-item .info-number {width:32px;height:32px;font-size:16px}
+    .use-info [class^="icon-info-"] {width:100px;height:100px;margin:16px auto}
+    .use-info .info-item .use-title {font-size:20px}
+    .use-info .info-item .use-txt {font-size:14px;line-height:20px}
 }
 @media (max-width:1100px) {
     .tab-link{margin-top:20px}
@@ -402,6 +410,11 @@
     .answer-area .answer-content p {font-size:16px;line-height:24px}
     .view-area .answer-title-box .writer-data {border-color:#ddd}
     .answer-area.write {padding-top:30px}
+
+    /* 고객센터 */
+    .use-info {flex-wrap:wrap}
+    .use-info .info-item {width:calc(50% - 15px)}
+    .use-info .info-item:nth-of-type(n+3) {margin-top:30px}
 }
 @media (max-width:910px) {
     /* 메인 */
@@ -811,6 +824,13 @@
     .customer-summery .customer-summery-contents .customer-item ~ .customer-item {margin-left:0}
     .customer-summery .customer-summery-contents .customer-item i {width:60px;height:60px}
     .customer-summery .customer-summery-contents .customer-item p {text-align:left;width:calc(100% - 60px);padding-left:8px}
+    .use-info {display:block;margin:20px 24px}
+    .use-info .info-item {width:100%;padding:20px 16px 16px 92px;position:relative;box-shadow:2px 0 8px rgba(26,29,36,.3)}
+    .use-info .info-item ~ .info-item {margin-top:24px}
+    .use-info .info-item .info-number {position:absolute;top:-16px;left:50%;margin-left:-16px}
+    .use-info [class^="icon-info-"] {position:absolute;margin:-30px 0 0 0;width:60px;height:60px;top:50%;left:16px}
+    .use-info .info-item .use-title {text-align:left;font-size:16px;font-weight:600}
+    .use-info .info-item .use-txt {text-align:left;margin-top:4px}
 
     /* 자주하는질문 */
     .ui-acco-btn{font-size: 16px; padding:15px 40px 15px 30px}
