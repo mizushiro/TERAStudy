@@ -508,6 +508,7 @@
     .footer-content .footer-copy {font-size:12px;line-height:20px}
     .footer-content .footer-copy .txt-center {font-size:14px}
     .footer-content .footer-copy .copy-item:after {display:none}
+    .footer-content .footer-copy:last-child {margin-top:8px}
 
     .teacher-group {margin-bottom:100px}
 
