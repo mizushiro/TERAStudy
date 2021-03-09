@@ -2632,7 +2632,7 @@ if (!Object.keys){
 			var footerH = 0;
 
 			$('.ui-modal').removeClass('current');
-			$('body').addClass('scroll-no');
+			$('body, html').addClass('scroll-no');
 			
 			$modal
 				.attr('tabindex', '0')

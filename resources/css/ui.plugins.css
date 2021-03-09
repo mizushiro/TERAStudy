@@ -193,7 +193,8 @@ a.ui-acco-btn {display:inline-block; text-decoration:none;}
 .scroll-no {overflow:hidden; padding-right:17px;}
 .scroll-no .base-header{margin-left:-17px;}
 .scroll-no .base-wrap{padding-right:17px;}
-.ui-m .scroll-no{padding-right:0;}
+.ui-m.scroll-no,
+.ui-m .scroll-no {padding-right:0;}
 .ui-modal.n1 {z-index:201;}
 .ui-modal.n2 {z-index:202;}
 .ui-modal.n3 {z-index:203;}
