@@ -98,6 +98,24 @@
 					}
 				});
 			}
+			if ($('.ajax-service-top').length) {
+				$plugins.uiAjax({
+					id:$('.ajax-service-top'),
+					url:'../../html/inc/serviceTop.html',
+					page:true,
+					callback:function(){
+						var n = $('.ajax-service-top').data('n');
+
+						$('.tab-link option').eq(n - 1).prop('selected', true);
+						$('.tab-link a').eq(n - 1).addClass('selected');
+
+						$('.tab-link select').on('change', function(){
+							location.href = $(this).val();
+						})
+
+					}
+				});
+			}
 			
 
 			$plugins.uiAjax({ 

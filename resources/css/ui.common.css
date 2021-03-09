@@ -165,8 +165,25 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 .icon-customer-a {width:120px;height:120px;display:inline-block;background:url("../../resources/images/icon/icon-customer1.png") no-repeat 50% 50%;background-size:100%}
 .icon-customer-b {width:120px;height:120px;display:inline-block;background:url("../../resources/images/icon/icon-customer2.png") no-repeat 50% 50%;background-size:100%}
 .icon-customer-c {width:120px;height:120px;display:inline-block;background:url("../../resources/images/icon/icon-customer3.png") no-repeat 50% 50%;background-size:100%}
+[class^="icon-service-"] {display:inline-block;width:121px;height:121px;background-size:100%;background-position:50% 50%;background-repeat:no-repeat}
+.icon-service-a {background-image: url("../../resources/images/icon/icon-service1.png")}
+.icon-service-b {background-image: url("../../resources/images/icon/icon-service2.png")}
+.icon-service-c {background-image: url("../../resources/images/icon/icon-service3.png")}
+.icon-service-d {background-image: url("../../resources/images/icon/icon-service4.png")}
+.icon-service-e {background-image: url("../../resources/images/icon/icon-service5.png")}
 
-    /* side nav */
+[class^="icon-service1-"] {display:inline-block;width:80px;height:80px;background-size:100%;background-position:50% 50%;background-repeat:no-repeat}
+.icon-service1-a {background-image: url("../../resources/images/icon/icon-service1_1.png")}
+.icon-service1-b {background-image: url("../../resources/images/icon/icon-service1_2.png")}
+.icon-service1-c {background-image: url("../../resources/images/icon/icon-service1_3.png")}
+.icon-service1-d {background-image: url("../../resources/images/icon/icon-service1_4.png")}
+.icon-service1-e {background-image: url("../../resources/images/icon/icon-service1_5.png")}
+.icon-service1-f {background-image: url("../../resources/images/icon/icon-service1_6.png")}
+.icon-service1-g {background-image: url("../../resources/images/icon/icon-service1_7.png")}
+.icon-service1-h {background-image: url("../../resources/images/icon/icon-service1_8.png")}
+.icon-service1-i {background-image: url("../../resources/images/icon/icon-service1_9.png")}
+
+/* side nav */
 .sticky .btn-top {opacity:1}
 .side-nav {position:fixed;right:30px;bottom:30px;z-index:10}
 .side-nav .btn-kakao {margin-top:10px}
@@ -224,5 +241,3 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 
 /* margin */
 .mgt-a {margin-top:120px !important}
-
-

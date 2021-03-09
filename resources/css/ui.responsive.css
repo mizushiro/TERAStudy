@@ -233,6 +233,21 @@
     .use-info [class^="icon-info-"] {width:100px;height:100px;margin:16px auto}
     .use-info .info-item .use-title {font-size:20px}
     .use-info .info-item .use-txt {font-size:14px;line-height:20px}
+
+    /* 서비스소개 */
+    .txt-service-a {font-size:24px}
+    .txt-service-b {font-size:18px}
+    .service-list-b .list-item {padding-left:36px}
+    .service-list-b .list-item .service-number {width:28px;height:28px;font-size:14px}
+    .service-list-b .list-item .txt {font-size:16px;line-height:28px}
+    .service-list-c .list-item {font-size:16px;padding:16px}
+    .service-list-d .list-item {width:calc((100% - 24px) / 3);padding:12px}
+    .service-list-d .list-item:nth-child(n+4) {margin-top:12px}
+    .service-list-d .list-item i {width:60px;height:60px;margin-right:12px}
+    .service-list-d .list-item .tit {font-size:18px}
+    .service-list-d .list-item .txt {font-size:14px}
+    .triangle-area .img-box {width:600px;margin:0 auto}
+    .triangle-area .triangle-item.n1 {right:0}
 }
 @media (max-width:1100px) {
     .tab-link{margin-top:20px}
@@ -347,6 +362,10 @@
 
     /* 고객센터 */
     .box-a .ui-acco {padding:0}
+
+    /* 서비스소개 */
+    .service-info-area {padding:0}
+    .service-info-b {margin-left:-40px;margin-right:-40px;padding:30px 24px 0}
 }
 @media (max-width:1000px) {
     /* 메인 */
@@ -417,6 +436,9 @@
     .use-info {flex-wrap:wrap}
     .use-info .info-item {width:calc(50% - 15px)}
     .use-info .info-item:nth-of-type(n+3) {margin-top:30px}
+
+    /* 서비스소개 */
+    .triangle-area .img-box {width:440px}
 }
 @media (max-width:910px) {
     /* 메인 */
@@ -450,6 +472,14 @@
     .customer-summery {display:block}
     .customer-summery .customer-summery-contents {width:100%}
     .customer-summery .customer-summery-contents .customer-item {padding:20px}
+
+    /* 서비스소개 */
+    [class^="icon-service-"] {width:80px;height:80px}
+    .service-list-d {display:block}
+    .service-list-d .list-item {width:100%}
+    .service-list-d .list-item:nth-child(n+2) {margin-top:12px}
+    .service-list-d .list-item i {width:60px;height:60px;margin-right:12px}
+    .service-list-d .list-item .txt {margin-top:2px}
 
 }
 @media (max-width:870px) {
@@ -701,6 +731,19 @@
     .box-a .ui-acco-pnl {padding:20px 20px 20px 40px;font-size:14px;line-height:24px}
     .box-a .ui-acco-pnl:before {font-size:20px;left:15px;top:20px}
     .box-a .ui-acco-btn:before {font-size:20px;left:15px}
+
+    /* 서비스소개 */
+    .service-info-b {margin-left:-24px;margin-right:-24px}
+    .triangle-area {margin-top:30px}
+    .triangle-area .img-box {width:100%}
+    .triangle-area .triangle-item.n1 {position:static;width:100%}
+    .triangle-area .triangle-m-title {position:relative;padding-left:12px;display:block;font-size:16px;font-family:SCD, 'sans-serif';margin:20px 0 10px;text-align:left;font-weight:600;color:#000}
+    .triangle-area .triangle-m-title:before {content:'';position:absolute;left:0;top:10px;width:4px;height:4px;background-color:#222;border-radius:50%}
+    .triangle-item-group {display:block}
+    .triangle-area .triangle-item {width:100%}
+    .triangle-area .triangle-item {border-radius:12px;padding:16px}
+    .triangle-area .triangle-item .triangle-tit {font-size:15px}
+    .triangle-area .triangle-item .triangle-list .list-item {font-size:13px}
 }
 @media (max-width:600px) {
     /* 회원가입 */
@@ -841,6 +884,26 @@
     .ui-acco-btn:before{font-size:18px; top:16px; left:11px;}
 
     .ui-acco-pnl{padding:15px 20px 15px 30px}
+
+    /* 서비스소개 */
+    .txt-service-a {font-size:18px}
+    .txt-service-b {font-size:15px}
+    .service-list-c .list-item {font-size:14px;border-radius:8px;background-position:100% -10px}
+    .service-list-a {margin-top:20px;flex-wrap:wrap;justify-content:center}
+    .service-list-a .list-item {width:calc(100% / 3);padding:0 5px}
+    .service-list-a .list-item:nth-child(n+4) {margin-top:10px}
+    [class^="icon-service-"] {width:52px;height:52px}
+    .service-list-a .list-item .txt {font-size:14px;margin-top:8px;line-height:18px}
+    .service-list-b .list-item .service-number {font-size:12px}
+    .service-list-b .list-item .txt {font-size:14px;line-height:20px}
+    .service-list-b {margin-top:24px;border-top:1px solid #eee;padding-top:24px}
+    .service-info-b {margin-top:40px}
+    .service-list-d {margin-top:30px}
+    .service-list-d .list-item {border-radius:12px;background-color:#4a4c52 !important}
+    .service-list-d .list-item:nth-child(even) {background-color:#676767 !important}
+    .service-list-d .list-item i {width:40px;height:40px}
+    .service-list-d .list-item .tit {font-size:15px}
+    .service-list-d .list-item .txt {font-size:13px}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
