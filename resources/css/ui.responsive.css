@@ -237,6 +237,7 @@
     /* 서비스소개 */
     .txt-service-a {font-size:24px}
     .txt-service-b {font-size:18px}
+    .txt-service-c {font-size:15px;line-height:24px}
     .service-list-b .list-item {padding-left:36px}
     .service-list-b .list-item .service-number {width:28px;height:28px;font-size:14px}
     .service-list-b .list-item .txt {font-size:16px;line-height:28px}
@@ -248,6 +249,7 @@
     .service-list-d .list-item .txt {font-size:14px}
     .triangle-area .img-box {width:600px;margin:0 auto}
     .triangle-area .triangle-item.n1 {right:0}
+    .img-group {padding:0 24px 60px}
 }
 @media (max-width:1100px) {
     .tab-link{margin-top:20px}
@@ -366,6 +368,9 @@
     /* 서비스소개 */
     .service-info-area {padding:0}
     .service-info-b {margin-left:-40px;margin-right:-40px;padding:30px 24px 0}
+    .service-step .list-item .txt {font-size:18px;line-height:24px}
+    .service-step .list-item .step-type {font-size:14px}
+    .img-group {padding:0 0 40px}
 }
 @media (max-width:1000px) {
     /* 메인 */
@@ -480,7 +485,10 @@
     .service-list-d .list-item:nth-child(n+2) {margin-top:12px}
     .service-list-d .list-item i {width:60px;height:60px;margin-right:12px}
     .service-list-d .list-item .txt {margin-top:2px}
-
+    .leader-member .leader-item .txt-leader-a {font-size:16px}
+    .leader-member .leader-item .txt-leader-b {font-size:20px;margin-top:8px}
+    .leader-member .leader-item .txt-leader-c  {font-size:14px;margin-top:4px}
+    .service-banner {height:100px}
 }
 @media (max-width:870px) {
     .box-search-b {height:auto}
@@ -508,6 +516,10 @@
     .ui-modal.type-payment .ui-modal-header{padding:20px 0 20px}
     .ui-modal.type-payment .content{padding:20px 24px}
     .ui-modal.type-payment .guide{width:calc(100% + 48px);margin-left:-24px}
+
+    /* 서비스소개 */
+    .service-step .list-item {width:calc((100% - 120px) / 4)}
+    .service-step .list-item ~ .list-item:before {left:-34px;width:8px;height:8px;border-width:3px 3px 0 0}
 }
 @media (max-width:767px) {
     /* 메인 */
@@ -904,6 +916,22 @@
     .service-list-d .list-item i {width:40px;height:40px}
     .service-list-d .list-item .tit {font-size:15px}
     .service-list-d .list-item .txt {font-size:13px}
+    .service-step {display:block}
+    .service-step .list-item {width:100%;border-radius:8px}
+    .service-step .list-item .txt-box {padding:0}
+    .service-step .list-item .txt {font-size:16px;position:static;-webkit-transform:translateY(0);transform:translateY(0);padding:12px;display:flex;align-items:center}
+    .service-step .list-item .step-type {width:30px;height:30px;background-color:rgba(255,255,255,.9);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:12px;color:#d09429;font-weight:600}
+    .service-step .list-item ~ .list-item {margin-top:40px}
+    .service-step .list-item ~ .list-item:before {top:-27px;left:47%;-webkit-transform:rotate(135deg) translateX(-50%);transform:rotate(135deg) translateX(-50%);}
+    .service-step .list-item .txt br {display:none}
+    .txt-service-a .m-block {display:block}
+    .txt-service-a br {display:none}
+    .txt-service-a.v2 {margin-top:38px}
+    .txt-service-c {font-size:13px;line-height:20px}
+    .leader-member {margin-top:40px}
+    .service-banner {height:80px;border-radius:8px;margin-top:28px}
+    .leader-member .leader-item .txt-leader-a {font-size:14px}
+    .leader-member .leader-item .txt-leader-b {font-size:16px;margin-top:4px}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
@@ -922,6 +950,14 @@
     .view-area .writer-data {padding-left:0}
 
     /*.file-img {width:calc(100% - 30px)}*/
+
+    /* 서비스소개 */
+    .leader-member {display:block}
+    .leader-member .leader-item {width:100%}
+    .leader-member .leader-item ~ .leader-item {margin-top:30px}
+    .img-group {flex-wrap:wrap;margin-top:12px}
+    .img-group .img-item {width:calc((100% - 12px) / 2)}
+    .img-group .img-item:nth-of-type(n+3) {margin-top:12px}
 }
 @media (max-width:320px) {
     .ui-modal-cont .teacher-item .btn-area {padding-bottom:10px}
