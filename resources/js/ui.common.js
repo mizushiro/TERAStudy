@@ -50,6 +50,7 @@
 					url:'../../html/inc/mypageTop.html',
 					page:true,
 					callback:function(){
+						
 						var n = $('.ajax-mypage-top').data('n');
 
 						$('.tab-link option').eq(n - 1).prop('selected', true);	
@@ -104,14 +105,43 @@
 					url:'../../html/inc/serviceTop.html',
 					page:true,
 					callback:function(){
+						$plugins.uiAjax({ 
+							id: $('.base-consulting'), 
+							url:'../../html/inc/consulting.html',
+							page:true,
+						});
+
+
 						var n = $('.ajax-service-top').data('n');
 
 						$('.tab-link option').eq(n - 1).prop('selected', true);
 						$('.tab-link a').eq(n - 1).addClass('selected');
 
 						$('.tab-link select').on('change', function(){
-							location.href = $(this).val();
-						})
+							var n = $(this).val();
+							if (n === 'consultingGo') {
+								$plugins.common.consutingPop();
+							} else {
+								location.href = n;
+							}	
+							
+						});
+
+						$('.tab-link a').on('click', function(e){
+							var _href = $(this).attr('href');
+							console.log(_href);
+							if (_href === 'consultingGo') {
+								e.preventDefault();
+								
+								$plugins.common.consutingPop();
+
+							}
+							
+						});
+
+						function consultingPop(){
+							
+						}
 
 					}
 				});
@@ -208,7 +238,18 @@
 
 			
 		},
-		
+		consutingPop: function(){
+			$plugins.uiModalOpen({ 
+				id:'consultingModal', 
+				type: 'normal',
+				wrap: $('body'),
+				ps: 'center',
+				mg: 10,
+				callback:function() { console.log('open callback'); },
+				closeCallback:function() { console.log('close callback'); },
+				endfocus:false 
+			});
+		},
 		header: function(){			
 			$('.goldkey .key').off('click.goldkey').on('click.goldkey', function(){
 				$plugins.uiModalOpen({ 

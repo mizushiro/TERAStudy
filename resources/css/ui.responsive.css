@@ -516,7 +516,7 @@
     .ui-modal.type-payment .ui-modal-header{padding:20px 0 20px}
     .ui-modal.type-payment .content{padding:20px 24px}
     .ui-modal.type-payment .guide{width:calc(100% + 48px);margin-left:-24px}
-
+    
     /* 서비스소개 */
     .service-step .list-item {width:calc((100% - 120px) / 4)}
     .service-step .list-item ~ .list-item:before {left:-34px;width:8px;height:8px;border-width:3px 3px 0 0}
@@ -759,6 +759,8 @@
 }
 @media (max-width:600px) {
     /* 회원가입 */
+    .ui-modal.type-payment .ui-modal-wrap{height: 100%; background: #fff;}
+    .ui-modal.type-payment.type-consulting .btn-close{top:6px;}
     .write-area .form-item {display:block}
     .write-area .form-item > [class^="form-col-"] {display:block;width:100%}
     .write-area .form-item > [class^="form-col-"] + [class^="form-col-"] {margin-top:8px}

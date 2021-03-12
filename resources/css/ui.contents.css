@@ -105,6 +105,7 @@
 .ui-modal.type-goldkey .teacher-menu .dep-1 .n3::before{top:215px}
 
 /* 결제하기 */
+.type-consulting .payment-top .info h2{padding-left:15px; font-weight:500;}
 .type-payment .ui-modal-wrap{border-radius:30px;overflow: hidden}
 .ui-modal.type-payment.ready.open.current:after{background:rgba(0,0,0,0.7)}
 .ui-modal.type-payment .ui-modal-header{position:relative;background:#292a2e;color:#fff;padding:30px 0 30px}
