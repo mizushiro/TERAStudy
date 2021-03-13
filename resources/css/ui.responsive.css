@@ -758,6 +758,12 @@
     .triangle-area .triangle-item .triangle-list .list-item {font-size:13px}
 }
 @media (max-width:600px) {
+    .form-item{display:block;}
+    .form-item [class^="form-col-"]{display:block}
+    .form-item .form-group [class^="form-col-"]{display:table-cell}
+    .form-item .form-col-c{width:100%; margin-bottom:10px;}
+    .form-item label, .form-item .item-title{font-size:14px; }
+    .agree-area .btn-folding{min-height:32px; height:auto;}
     /* 회원가입 */
     .ui-modal.type-payment .ui-modal-wrap{height: 100%; background: #fff;}
     .ui-modal.type-payment.type-consulting .btn-close{top:6px;}
@@ -962,6 +968,7 @@
     .img-group .img-item:nth-of-type(n+3) {margin-top:12px}
 }
 @media (max-width:320px) {
+    .type-payment .agree-area .btn-folding{font-size:11px; }
     .ui-modal-cont .teacher-item .btn-area {padding-bottom:10px}
     .ui-modal-cont .teacher-item .btn {font-size:14px;padding:9px 14px}
 }

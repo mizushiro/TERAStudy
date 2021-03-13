@@ -202,11 +202,20 @@
                             
                 </div>
 
-               
-                
             </div>
             <div class="btn-area">
-                <button type="button" class="btn-gold ">
+                <button type="button" class="btn-gold " onclick="
+                    $plugins.uiModalOpen({ 
+							id:'paymentModal2', 
+							type: 'normal',
+							wrap: $('body'),
+							ps: 'center',
+							mg: 10,
+							callback:function() { console.log('open callback'); },
+							closeCallback:function() { console.log('close callback'); },
+							endfocus:false 
+						});
+                ">
                     <span>총 결제금액 <em>139,000</em>원 </span>
                     <strong>수강 신청하기</strong>
                 </button>

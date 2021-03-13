@@ -42,6 +42,12 @@
 						});
 					}
 				});
+				$plugins.uiAjax({ 
+					id:$('.base-payment'), 
+					url:'../../html/inc/payment2.html',
+					page:true,
+					add:true
+				});
 			}
 
 			if ($('.ajax-mypage-top').length) {
@@ -175,6 +181,7 @@
 				url:'../../html/inc/terms-c.html',
 				page:true
 			});
+			
 			
 			//scrolltop 
 			var stopAni = false;

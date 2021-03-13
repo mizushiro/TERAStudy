@@ -106,7 +106,7 @@
 
 /* 결제하기 */
 .type-consulting .payment-top .info h2{padding-left:15px; font-weight:500;}
-.type-payment .ui-modal-wrap{border-radius:30px;overflow: hidden}
+.type-payment .ui-modal-wrap{border-radius:30px; }
 .ui-modal.type-payment.ready.open.current:after{background:rgba(0,0,0,0.7)}
 .ui-modal.type-payment .ui-modal-header{position:relative;background:#292a2e;color:#fff;padding:30px 0 30px}
 .type-payment .ui-modal-wrap{background:transparent;width:740px}
@@ -378,7 +378,7 @@
 .write-area .error-massage .error-data {padding-left:230px;margin-top:8px;display:block}
 .write-area .btn-gold.big {max-width:585px;margin:40px auto 0;display:block}
 .agree-area {margin-top:40px;border-top:1px solid #d5d6d7;padding-top:40px}
-.agree-area .agree-all {padding-bottom:12px}
+.agree-area .agree-all {padding-bottom:12px; overflow: hidden;}
 .agree-area .agree-item {padding-left:38px;margin-top:12px}
 .agree-area .agree-title {display:flex;justify-content:space-between;align-items:center}
 .agree-all .box-checkbox-a label {font-weight:500}
@@ -386,7 +386,7 @@
 .agree-area .btn-folding {height:38px;border:1px solid #494032;border-radius:19px;padding:0 22px;font-size:16px;color:#494032}
 .agree-area .btn-folding:after {content:'';display:inline-block;width:8px;height:8px;border:solid #494032;border-width:2px 2px 0 0;-webkit-transform:rotate(135deg);transform:rotate(135deg);vertical-align:middle;margin:-5px 0 0 8px}
 .agree-area .active .btn-folding:after {-webkit-transform:rotate(-45deg);transform:rotate(-45deg);margin-top:0}
-.agree-area .agree-content {-webkit-transition:all .2s ease-out;transition:all .2s ease-out;height:0;overflow:hidden}
+.agree-area .agree-content {-webkit-transition:all .2s ease-out;transition:all .2s ease-out;height:0;overflow:hidden;padding:0 24px}
 .agree-area .active .agree-content {margin-top:12px;background-color:#e2e2e2;padding:30px 24px;height:auto;max-height:400px;overflow-y:auto;-webkit-overflow-scrolling:touch}
 
 /* 아이디/비밀번호 */

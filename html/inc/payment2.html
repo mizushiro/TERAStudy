@@ -1,0 +1,95 @@
+<section class="ui-modal type-payment type-consulting" id="paymentModal2" role="dialog" aria-hidden="true">
+    <div class="ui-modal-wrap">
+        <header class="ui-modal-header">
+           
+            <div class="payment-top">
+                <div class="info">
+                    <h2>
+                        <span>수강생 정보</span>
+                    </h2>
+                </div>
+            </div>
+            <button type="button" class="ui-modal-close btn-close"><span class="blind">닫기</span></button>
+        </header>
+        <div class="ui-modal-cont">
+            <div class="content" style="min-height:0">
+                <div class="form-col">
+                    <div class="form-item">
+                        <div class="form-col-c"><label for="payment-name">신청자 성명</label></div>
+                        <div class="form-col-b"><input type="text" id="payment-name" class="input-a" placeholder=""></div>
+                    </div>
+                </div>
+                <div class="form-col">
+                    <div class="form-item">
+                        <div class="form-col-c"><label for="payment-email">이메일</label></div>
+                        <div class="form-col-b"><input type="text" id="payment-email" class="input-a" placeholder=""></div>
+                    </div>
+                </div>
+                <div class="form-col">
+                    <div class="form-item">
+                        <div class="form-col-c"><label for="payment-tel">연락처</label></div>
+                        <div class="form-col-b"><input type="tel" id="payment-tel" class="input-a" placeholder=""></div>
+                    </div>
+                </div>
+                <div class="form-col">
+                    <div class="form-item">
+                        <div class="form-col-c"><span class="item-title">결제구분</span></div>
+                        <div class="form-col-b">
+                            <div class="box-radio-group type-box">
+                                <div class="radio-item">
+                                    <input type="radio" name="paySel" id="paySel1" class="in-radio">
+                                    <label for="paySel1" class="radio-label">신용카드</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" name="paySel" id="paySel2" class="in-radio">
+                                    <label for="paySel2" class="radio-label">계좌이체</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" name="paySel" id="paySel3" class="in-radio" checked>
+                                    <label for="paySel3" class="radio-label">무통장입금</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="agree-area">
+                    <div class="agree-all">
+                        유의사항, 취소 및 환불 규정 
+                        <span class="box-checkbox-a" style="float: right;"><input type="checkbox" class="form-checkbox" id="agree-a"><label for="agree-a">네, 동의합니다.</label></span>
+                    </div>
+                    <div class="agree-item" style="padding-left:0">
+                        <div class="agree-title">
+                            <button type="button" class="btn-folding" style="width: 100%;">유의사항 및 환부 규정을 모두 확인해주셨나요?</button>
+                        </div>
+                        <div class="agree-content">
+                            <div class="terms-d"></div>
+                        </div>
+                    </div>
+
+                </div>
+             
+                
+            </div>
+            <div class="btn-area">
+                <button type="button" class="btn-gold">
+                    <span>총 결제금액 <em>139,000</em>원 </span>
+                    <strong>수강 신청하기</strong>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script>
+    $('.agree-area .btn-folding').off('click.rv').on('click.rv', function(){
+        $(this).closest('.agree-item').toggleClass('active').siblings('.agree-item').removeClass('active');
+    });
+    $plugins.uiAjax({
+        id:$('.terms-d'),
+        url:'../../html/inc/terms-d.html',
+        page:true
+    });
+</script>
