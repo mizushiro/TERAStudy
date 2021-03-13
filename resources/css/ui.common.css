@@ -74,8 +74,9 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 .sticky .logo-tera {display:block;float:left;width:114px}
 .sticky .logo-tera img{width:100%;display: block}
 .sticky .util-menu{top:-10px}
-.sticky .util-menu > a {width:30px;height:30px;border:1px solid #fff;border-radius:50%;background:url(../../resources/images/common/ico-header.png) no-repeat -3.5px -5px / 70px}
+.sticky .util-menu > a {width:30px;height:30px;border:1px solid #fff;border-radius:50%;background:url(../../resources/images/common/ico-header.png) no-repeat -3px -4px / 70px}
 .sticky .util-menu .util-n2 {background-position:-38.5px -5px}
+.sticky .util-menu .util-n3 {background-position:-4px -38.5px}
 .sticky .util-menu > a + a {margin-left:5px}
 
 .base-header {width:100%;max-width:1640px;margin:0 auto;padding:30px 20px 20px;position:fixed;top:0;left:50%;transform: translate(-50%, 0);z-index:10;background:transparent;transition:all .2s ease-out}
