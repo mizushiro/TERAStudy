@@ -599,6 +599,7 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .courses-item::after{content:"";display:block;clear:both}
 .courses-item .flag{position: absolute;top:0;right:10px}
 .courses-item {background-color: #fff;border-radius: 20px;border: 1px solid transparent;box-shadow: 5px 0 18px rgba(0,0,0,.15);position: relative;flex:0 calc(50% - 30px);margin:15px 15px;overflow:hidden; padding-bottom:130px }
+.courses-item.banner-item {padding-bottom:0}
 .courses-item-a{float:left;width:200px;position:relative;padding: 20px 20px 10px}
 .courses-item-b{float:left;width:calc(100% - 240px);padding: 20px 20px 0 0}
 .courses-item-b dt {font-size:26px;font-weight:600;color:#c39863;line-height:26px;padding:10px 50px 0 0}
