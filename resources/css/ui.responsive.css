@@ -170,8 +170,12 @@
     .box-search-b .search-col-b .input-a {width:100%}
     
     .courses-wrap{padding:0 10px}
-    .courses-item{flex: 0 calc(100% - 30px)}
+    .courses-item{flex: 0 calc(100% - 30px); padding-bottom:0}
     .courses-item.banner-item {display:none}
+
+    .courses-item { }
+    .courses-item-c .btn-gold.big{position:static; bottom:0; left:0; transform: translate(0, 0); margin-top:20px}
+
 
 }
 @media (max-width:1280px) {
@@ -706,7 +710,6 @@
     .courses-item-b dt b{margin:10px 0 0;font-size:16px}
     .courses-item-b dd li{font-size:14px;width:100%}
     .courses-item-b dd li:nth-child(2n-1) + li::before{display:none}
-    .courses-item-c ol{margin-bottom:10px}
     .courses-item-c ol li{width:23px;height:23px;line-height: 20px;font-size:12px;margin:0}
     .courses-item-c .btn-gold.big{width:100%}
     .btn-gold.big::after{height:45px}
@@ -758,6 +761,7 @@
     .triangle-area .triangle-item .triangle-list .list-item {font-size:13px}
 }
 @media (max-width:600px) {
+    .type-payment .ui-modal-wrap{overflow:auto;}
     .form-item{display:block;}
     .form-item [class^="form-col-"]{display:block}
     .form-item .form-group [class^="form-col-"]{display:table-cell}

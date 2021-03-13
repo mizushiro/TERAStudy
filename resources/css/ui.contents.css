@@ -106,7 +106,7 @@
 
 /* 결제하기 */
 .type-consulting .payment-top .info h2{padding-left:15px; font-weight:500;}
-.type-payment .ui-modal-wrap{border-radius:30px; }
+.type-payment .ui-modal-wrap{border-radius:30px; overflow: hidden;}
 .ui-modal.type-payment.ready.open.current:after{background:rgba(0,0,0,0.7)}
 .ui-modal.type-payment .ui-modal-header{position:relative;background:#292a2e;color:#fff;padding:30px 0 30px}
 .type-payment .ui-modal-wrap{background:transparent;width:740px}
@@ -595,10 +595,10 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .tab-link a:focus{background: linear-gradient(-44deg, #252525,#2a2a2a 40%, #3e3e3e, #3c3c3c);border-color:#828282;box-shadow:0 0 8px rgba(0,0,0,.1)}
 
  /* 내강의실 */
-.courses-wrap{display:flex;flex-wrap:wrap}
+.courses-wrap{display:flex;flex-wrap:wrap; }
 .courses-item::after{content:"";display:block;clear:both}
 .courses-item .flag{position: absolute;top:0;right:10px}
-.courses-item {background-color: #fff;border-radius: 20px;border: 1px solid transparent;box-shadow: 5px 0 18px rgba(0,0,0,.15);position: relative;flex:0 calc(50% - 30px);margin:15px 15px;overflow:hidden}
+.courses-item {background-color: #fff;border-radius: 20px;border: 1px solid transparent;box-shadow: 5px 0 18px rgba(0,0,0,.15);position: relative;flex:0 calc(50% - 30px);margin:15px 15px;overflow:hidden; padding-bottom:130px }
 .courses-item-a{float:left;width:200px;position:relative;padding: 20px 20px 10px}
 .courses-item-b{float:left;width:calc(100% - 240px);padding: 20px 20px 0 0}
 .courses-item-b dt {font-size:26px;font-weight:600;color:#c39863;line-height:26px;padding:10px 50px 0 0}
@@ -608,11 +608,11 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .courses-item-b dd li{float:left;font-size:18px;margin-right:5px}
 .courses-item-b dd li:nth-child(2n-1) + li::before{content:" / "}
 .courses-item-b dd p {font-size:16px;color:#ababac;line-height:20px;margin-top:10px}
-.courses-item-c{float:left;position: relative;width:100%;background:#f6f6f7;margin:10px 0 0;padding:20px 30px;text-align:center}
-.courses-item-c ol{overflow: hidden;display:block;margin:0 auto 20px;text-align:center}
+.courses-item-c{float:left; width:100%;background:#f6f6f7;margin:10px 0 0;padding:20px 30px;text-align:center}
+.courses-item-c ol{overflow: hidden;display:block;margin:0 auto ;text-align:center}
 .courses-item-c ol li.on{background:#514635;color:#fff}
-.courses-item-c ol li{width:46px;height:46px;border:2px solid #514635;color:#514635;text-align: center;line-height: 42px;font-size:20px;font-weight:500;font-family: 'Roboto';display:inline-block;border-radius:50%;margin:0 10px}
-.courses-item-c .btn-gold.big{width:80%;max-width:545px}
+.courses-item-c ol li{width:46px;height:46px;border:2px solid #514635;color:#514635;text-align: center;line-height: 42px;font-size:20px;font-weight:500;font-family: 'Roboto';display:inline-block;border-radius:50%;margin:0 10px 5px;}
+.courses-item-c .btn-gold.big{width:80%;max-width:545px; position:absolute; bottom:25px; left:50%; transform: translate(-50%, 0);}
 .courses-item-c .btn-gold.big:disabled::before{background: linear-gradient(-44deg, #633f00,#674100 40%, #a46d00, #925f00);border-color:#80590d;box-shadow:0 0 8px rgba(0,0,0,.9)}
 .ready .courses-item-c ol li{background:#dfdfdf !important;border-color:#dfdfdf !important;color:#fff !important}
 .ready .courses-item-c .btn-gold.big:disabled {background:#ababad !important;border-color:#ababad !important}
