@@ -601,7 +601,7 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .courses-item::after{content:"";display:block;clear:both}
 .courses-item .flag{position: absolute;top:0;right:10px}
 .courses-item {background-color: #fff;border-radius: 20px;border: 1px solid transparent;box-shadow: 5px 0 18px rgba(0,0,0,.15);position: relative;flex:0 calc(50% - 30px);margin:15px 15px;overflow:hidden; padding-bottom:130px }
-.courses-item.banner-item {padding-bottom:0}
+.courses-item.banner-item {padding-bottom:0;min-height:500px}
 .courses-item-a{float:left;width:200px;position:relative;padding: 20px 20px 10px}
 .courses-item-b{float:left;width:calc(100% - 240px);padding: 20px 20px 0 0}
 .courses-item-b dt {font-size:26px;font-weight:600;color:#c39863;line-height:26px;padding:10px 50px 0 0}
@@ -631,8 +631,9 @@ input[type='date'], input[type='time'] {display:block;/*-webkit-appearance:textf
 .courses-item .link-courses img {min-height:100%;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);min-width:100%}
 
 .paging{position:relative;width:100%;margin:30px auto;text-align: center}
-.paging button.on{border-radius:50%;background:#c39863;color:#fff}
-.paging button{font-size:20px;width:44px;height:44px;margin:0 15px;display:inline-block;line-height: 41px;vertical-align: top}
+.paging button.on{background:#c39863 !important;color:#fff}
+.paging button {font-size:20px;width:44px;height:44px;margin:0 15px;display:inline-block;line-height: 41px;vertical-align: top;border-radius:50%}
+.paging button:hover {background-color:rgba(0,0,0,.15)}
 .paging .paging-prev,
 .paging .paging-next{background:url(../../resources/images/common/paging_b1.png) no-repeat 0 0 / cover;margin:0}
 .paging .paging-prev{transform: rotate(180deg)}
@@ -737,3 +738,5 @@ a.ui-acco-btn:after {content:""; width:30px; height:30px; background:url(../imag
 .service-banner .link-service-bn {display:block}
 .service-banner img {position:absolute;height:100%;top:0;left:50%;transform:translateX(-50%);-webkit-transform:translateX(-50%)}
 .txt-service-a .point {color:#d09429}
+
+.no-data {background-color:#fff;border-radius:20px;box-shadow: 5px 0 18px rgba(0,0,0,.15);padding:100px 20px;margin-bottom:20px;text-align:center;font-size:24px;font-weight:500;color:#222}

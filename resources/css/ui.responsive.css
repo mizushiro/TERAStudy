@@ -63,7 +63,9 @@
 
     /* 고객센터 */
     .use-info {margin:40px 24px}
- }
+
+    .no-data {margin:0 24px}
+}
 @media (max-width:1400px) {
     body {background-size:cover}
     .base-wrap{padding-top:55px}
@@ -760,6 +762,8 @@
     .triangle-area .triangle-item {border-radius:12px;padding:16px}
     .triangle-area .triangle-item .triangle-tit {font-size:15px}
     .triangle-area .triangle-item .triangle-list .list-item {font-size:13px}
+
+    .no-data {font-size:18px}
 }
 @media (max-width:600px) {
     .type-payment .ui-modal-wrap{overflow:auto;}
