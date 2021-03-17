@@ -775,8 +775,10 @@
     .form-item .form-group [class^="form-col-"]{display:table-cell}
     .form-item .form-col-c{width:100%; margin-bottom:10px;}
     .form-item label, .form-item .item-title{font-size:14px; }
-    .agree-area .btn-folding{min-height:32px; height:auto;word-break:keep-all;padding:5px}
-    /* 회원가입 */
+    .agree-area .btn-folding {min-height:32px; height:auto;word-break:keep-all;padding:5px 20px 5px 8px;letter-spacing:-.5px;position:relative}
+    .agree-area .btn-folding:after {position:absolute;right:10px;top:52%}
+    .agree-area .active .btn-folding:after {top:48%}
+        /* 회원가입 */
     .ui-modal.type-payment .ui-modal-wrap{height: 100%; background: #fff;}
     .ui-modal.type-payment.type-consulting .btn-close{top:6px;}
     .write-area .form-item {display:block}
