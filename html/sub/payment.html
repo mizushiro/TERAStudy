@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+	<meta name="keywords" content="테라스터디, 차별화된 1:1 맞춤형 수업"/>
+	<meta name="description" content=""/>
+    
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+    <title>테라스터디</title>
+
+	<link rel="stylesheet" href="../../resources/css/ui.base.css">
+	<script src="../../resources/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="../../resources/js/ui.global.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
+
+	<link rel="stylesheet" href="../../resources/js/lib/slick.css" />
+	<script src="../../resources/js/lib/slick.js"></script>
+	<style>
+
+	</style>
+</head>
+
+<body class="page-sub">	
+	<div class="base-wrap">
+		<header class="base-header">
+		</header>
+		<main class="base-body-a">
+			<div class="base-container">
+				<div class="ajax-banner">
+				</div>
+				<div class="title-group">
+					<h2>수강생 정보</h2>
+					<p>
+						1:1 비대면 강의와 최고의 리더를 만나실 수 있는 <br>
+						<em>TERA STUDY 프리미엄 회원</em>
+					</p>
+				</div>
+
+				<section class="box-a mgt-a">
+					<div class="write-area">
+						<div class="form-item">
+							<div class="form-col-c"><label for="payment-name">신청자 성명</label></div>
+							<div class="form-col-b"><input type="text" id="payment-name" class="input-a" placeholder=""></div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="payment-email">이메일</label></div>
+							<div class="form-col-b"><input type="text" id="payment-email" class="input-a" placeholder=""></div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><label for="payment-tel">연락처</label></div>
+							<div class="form-col-b"><input type="tel" id="payment-tel" class="input-a" placeholder=""></div>
+						</div>
+						<div class="form-item">
+							<div class="form-col-c"><span class="item-title">결제구분</span></div>
+							<div class="form-col-b">
+								<div class="box-radio-group type-box">
+									<div class="radio-item">
+										<input type="radio" name="paySel" id="paySel1" class="in-radio">
+										<label for="paySel1" class="radio-label">신용카드</label>
+									</div>
+									<div class="radio-item">
+										<input type="radio" name="paySel" id="paySel2" class="in-radio">
+										<label for="paySel2" class="radio-label">계좌이체</label>
+									</div>
+									<div class="radio-item">
+										<input type="radio" name="paySel" id="paySel3" class="in-radio" checked>
+										<label for="paySel3" class="radio-label">무통장입금</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="agree-area">
+							<div class="agree-all type-a">
+								<div class="agree-top-group">
+									<span class="big-txt">유의사항, 취소 및 환불 규정</span>
+									<span class="box-checkbox-a"><input type="checkbox" class="form-checkbox" id="agree-a"><label for="agree-a">네, 동의합니다.</label></span>
+								</div>
+							</div>
+							<div class="agree-item" style="padding-left:0">
+								<div class="agree-title">
+									<button type="button" class="btn-folding" style="width: 100%;">유의사항 및 환부 규정을 모두 확인해주셨나요?</button>
+								</div>
+								<div class="agree-content">
+									<div class="terms-d"></div>
+								</div>
+							</div>
+
+						</div>
+						<button type="button" class="btn-gold big">
+							<span class="txt-s">총 결제금액 <em>139,000</em>원 </span>
+							<span>수강 신청하기</span>
+						</button>
+					</div>
+				</section>
+			</div>
+		</main>
+        <footer class="base-footer"></footer>
+
+		<div class="base-goldkey"></div>
+	</div>
+
+	<script>
+		;(function($, win, doc, undefined) {
+			$(doc).ready(function() {
+				$plugins.common.init();
+
+				$('.teacher-swiper').slick({
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1
+				});
+
+				// 약관
+				$('.agree-area .btn-folding').off('click.rv').on('click.rv', function(){
+					$(this).closest('.agree-item').toggleClass('active').siblings('.agree-item').removeClass('active');
+				})
+				$plugins.uiAjax({
+					id:$('.terms-d'),
+					url:'../../html/inc/terms-d.html',
+					page:true
+				});
+			});
+		
+		})(jQuery, window, document);
+
+	</script>
+</body>
+</html>

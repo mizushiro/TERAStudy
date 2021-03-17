@@ -307,6 +307,7 @@
     .login-area .btn-gold {margin-top:20px}
 
     .btn-gold.big {height:60px;border-radius:30px;font-size:24px}
+    .btn-gold.big span.txt-s {font-size:18px}
     .btn-gold.big::after {height:60px;background-size:auto 100%}
 
     .box-checkbox-a label {font-size:16px;padding-left:32px}
@@ -378,6 +379,8 @@
     .service-step .list-item .txt {font-size:18px;line-height:24px}
     .service-step .list-item .step-type {font-size:14px}
     .img-group {padding:0 0 40px}
+
+    .big-txt {font-size:18px}
 }
 @media (max-width:1000px) {
     /* 메인 */
@@ -772,7 +775,7 @@
     .form-item .form-group [class^="form-col-"]{display:table-cell}
     .form-item .form-col-c{width:100%; margin-bottom:10px;}
     .form-item label, .form-item .item-title{font-size:14px; }
-    .agree-area .btn-folding{min-height:32px; height:auto;}
+    .agree-area .btn-folding{min-height:32px; height:auto;word-break:keep-all;padding:5px}
     /* 회원가입 */
     .ui-modal.type-payment .ui-modal-wrap{height: 100%; background: #fff;}
     .ui-modal.type-payment.type-consulting .btn-close{top:6px;}
@@ -785,6 +788,7 @@
     .write-area .form-col-select .form-select {width:100%}
     .agree-area .agree-item {padding-left:0}
     .agree-area .agree-all {border-bottom:1px dashed #d5d6d7}
+    .agree-area .agree-all.type-a {border-bottom:none}
     .agree-area .active .agree-content {max-height:300px}
 
     /* terms */
@@ -801,7 +805,10 @@
     .terms-content-box .terms-list .terms-list-item {font-size:13px;line-height:24px}
 
     /* btn */
-    .btn-gold.big {height:48px;padding:6px 30px;font-size:20px}
+    .btn-gold.big {min-height:48px;height:auto;padding:6px 30px;font-size:20px}
+    .btn-gold.big span.txt-s {font-size:14px;display:block;padding:5px 0 2px}
+    .btn-gold.big span.txt-s + span {display:block;padding-bottom:4px}
+    .btn-gold.big::after {height:100%}
     .btn-round-a {height:32px;font-size:14px;min-width:80px}
     .icon-a,
     .icon-b,
@@ -952,6 +959,11 @@
 
     .leader-info .btn-area .btn-gold + .btn-gold {margin:12px 0 0}
     .leader-info .btn-area .btn-gold {min-width:80%}
+
+    .agree-top-group {display:block}
+    .agree-top-group:after {clear:both;content:'';display:block}
+    .agree-top-group .big-txt {display:block;border-bottom:1px dashed #d5d6d7;padding-bottom:8px;margin-bottom:8px}
+    .agree-top-group .box-checkbox-a {float:right}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}

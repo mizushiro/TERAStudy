@@ -358,6 +358,7 @@
 .btn-gold.big:before {content:'';position:absolute;top:4px;left:4px;right:4px;bottom:4px;border-radius:46px;background:linear-gradient(-69deg, #e2a936, #a27623, #dda93e 70%, #ebbc4c 80%, #fdeaa6)}
 .btn-gold.big::after {content:"";display:block;width:113px;height:80px;background:url(../../resources/images/common/light-2.png) no-repeat 0 0;background-size:auto 80px;position:absolute;top:0;left:0}
 .btn-gold.big span {position:relative}
+.btn-gold.big span.txt-s {font-size:24px;padding-right:4px}
 .btn-gold.big:focus,
 .btn-gold.big:hover{color:#fff;background:linear-gradient(-44deg, #b57601,#b07f23 40%, #b0780d, #d4951c)}
 .btn-gold.big:focus:before,
@@ -740,3 +741,5 @@ a.ui-acco-btn:after {content:""; width:30px; height:30px; background:url(../imag
 .txt-service-a .point {color:#d09429}
 
 .no-data {background-color:#fff;border-radius:20px;box-shadow: 5px 0 18px rgba(0,0,0,.15);padding:100px 20px;margin-bottom:20px;text-align:center;font-size:24px;font-weight:500;color:#222}
+.agree-top-group {display:flex;justify-content:space-between}
+.big-txt {font-size:24px;color:#222;font-weight:600}
