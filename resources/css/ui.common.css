@@ -57,6 +57,7 @@ font-feature-settings:'liga';
 /* base layout */
 body {background:#eee url('../../resources/images/common/top_bg.png') no-repeat 50% 0}
 body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg') no-repeat 50% 0}
+body.page-sub.intro{background:#eee url('../../resources/images/intro/intro_bg.jpg') no-repeat 50% 60%}
 
 .base-skip {position:fixed;z-index:100}
 .base-layer {position:relative;z-index:20}
@@ -66,18 +67,20 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 .base-footer {width:100%;background:url('../../resources/images/common/footer_bg.png') no-repeat 50% 0 / cover;height:460px}
 .base-footer.type-b {background-image:url("../../resources/images/common/footer_bg_b.png")}
 .page-sub .base-footer {background-image:url("../../resources/images/common/footer_bg_d.png");height:400px}
+.page-sub.intro .base-footer {background:none;height:auto}
 .base-container {max-width:1500px;margin:0 auto;position:relative}
 
 
 /* base header */
 .sticky .base-header{background:#1f2023;padding:20px 20px 14px;max-width:100%;height:50px}
-.sticky .logo-tera {display:block;float:left;width:114px}
-.sticky .logo-tera img{width:100%;display: block}
+.sticky .logo-tera {display:block;float:left;height:14px}
+.sticky .logo-tera img{height:100%;display:inline-block;vertical-align:top}
 .sticky .util-menu{top:-10px}
 .sticky .util-menu > a {width:30px;height:30px;border:1px solid #fff;border-radius:50%;background:url(../../resources/images/common/ico-header.png) no-repeat -3px -4px / 70px}
 .sticky .util-menu .util-n2 {background-position:-38.5px -5px}
 .sticky .util-menu .util-n3 {background-position:-4px -38.5px}
 .sticky .util-menu > a + a {margin-left:5px}
+.sticky .header-area .link-type {vertical-align:top;position:relative;top:-4px;font-size:14px}
 
 .base-header {width:100%;max-width:1640px;margin:0 auto;padding:30px 20px 20px;position:fixed;top:0;left:50%;transform: translate(-50%, 0);z-index:10;background:transparent;transition:all .2s ease-out}
 .base-header::after{content:"";display:block;clear:both}
@@ -132,6 +135,15 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 .footer-content .footer-copy .txt-center {font-size:24px;font-weight:100;color:#fff;padding-right:10px}
 .footer-content .footer-copy .txt-center .txt-center-number {font-weight:700}
 
+.footer-area.intro {display:none}
+.intro .footer-area {display:none}
+.intro .footer-area.intro {display:block;padding:0;margin:140px auto 0}
+.intro .footer-area.intro .copy-txt-a {font-size:16px;color:#919294;text-align:center}
+.header-area .link-type {/*display:none;*/display:inline-block;font-size:18px;color:#fff;margin-left:60px}
+.header-area .link-type ~ .link-type {margin-left:28px}
+/*.intro .header-area .link-type {display:inline-block}*/
+
+
 /* blt */
 .blt-arrow-a {display:inline-block;width:46px;height:46px;background:url("../../resources/images/blt/blt-arrow-a.png") no-repeat 0 0;background-size:100%}
 
@@ -147,6 +159,8 @@ body.page-sub{background:#eee url('../../resources/images/common/bg-top-sub.jpg'
 .btn-gold.selected{background: linear-gradient(-46deg, #242424,#2c2c2c 40%, #3f3f3f, #393939);border-color:#3e3e3e}
 .btn-top {width:60px;height:60px;display:block;background:url("../../resources/images/common/btn_top.png") no-repeat 0 0;background-size:100%;border-radius:50%;opacity:0;-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out}
 .btn-kakao {width:60px;height:60px;display:block;background:url("../../resources/images/common/btn_kakao.png") no-repeat 0 0;background-size:100%;border-radius:50%}
+.btn-quick {width:60px;height:60px;display:block;background:url("../../resources/images/intro/btn-quick.png") no-repeat 0 0;background-size:100%;border-radius:50%;margin-top:10px}
+.btn-quick .txt-quick {color:#2e3036;font-size:16px;font-weight:600}
 .btn-type-a {height:54px;background-color:#dba137;border-radius:8px;padding:0 28px;color:#fff;font-size:21px;font-weight:500}
 .btn-type-b {height:54px;background-color:#dba137;border-radius:8px;color:#fff;font-size:21px;font-weight:500;display:inline-block;padding:0 28px;line-height:54px}
 .btn-type-c {height:54px;background-color:#514635;border-radius:8px;color:#fff;font-size:18px;font-weight:400;display:inline-block;padding:0 20px;line-height:54px}

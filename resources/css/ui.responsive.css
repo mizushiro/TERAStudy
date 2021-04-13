@@ -65,13 +65,36 @@
     .use-info {margin:40px 24px}
 
     .no-data {margin:0 24px}
+
+    /* category */
+    .box-category .teacher-menu .dep-1 li::before{ left:0;width:30px;display: none}
+    .box-category .teacher-menu .btn-dep-1{position:relative;left:0;top:0 !important;font-size:18px; height:40px;margin-left:0;padding-left:35px;opacity:1}
+    .box-category .teacher-menu .on .btn-dep-1{font-size:20px;opacity:1;padding-left:75px}
+    .box-category .teacher-menu .on .btn-dep-1::after{left:30px}
+    .box-category .teacher-menu .btn-dep-1::after{ width:34px;height:27px;top:5px;left:30px}
+    .box-category .teacher-menu .leader-type .btn-dep-1::before {height:22px;top:5px;left:33px}
+    .box-category .teacher-menu .n2 .btn-dep-1::after {transform: scaleX(1)}
+    .box-category .teacher-menu .n1 .btn-dep-1{top:30px}
+    .box-category .teacher-menu .n2 .btn-dep-1{top:80px}
+    .box-category .teacher-menu .n3 .btn-dep-1{top:130px}
+    .box-category .teacher-menu .dep-1 .n1::before{top:50px}
+    .box-category .teacher-menu .dep-1 .n2::before{top:100px}
+    .box-category .teacher-menu .dep-1 .n3::before{top:150px}
+    .box-category .teacher-menu .dep-2 {width:100%;padding:10px 20px 20px}
+    .box-category .teacher-menu .dep-2 button {
+        height: 40px;
+        border-radius: 20px;
+        padding: 5px 20px 6px;
+        font-size: 16px;
+        margin: 0 6px 10px;
+    }
 }
 @media (max-width:1400px) {
     body {background-size:cover}
     .base-wrap{padding-top:55px}
     .base-header {padding:20px 20px 15px}
-    .logo-tera {display:block;float:left;width:114px}
-    .logo-tera img{width:100%;display: block}
+    .logo-tera {display:block;float:left;height:14px}
+    .logo-tera img{height:100%;display:inline-block;vertical-align:top}
 
     .goldkey{position: absolute;top:20px;left:-15px;z-index: 100;width:45px}
     .goldkey .key-line{display:block;position: absolute;top:0;left:27px;height:50px}
@@ -147,6 +170,10 @@
     .leader-info .btn-gold {position:relative;height:50px;border-radius:25px;padding:10px 40px;font-size:16px;margin:0;font-weight:500;font-family:'Noto Sans KR';background: linear-gradient(-69deg,#e2a936, #a27623, #dda93e 70%, #ebbc4c 80%, #fdeaa6)}
     .leader-info .btn-gold::before{background-size:cover;width:100px;height:100px;top:-30px;left:-42px}
     .leader-info .btn-area .btn-gold + .btn-gold {margin-left:20px}
+
+    /* intro */
+    .header-area .link-type {vertical-align:top;font-size:14px;margin-left:20px;position:relative;top:-4px}
+    .header-area .link-type ~ .link-type {margin-left:8px}
 }
 @media (max-width:1340px) {
     /* 메인 */
@@ -257,6 +284,11 @@
     .triangle-area .img-box {width:600px;margin:0 auto}
     .triangle-area .triangle-item.n1 {right:0}
     .img-group {padding:0 24px 60px}
+
+    /* category */
+    .tit-category {word-break: keep-all;padding-top:20px}
+    .tit-category h2 {font-size:20px;margin-bottom:10px}
+    .tit-category h2 em {font-size:16px}
 }
 @media (max-width:1100px) {
     .tab-link{margin-top:20px}
@@ -767,6 +799,22 @@
     .triangle-area .triangle-item .triangle-list .list-item {font-size:13px}
 
     .no-data {font-size:18px}
+
+    /* intro */
+    .logo-intro {width:146px;height:30px;background-size:146px auto;margin-bottom:30px}
+    .teacher-type {padding-top:40px}
+    .teacher-type .teacher-type-item {width:45%}
+    .teacher-type .btn-gold {height:100px}
+    .teacher-type .btn-gold span {font-size:28px}
+    .teacher-type .type-item-list {font-size:24px}
+    .teacher-type .type-item-list .line {font-size:16px}
+    .intro .base-footer:before {display:none}
+    .intro .footer-area.intro {background:none;margin-top:60px}
+    .intro .footer-area.intro .copy-txt-a {font-size:13px}
+    .btn-quick {width:44px;height:45px;margin-top:8px}
+    .btn-quick .txt-quick {font-size:13px}
+    .header-area .link-type {margin-left:12px}
+    .header-area .link-type ~ .link-type {margin-left:4px}
 }
 @media (max-width:600px) {
     .type-payment .ui-modal-wrap{overflow:auto;}
@@ -966,6 +1014,15 @@
     .agree-top-group:after {clear:both;content:'';display:block}
     .agree-top-group .big-txt {display:block;border-bottom:1px dashed #d5d6d7;padding-bottom:8px;margin-bottom:8px}
     .agree-top-group .box-checkbox-a {float:right}
+
+    /* intro */
+    .teacher-type .teacher-type-item {width:46%}
+    .teacher-type .btn-gold {height:80px}
+    .teacher-type .btn-gold span {font-size:20px}
+    .teacher-type .type-item-list {font-size:18px}
+    .teacher-type .type-item-list .line {font-size:12px;margin:0 4px}
+    .intro .footer-area.intro {position:fixed;bottom:30px;left:0;right:0}
+    .intro .footer-area.intro .copy-txt-a {font-size:12px}
 }
 @media (max-width:510px) {
     .ui-modal-cont .leader-list {padding:0 10px}
@@ -992,6 +1049,14 @@
     .img-group {flex-wrap:wrap;margin-top:12px}
     .img-group .img-item {width:calc((100% - 12px) / 2)}
     .img-group .img-item:nth-of-type(n+3) {margin-top:12px}
+
+    /* category */
+    .box-category {background:linear-gradient(-90deg, #1e1f22, #2e3036);padding-bottom:40px}
+    .box-category .leader-list {padding:0 10px}
+    .box-category .leader-list ul {display:flex;flex-wrap:wrap}
+    .box-category .leader-list li {margin:0 10px;width:calc(50% - 20px)}
+    .box-category .teacher-item {width:100%;height:auto;min-height:250px}
+    .box-category .teacher-item .info dd {max-height:72px;display:-webkit-box;-webkit-line-clamp:4;overflow:hidden;-webkit-box-orient:vertical}
 }
 @media (max-width:320px) {
     .type-payment .agree-area .btn-folding{font-size:11px; }
