@@ -65,6 +65,9 @@
     .use-info {margin:40px 24px}
 
     .no-data {margin:0 24px}
+
+    .courses-wrap.type-b .courses-item{padding:0; flex:none; width:calc(100% - 20px); float: left; margin: 20px 0;}
+    .courses-wrap.type-b .courses-item-c ol li:nth-child(10){clear:none;  }
 }
 @media (max-width:1400px) {
     body {background-size:cover}
@@ -147,6 +150,8 @@
     .leader-info .btn-gold {position:relative;height:50px;border-radius:25px;padding:10px 40px;font-size:16px;margin:0;font-weight:500;font-family:'Noto Sans KR';background: linear-gradient(-69deg,#e2a936, #a27623, #dda93e 70%, #ebbc4c 80%, #fdeaa6)}
     .leader-info .btn-gold::before{background-size:cover;width:100px;height:100px;top:-30px;left:-42px}
     .leader-info .btn-area .btn-gold + .btn-gold {margin-left:20px}
+
+    
 }
 @media (max-width:1340px) {
     /* 메인 */
@@ -257,6 +262,8 @@
     .triangle-area .img-box {width:600px;margin:0 auto}
     .triangle-area .triangle-item.n1 {right:0}
     .img-group {padding:0 24px 60px}
+
+    
 }
 @media (max-width:1100px) {
     .tab-link{margin-top:20px}
@@ -767,6 +774,9 @@
     .triangle-area .triangle-item .triangle-list .list-item {font-size:13px}
 
     .no-data {font-size:18px}
+
+    .courses-wrap.type-b .courses-item-c b{display:block; float:left; width:80px; padding-left:10px; font-size: 16px; font-weight: 600; padding:0 0 0; text-align: left; margin-left:0px}
+
 }
 @media (max-width:600px) {
     .type-payment .ui-modal-wrap{overflow:auto;}
