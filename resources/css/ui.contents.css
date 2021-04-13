@@ -751,7 +751,7 @@ a.ui-acco-btn:after {content:""; width:30px; height:30px; background:url(../imag
 .courses-wrap.type-b .courses-item-c .btn-gold.big{position:static; margin:0; transform: translate(0, 0);}
 .courses-wrap.type-b .btn-area{padding:20px; float: left;}
 .courses-wrap.type-b .courses-item-c ul > li + li{margin-top:10px; border-top: 1px solid #ccc; }
-.courses-wrap.type-b .courses-item-c ul > li {overflow: hidden; padding:0 0 5px}
+.courses-wrap.type-b .courses-item-c ul > li {overflow: hidden; padding:20px 0 0}
 .courses-wrap.type-b .courses-item-c b{display:block; float:left; width:80px; padding-left:30px; font-size: 20px; font-weight: 600; padding:6px 0 0; text-align: left; margin-left:20px}
 .courses-wrap.type-b .courses-item-c ol{float:left; width:calc(100% - 100px)}
 .courses-wrap.type-b .courses-item-c ol li:nth-child(10){clear: both;}
