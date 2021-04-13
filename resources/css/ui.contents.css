@@ -746,7 +746,6 @@ a.ui-acco-btn:after {content:""; width:30px; height:30px; background:url(../imag
 
 .courses-wrap.type-b{display: block; width:100%;;}
 .courses-wrap.type-b .courses-item{padding:0; flex:none; width:730px; float: left; margin: 10px;}
-
 .courses-wrap.type-b .courses-item-b{padding-top:60px}
 .courses-wrap.type-b .courses-item-b dd p{font-size:22px; margin-top:20px}
 .courses-wrap.type-b .courses-item-c .btn-gold.big{position:static; margin:0; transform: translate(0, 0);}
@@ -757,3 +756,27 @@ a.ui-acco-btn:after {content:""; width:30px; height:30px; background:url(../imag
 .courses-wrap.type-b .courses-item-c ol{float:left; width:calc(100% - 100px)}
 .courses-wrap.type-b .courses-item-c ol li:nth-child(10){clear: both;}
 .courses-wrap.type-b .courses-item-c ol li{margin:0 8px 8px; float: left;}
+/* intro */
+.logo-intro {display:inline-block;width:291px;height:57px;background:url("../../resources/images/intro/intro-logo.png") no-repeat 0 0;margin-top:20px;margin-bottom:65px}
+.teacher-type {max-width:760px;margin:0 auto;padding-top:120px;display:flex;justify-content:space-between}
+.intro .teacher-group {height:auto}
+.teacher-type .teacher-type-item {width:300px}
+.teacher-type .btn-gold {height:192px;width:100%;border-radius:50px}
+.teacher-type .btn-gold span {font-size:36px}
+.teacher-type .type-item-list {color:#fff;font-size:32px;text-align:center;margin-top:20px}
+.teacher-type .type-item-list .line {color:#868789;font-size:20px;display:inline-block;margin:0 16px}
+
+/* category */
+.tit-category h2{width:100%;max-width:1600px;margin:0 auto 20px;text-align:center;font-size:40px;font-weight:100;color:#dfdfdf}
+.tit-category h2 em{display:block;font-size:30px;font-weight:400}
+.tit-category h2 strong{background:#f8d057;color:#2b2e34;padding:0 10px}
+.box-category .teacher-menu .dep-2{width:1600px;padding:20px 0 0 240px;text-align:left}
+.box-category .teacher-menu .btn-dep-1{font-size:32px}
+.box-category .teacher-menu .n2 .btn-dep-1{top:100px}
+.box-category .teacher-menu .dep-2 button{height:56px;border-radius:28px;padding:6px 20px;font-size:20px;margin:0 6px 10px}
+.box-category .teacher-menu .n1 .btn-dep-1 {top:10px}
+.box-category .teacher-menu .n2 .btn-dep-1 {top:90px}
+.box-category .teacher-menu .n3 .btn-dep-1 {top:170px}
+.box-category .teacher-menu .dep-1 .n1::before{top:55px}
+.box-category .teacher-menu .dep-1 .n2::before{top:135px}
+.box-category .teacher-menu .dep-1 .n3::before{top:215px}
