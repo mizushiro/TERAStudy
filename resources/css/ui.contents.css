@@ -66,6 +66,9 @@
 .teacher-item .btn{display:inline-block;background-color:#292a2e;color:#fff;height:43px;border-radius:22px;padding:10px 28px;font-size:16px}
 .teacher-item .btn-area{width:100%;position:absolute;bottom:0;left:0;padding:15px 0 30px;text-align:center}
 .ico-matching{display:block;width:66px;height:65px;background:url(../../resources/images/common/ico-matching.png) no-repeat 0 0;position:absolute;top:0;right:30px}
+.ico-flag {display:block;width:66px;height:65px;background:url(../../resources/images/common/ico-flag-bg.png) no-repeat 0 0;position:absolute;top:0;right:30px;text-align:center}
+.ico-flag.type-b {background-image:url(../../resources/images/common/ico-flag-bg-b.png)}
+.ico-flag .txt-flag {color:#fff;font-size:24px;font-weight:500;text-align:center;padding-top:8px;display:inline-block;font-family:'Roboto', sans-serif}
 
 .ui-modal.ready.open.current:after{width:100%;height:100%;background:linear-gradient(-90deg, #1e1f22, #2e3036)}
 .ui-modal.type-premium .ui-modal-wrap{width:100%;height:100%;background:transparent;box-shadow:none}
